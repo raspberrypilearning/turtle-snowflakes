@@ -98,6 +98,25 @@ Don't be a square! Let's create some different shapes and repeat them to make a 
   
   ![](images/parallelogram.png)
 
+1. You can put loops inside of other loops. This is good news for us to be able to make a drawing that looks like a snowflake. Above `for i in range(2):` type:
+
+  ```python
+  for i in range(10):
+  ```
+  How many times will this loop go round?
+
+1. Move to the bottom of your sequence of code and press the space bar four times to indent your code. Indentation in python is very important to ensure that your code works as you expect. Then type:
+
+  ```python
+  elsa.right(36)
+  ```
+
+1. Save and run your code to see what happens. You should see a drawing like this:  
+  
+  ![](images/snowflake1.png)
+  
+  
+
 ## Step 5: Changing the pen colour randomly
 
 
