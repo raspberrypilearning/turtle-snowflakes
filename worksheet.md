@@ -141,6 +141,21 @@ wn.bgcolor("blue")
 
 ![](images/colour.png)
 
+For fun you can add a random colour for your turtle so that everytime you run your code you will get a slightly different result. 
+
+1. First you will need to import the random library. Underneath `import turtle` type `import random`.
+1. Next, change the background colour from `"blue"` to `"grey"`.
+1. Below create a variable called `colours` to store a list of the colours to select from like this:
+
+  ```python
+  colours = ["cyan", "purple", "white", "blue"]
+  ```
+1. At the end of the spiral loop underneath `elsa.right(36)` type: 
+
+  ```python
+  elsa.color(random.choice(colours))`  
+  ```
+  
 ## Step 6: Using a function to draw a snowflake
 
 
