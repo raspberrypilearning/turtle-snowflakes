@@ -153,9 +153,12 @@ For fun you can add a random colour for your turtle so that everytime you run yo
 1. At the end of the spiral loop underneath `elsa.right(36)` type: 
 
   ```python
-  elsa.color(random.choice(colours))`  
+  elsa.color(random.choice(colours))  
   ```
-  
+1. Save and run your code for a multi-coloured snowflake!
+
+![](images/colour-list.png)
+
 ## Step 6: Using a function to draw a snowflake
 
 
