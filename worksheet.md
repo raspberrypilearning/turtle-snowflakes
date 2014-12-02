@@ -29,12 +29,35 @@ Let's create a beautiful landscape of snowflakes using python turtle. Along the 
 
 1. To complete your first turtle program, add `wn.exitonclick()` so that the turtle window will stay open so you can see your drawing for as long as you like. It will only close when you click on the `x` in the top right hand corner of the window with your mouse.    
 
+  ```python
+  wn.exitonclick()
+  ```
+1. Click on **File** and **Save** and then click on **Run** and **Run Module** to run your first turtle program. What happens?
+
   ![](import-turtle.png)
 
 ## Step 2: How to turn with python turtle
 
+Your turtle is pointing in one direction, which is good news if you want to draw a line, but it is time to think about drawing a shape like a square!
+
+1. Underneath the line `elsa.forward(100)` in your python code, add:
+
+  ```python
+  elsa.right(90)
+  ```
+  *Note: Turtle uses angles in degrees. There are 360 degrees in a circle. How many are in a right angle of a square? That's right, 90. The value 90 inside the brackets in `elsa.right(90)` is in degrees. So this line is telling your turtle to turn right by 90 degrees.*
+  
+1. Add another instruction underneath to move your tutle forward by 100.   
+
+  ```python
+  elsa.forward(100)
+  ```
+1. Save and run your code to see what happens.
+
+1. You are on your way to creating a square. What do you need to add to your code in order to complete the square?
 
 ## Step 3: Using loops to create shapes
+
 
 
 ## Step 4: Creating spiral patterns
