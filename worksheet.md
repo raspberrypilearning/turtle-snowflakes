@@ -34,7 +34,7 @@ Let's create a beautiful landscape of snowflakes using python turtle. Along the 
   ```
 1. Click on **File** and **Save** and then click on **Run** and **Run Module** to run your first turtle program. What happens?
 
-  ![](import-turtle.png)
+  ![](images/import-turtle.png)
 
 ## Step 2: How to turn with python turtle
 
@@ -60,7 +60,7 @@ Your turtle is pointing in one direction, which is good news if you want to draw
 
 To create a square, you have repeated some lines of code. It is not the most efficent way of doing it. Instead of typing out many lines of code it makes more sense to use a loop.
 
-1. Instead of code to create a square like this:
+Instead of code to create a square like this:
   
   ```python
   elsa.forward(100)
@@ -71,17 +71,32 @@ To create a square, you have repeated some lines of code. It is not the most eff
   elsa.right(90)
   elsa.forward(100)
   ```
-  You can type:
+You can type:
   
   ```python
   for i in range(4):
       elsa.forward(100)
       elsa.right(90)
   ```
-  Try it yourself and see what happens when you save and run your code.
+Try it yourself and see what happens when you save and run your code.
+  
+  ![](images/turtle-loop.png)
 
 ## Step 4: Creating spiral patterns
+Don't be a square! Let's create some different shapes and repeat them to make a snowflake like spiral.
 
+1. Replace the code for your square with the following:
+
+  ```python
+  for i in range(2):
+      elsa.forward(100)
+      elsa.right(60)
+      elsa.forward(100)
+      elsa.right(120)
+  ```
+  It will draw a shape called a parallelogram. You can see what it looks like by saving and running your code.
+  
+  ![](images/parallelogram.png)
 
 ## Step 5: Changing the pen colour randomly
 
