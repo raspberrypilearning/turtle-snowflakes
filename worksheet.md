@@ -200,7 +200,13 @@ Your parallelogram snowflake is cool, but it does not look as snowflake like as 
   ```python
   for i in range(8):
       branch()
+      elsa.left(45)
   ```    
-  
+
+1. Use a `#` at the start of the `elsa.color(random.choice(colours))` instruction to turn it into a comment. This means that the computer will skip that line of code. You could delete the line, but you might want to use it to add colour to your snowflake later on.
+
+1. Save and run your code and a snowflake should appear before your eyes! 
+
+![](images/snowflake2.png)
 
 ## Step 7: Creating a window of snowflakes
