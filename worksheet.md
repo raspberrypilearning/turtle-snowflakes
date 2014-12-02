@@ -6,8 +6,24 @@ To begin you will need to open the Python 3 programming environment **IDLE3**. Y
 
 ## Step 1: How to draw with python turtle
 
-To begin using turtle in python you need to import the turtle library. At the top of the text editor window type `import turtle` 
+1. To begin using turtle in python you need to import the turtle library. At the top of the text editor window type `import turtle` 
+  
+  ![](import-turtle.png)
 
+1. Next a command is needed to create the window which will display your turtle drawings `turtle.Screen()`. To save having to type it out every time you need the command you can store it as a **variable**:
+
+  ```python
+  wn = turtle.Screen()
+  ```
+  *Note: There is a capital letter used here for Screen. It is important to get uppercase and lowercase syntax correct in python in order for your code to work.*
+  
+1. Time to give your turtle a name, you can use a variable to do this. I'm naming my turtle Elsa but you can name yours whatever you like.
+
+  ```python
+  elsa = turtle.Turtle()
+  ```
+
+1. 
 
 ## Step 2: How to turn with python turtle
 
