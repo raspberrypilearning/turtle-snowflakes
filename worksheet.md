@@ -139,7 +139,7 @@ You can also change the colour of the background window. To set the colour of th
 wn.bgcolor("blue")
 ```
 
-![]()images/colour.png)
+![](images/colour.png)
 
 ## Step 6: Using a function to draw a snowflake
 
