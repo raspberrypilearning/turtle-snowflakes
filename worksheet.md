@@ -161,5 +161,46 @@ For fun you can add a random colour for your turtle so that everytime you run yo
 
 ## Step 6: Using a function to draw a snowflake
 
+Your parallelogram snowflake is cool, but it does not look as snowflake like as it could. Let's fix that!
+
+1. For this drawing, we need to move the turtle from starting in the center of the window. The `penup()` and `pendown()` instructions allow this to happen without drawing a line. It's like picking up a real pen from paper and moving it someehwere else to start to write. Type the following instructions underneath the colours list:
+
+  ```python
+  elsa.penup()
+  elsa.forward(90)
+  elsa.left(45)
+  elsa.pendown()
+  ```
+ 1. Next define a function by typing 
+ 
+  ```python
+  def branch():
+  ```
+    *Note: The code to draw one branch of the snowflake will be stored inside this function so that you can repeat it over and over to create an entire snowflake.*
+  
+  1. Remove the code for the parallelogram snowflake loops and replace it with:
+  
+  ```python
+    for i in range(3):
+        for i in range(3):
+              elsa.forward(30)
+              elsa.backward(30)
+              elsa.right(45)
+        elsa.left(90)
+        elsa.backward(30)
+        elsa.left(45)
+    elsa.right(90)
+    elsa.forward(90)
+  ```
+  
+  *Note: Remember that indentation is important. Make sure that you check your indentation is correct or your code might not work!*
+
+1. The last section of this code will call the snowflake function and repeat it 8 times. You can use a loop in the same way as with the last snowflake:
+
+  ```python
+  for i in range(8):
+      branch()
+  ```    
+  
 
 ## Step 7: Creating a window of snowflakes
