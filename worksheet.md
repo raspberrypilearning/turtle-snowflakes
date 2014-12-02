@@ -2,14 +2,12 @@
 
 Let's create a beautiful landscape of snowflakes using python turtle. Along the way you will learn how to think in seuqneces, use loops to repeat a sequence, use the random module, and how to use functions.
 
-To begin you will need to open the Python 3 programming environment **IDLE3**. You can do this by selecting it from the **Main Menu** with your mouse. Then click on **File** and **New Window** to open a blank text editor window to write your code into. Save your empty file by clicking on **File**, **Save As** and naming it `snowflake.py`.
-
 ## Step 1: How to draw with python turtle
 
-1. To begin using turtle in python you need to import the turtle library. At the top of the text editor window type `import turtle` 
-  
-  ![](import-turtle.png)
-
+1. To begin you will need to open the Python 3 programming environment **IDLE3**. You can do this by selecting it from the **Main Menu** with your mouse. 
+1. Then click on **File** and **New Window** to open a blank text editor window to write your code into. 
+1. Save your empty file by clicking on **File**, **Save As** and naming it `snowflake.py`.
+1. To begin using turtle in python you need to import the turtle library. At the top of the text editor window type `import turtle`. 
 1. Next a command is needed to create the window which will display your turtle drawings `turtle.Screen()`. To save having to type it out every time you need the command you can store it as a **variable**:
 
   ```python
@@ -23,7 +21,15 @@ To begin you will need to open the Python 3 programming environment **IDLE3**. Y
   elsa = turtle.Turtle()
   ```
 
-1. 
+1. Now you can tell your turtle what to do. For example, to move forward 100. Give it a go.
+
+  ```python
+  elsa.forward(100)
+  ```
+
+1. To complete your first turtle program, add `wn.exitonclick()` so that the turtle window will stay open so you can see your drawing for as long as you like. It will only close when you click on the `x` in the top right hand corner of the window with your mouse.    
+
+  ![](import-turtle.png)
 
 ## Step 2: How to turn with python turtle
 
