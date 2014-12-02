@@ -115,10 +115,31 @@ Don't be a square! Let's create some different shapes and repeat them to make a 
   
   ![](images/snowflake1.png)
   
-  
-
 ## Step 5: Changing the pen colour randomly
 
+So far the turtle has been drawing black lines on a white background. Time for some colour!
+
+To set the colour of the turtle use the following instruction underneath the naming of your turtle and before the loops:
+
+```python
+elsa.color("cyan")
+```
+*Note: The spelling of colour is different in other countries. In the US it is spelled 'color' and in python it is spelled in the American way for it to work.*
+
+I have chosen to use the colour **cyan** but you can use any from this list:
+
+- "blue"
+- "magenta"
+- "grey"
+- "purple"
+
+You can also change the colour of the background window. To set the colour of the background use the instruction:
+
+```python
+wn.bgcolor("blue")
+```
+
+![]()images/colour.png)
 
 ## Step 6: Using a function to draw a snowflake
 
