@@ -1,10 +1,8 @@
 # Draw a snowflake with code!
 
-![](images/HOUR_OF_CODE_LOGO-01-01.jpeg)
-
 ## Introduction
 
-Draw snowflakes with code using Python Turtle.
+Draw snowflakes with code using Python Turtle. This is great fun and a great way to start learning how to code with python. In this resource you will learn how to use a sequence of instructions to make shapes, how to use loops to repeat instructions and how to store information in variables.
 
 ## What you will need
 
