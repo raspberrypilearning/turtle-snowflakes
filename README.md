@@ -1,6 +1,6 @@
 # Draw a snowflake with code!
 
-![](images/HOUR_OF_CODE_LOGO-01-01.jpeg =300x300)
+![](images/HOUR_OF_CODE_LOGO-01-01.jpeg)
 
 ## Introduction
 
