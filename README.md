@@ -1,26 +1,30 @@
-# Draw a Snowflake with Code!
+# Draw a snowflake with code!
 
 ## Introduction
 
-Draw snowflakes with code using Python Turtle
+Draw snowflakes with code using Python Turtle.
 
 ## What you will need
 
 ### Hardware
+
 - A Raspberry Pi with an SD card loaded with Raspbian
 
 ### Software
+
 - Python 3 
 
 ## Steps
-1. How to draw with python turtle
-2. How to turn with python turtle
+
+1. How to draw with Python Turtle
+2. How to turn with Python Turtle
 3. Using loops to create shapes
 4. Creating spiral patterns
 5. Changing the pen colour randomly
 6. Using a function to draw a snowflake
 
 ## Worksheet & included files
+
 - [Worksheet](worksheet.py)
 - (Optional) Final version of Python code [snowflake.py](snowflake.py)
 
