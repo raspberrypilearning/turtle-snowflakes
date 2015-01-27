@@ -4,7 +4,7 @@ All contributions are assumed to be licensed under the same license as the sourc
 
 ## Issues
 
-If you find a mistake, bug or other problem, please [open an issue](https://github.com/raspberrypilearning/push-button-stop-motion/issues) in this repository.
+If you find a mistake, bug or other problem, please [open an issue](https://github.com/raspberrypilearning/snowflake-turtle/issues) in this repository.
 
 ## Pull Requests
 
