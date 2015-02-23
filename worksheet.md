@@ -1,7 +1,5 @@
 # Draw a snowflake with code
 
-Let's create a beautiful landscape of snowflakes using Python Turtle. Along the way you will learn how to think in sequences, use loops to repeat a sequence, use the `random` module, and how to use functions.
-
 ## Step 1: How to draw with Python Turtle
 
 1. To begin, you will need to open the Python 3 programming environment **IDLE3**. You can do this by selecting it from the **Main Menu** with your mouse. 
