@@ -28,7 +28,7 @@ Draw snowflakes with code using Python Turtle. This is great fun and a great way
 ## Worksheet & included files
 
 - [Worksheet](worksheet.md)
-- (Optional) Final version of Python code [snowflake.py](snowflake.py)
+- (Optional) Final version of Python code [snowflake.py](code/snowflake.py)
 
 ## Licence
 
