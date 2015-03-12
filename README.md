@@ -1,34 +1,23 @@
 # Draw a snowflake with code!
 
-![](images/HOC_Logo_200px.png)
-
-## Introduction
-
 Draw snowflakes with code using Python Turtle. This is great fun and a great way to start learning how to code with Python. In this resource you will learn how to use a sequence of instructions to make shapes, how to use loops to repeat instructions, and how to store information in variables.
+
+![](cover.png)
 
 ## What you will need
 
-### Hardware
-
-- A Raspberry Pi with an SD card loaded with Raspbian
-
-### Software
-
-- Python 3 
-
-## Steps
-
-1. How to draw with Python Turtle
-2. How to turn with Python Turtle
-3. Using loops to create shapes
-4. Creating spiral patterns
-5. Changing the pen colour randomly
-6. Using a function to draw a snowflake
+There are no additional hardware or software requirements beyond a Raspberry Pi and up-to-date SD card
 
 ## Worksheet & included files
 
 - [Worksheet](worksheet.md)
 - (Optional) Final version of Python code [snowflake.py](code/snowflake.py)
+
+## Hour of Code
+
+This resource is an Hour of Code resource
+
+![](images/HOC_Logo_200px.png)
 
 ## Licence
 
