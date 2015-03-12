@@ -1,6 +1,6 @@
 # Draw a snowflake with code
 
-## Step 1: How to draw with Python Turtle
+## How to draw with Python Turtle
 
 1. To begin, you will need to open the Python 3 programming environment **IDLE3**. You can do this by selecting it from the **Main Menu** with your mouse. 
 1. Then click on **File** and **New Window** to open a blank text editor window to write your code in. 
@@ -36,7 +36,7 @@
 
   ![](images/import-turtle.png)
 
-## Step 2: How to turn with Python Turtle
+## How to turn with Python Turtle
 
 Your turtle is pointing in one direction, which is good news if you want to draw a line, but it is time to think about drawing a shape like a square!
 
@@ -58,7 +58,7 @@ Your turtle is pointing in one direction, which is good news if you want to draw
 
 1. You are on your way to creating a square. What do you need to add to your code in order to complete the square?
 
-## Step 3: Using loops to create shapes
+## Using loops to create shapes
 
 To create a square, you have repeated some lines of code. It is not the most efficent way of doing it. Instead of typing out many lines of code, it makes more sense to use a loop.
 
@@ -86,7 +86,7 @@ Try it yourself and see what happens when you save and run your code.
   
   ![](images/turtle-loop.png)
 
-## Step 4: Creating spiral patterns
+## Creating spiral patterns
 
 Don't be a square! Let's create some different shapes and repeat them to make a snowflake-like spiral.
 
@@ -122,7 +122,7 @@ Don't be a square! Let's create some different shapes and repeat them to make a 
   
   ![](images/snowflake1.png)
   
-## Step 5: Changing the pen colour randomly
+## Changing the pen colour randomly
 
 So far the turtle has been drawing black lines on a white background. Time for some colour!
 
@@ -169,7 +169,7 @@ For fun you can add a random colour for your turtle, so that every time you run 
 
 ![](images/colour-list.png)
 
-## Step 6: Using a function to draw a snowflake
+## Using a function to draw a snowflake
 
 Your parallelogram snowflake is cool, but it does not look as snowflake-like as it could. Let's fix that!
 
