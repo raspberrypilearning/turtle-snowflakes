@@ -48,7 +48,7 @@ Your turtle is pointing in one direction, which is good news if you want to draw
   
   *Note: Turtle uses angles in degrees. There are 360 degrees in a circle. How many are in the right angle of a square? That's right: 90. The value 90 inside the brackets in `elsa.right(90)` is in degrees. So this line is telling your turtle to turn right by 90 degrees.*
   
-1. Add another instruction underneath to move your tutle forward by 100:   
+1. Add another instruction underneath to move your turtle forward by 100:   
 
   ```python
   elsa.forward(100)
