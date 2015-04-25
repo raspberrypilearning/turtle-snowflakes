@@ -1,4 +1,4 @@
-# Draw a snowflake with code
+# Snowflake Turtle
 
 ## How to draw with Python Turtle
 
@@ -221,7 +221,7 @@ Your parallelogram snowflake is cool, but it does not look as snowflake-like as 
 
 ![](images/snowflake2.png)
 
-## What's next?
+## What next?
 
 - Can you uncomment the random colour instruction and place it in the function, so that each branch has a different colour?
 - Can you create a snowflake function and then repeat it all over the window?
