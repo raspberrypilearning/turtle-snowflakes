@@ -132,7 +132,7 @@ To set the colour of the turtle, use the following instruction underneath the na
 elsa.color("cyan")
 ```
 
-*Note: The spelling of colour is different in other countries. In the US it is spelled 'color' and in Python it is spelled in the American way for it to work.*
+*Note: The spelling of colour is different in other countries. In the US it is spelled 'color' and in Python it has to be spelled in the American way for it to work.*
 
 I have chosen to use the colour **cyan** but you can use any from this list:
 
