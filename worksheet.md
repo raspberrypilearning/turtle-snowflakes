@@ -1,4 +1,4 @@
-# Snowflake Turtle
+# Turtle Snowflakes
 
 ## How to draw with Python Turtle
 
