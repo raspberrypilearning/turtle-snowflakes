@@ -1,5 +1,7 @@
 # Turtle Snowflakes
 
+Draw beautiful and intricate patterns with Python Turtle, while learning how to code with Python. 
+
 ## How to draw with Python Turtle
 
 1. To begin, you will need to open the Python 3 programming environment **IDLE3**. You can do this by selecting it from the **Main Menu** with your mouse. 
