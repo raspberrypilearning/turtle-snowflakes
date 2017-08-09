@@ -1,47 +1,52 @@
-## Changing the pen colour randomly
+## Using a function to draw a snowflake
 
-So far the turtle has been drawing black lines on a white background. Time for some colour!
+Your parallelogram snowflake is cool, but it does not look as snowflake-like as it could. Let's fix that!
 
-To set the colour of the turtle, use the following instruction underneath the naming of your turtle and before the loops:
-
-```python
-elsa.color("cyan")
-```
-
-*Note: The spelling of colour is different in other countries. In the US it is spelled 'color' and in Python it has to be spelled in the American way for it to work.*
-
-I have chosen to use the colour **cyan** but you can use any from this list:
-
-- "blue"
-- "magenta"
-- "grey"
-- "purple"
-
-You can also change the colour of the background window. To set the colour of the background use this instruction:
-
-```python
-wn.bgcolor("blue")
-```
-
-![](images/colour.png)
-
-For fun you can add a random colour for your turtle, so that every time you run your code you will get a slightly different result. 
-
-- First you will need to import the `random` library. Underneath `import turtle` type `import random`.
-- Next, change the background colour from `"blue"` to `"grey"`.
-- Below, create a variable called `colours` to store a list of the colours to select from, like this:
+- For this drawing, we need to move the turtle from starting in the centre of the window. The `penup()` and `pendown()` instructions allow this to happen without drawing a line. It's like picking up a real pen from the paper and moving it somewhere else to start to write. Type the following instructions underneath the colours list:
 
   ```python
-  colours = ["cyan", "purple", "white", "blue"]
+  elsa.penup()
+  elsa.forward(90)
+  elsa.left(45)
+  elsa.pendown()
   ```
   
-- At the end of the spiral loop, underneath `elsa.right(36)`, type: 
+ 1. Next, define a function by typing: 
+ 
+  ```python
+  def branch():
+  ```
+  
+    *Note: The code to draw one branch of the snowflake will be stored inside this function, so that you can repeat it over and over to create an entire snowflake.*
+  
+  1. Remove the code for the parallelogram snowflake loops and replace it with:
+  
+  ```python
+    for i in range(3):
+        for i in range(3):
+              elsa.forward(30)
+              elsa.backward(30)
+              elsa.right(45)
+        elsa.left(90)
+        elsa.backward(30)
+        elsa.left(45)
+    elsa.right(90)
+    elsa.forward(90)
+  ```
+  
+  *Note: Remember that indentation is important. Make sure that you check your indentation is correct or your code might not work!*
+
+- The last section of this code will call the snowflake function and repeat it eight times. You can use a loop in the same way as with the last snowflake:
 
   ```python
-  elsa.color(random.choice(colours))  
-  ```
-  
-- Save and run your code for a multi-coloured snowflake!
+  for i in range(8):
+      branch()
+      elsa.left(45)
+  ```    
 
-![](images/colour-list.png)
+- Use a `#` at the start of the `elsa.color(random.choice(colours))` instruction to turn it into a comment. This means that the computer will skip that line of code. You could delete the line, but you might want to use it to add colour to your snowflake later on.
+
+- Save and run your code, and a snowflake should appear before your eyes! 
+
+![](images/snowflake2.png)
 

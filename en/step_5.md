@@ -1,22 +1,28 @@
-## How to turn with Python Turtle
+## Using loops to create shapes
 
-Your turtle is pointing in one direction, which is good news if you want to draw a line, but it is time to think about drawing a shape like a square!
+To create a square, you have repeated some lines of code. It is not the most efficent way of doing it. Instead of typing out many lines of code, it makes more sense to use a loop.
 
-- Underneath the line `elsa.forward(100)` in your Python code, add:
-
+Instead of code to create a square like this:
+  
   ```python
+  elsa.forward(100)
   elsa.right(90)
-  ```
-  
-  *Note: Turtle uses angles in degrees. There are 360 degrees in a circle. How many are in the right angle of a square? That's right: 90. The value 90 inside the brackets in `elsa.right(90)` is in degrees. So this line is telling your turtle to turn right by 90 degrees.*
-  
-- Add another instruction underneath to move your turtle forward by 100:   
-
-  ```python
+  elsa.forward(100)
+  elsa.right(90)
+  elsa.forward(100)
+  elsa.right(90)
   elsa.forward(100)
   ```
   
-- Save and run your code to see what happens.
-
-- You are on your way to creating a square. What do you need to add to your code in order to complete the square?
+You can type:
+  
+  ```python
+  for i in range(4):
+      elsa.forward(100)
+      elsa.right(90)
+  ```
+  
+Try it yourself and see what happens when you save and run your code.
+  
+  ![](images/turtle-loop.png)
 

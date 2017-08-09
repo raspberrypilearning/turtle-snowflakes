@@ -1,36 +1,47 @@
-## Creating spiral patterns
+## Changing the pen colour randomly
 
-Don't be a square! Let's create some different shapes and repeat them to make a snowflake-like spiral.
+So far the turtle has been drawing black lines on a white background. Time for some colour!
 
-- Replace the code for your square with the following:
+To set the colour of the turtle, use the following instruction underneath the naming of your turtle and before the loops:
+
+```python
+elsa.color("cyan")
+```
+
+*Note: The spelling of colour is different in other countries. In the US it is spelled 'color' and in Python it has to be spelled in the American way for it to work.*
+
+I have chosen to use the colour **cyan** but you can use any from this list:
+
+- "blue"
+- "magenta"
+- "grey"
+- "purple"
+
+You can also change the colour of the background window. To set the colour of the background use this instruction:
+
+```python
+wn.bgcolor("blue")
+```
+
+![](images/colour.png)
+
+For fun you can add a random colour for your turtle, so that every time you run your code you will get a slightly different result. 
+
+- First you will need to import the `random` library. Underneath `import turtle` type `import random`.
+- Next, change the background colour from `"blue"` to `"grey"`.
+- Below, create a variable called `colours` to store a list of the colours to select from, like this:
 
   ```python
-  for i in range(2):
-      elsa.forward(100)
-      elsa.right(60)
-      elsa.forward(100)
-      elsa.right(120)
+  colours = ["cyan", "purple", "white", "blue"]
   ```
   
-  It will draw a shape called a parallelogram. You can see what it looks like by saving and running your code.
-  
-  ![](images/parallelogram.png)
-
-- You can put loops inside of other loops. This is good news for us as we can make a drawing that looks like a snowflake. Above `for i in range(2):` type:
+- At the end of the spiral loop, underneath `elsa.right(36)`, type: 
 
   ```python
-  for i in range(10):
+  elsa.color(random.choice(colours))  
   ```
   
-  How many times will this loop go round?
+- Save and run your code for a multi-coloured snowflake!
 
-- Move to the bottom of your sequence of code and press the space bar four times to indent your code. Indentation in Python is very important to ensure that your code works as you expect. Then type:
+![](images/colour-list.png)
 
-  ```python
-  elsa.right(36)
-  ```
-
-- Save and run your code to see what happens. You should see a drawing like this:  
-  
-  ![](images/snowflake1.png)
-  

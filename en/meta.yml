@@ -1,4 +1,3 @@
----
 title: Turtle Snowflakes
 hero_image: images/banner.png
 description: Learn how to use a sequence of instructions to draw snowflakes with turtle
@@ -15,7 +14,6 @@ site_areas: ''
 steps:
 - title: Introduction
 - title: What you will need
-- title: Turtle Snowflakes
 - title: How to draw with Python Turtle
 - title: How to turn with Python Turtle
 - title: Using loops to create shapes
