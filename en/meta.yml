@@ -2,14 +2,14 @@ title: Turtle Snowflakes
 hero_image: images/banner.png
 description: Learn how to use a sequence of instructions to draw snowflakes with turtle
 original_url: https://raspberrypi.org/learning/turtle-snowflakes
-theme: red
+theme: navy
 duration: 2
 listed: true
 ingredient: false
 copyedit: true
 curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
 interests: ''
-technologies: rpi, physical computing, python
+technologies: python
 site_areas: ''
 steps:
 - title: Introduction
