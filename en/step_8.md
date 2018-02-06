@@ -24,9 +24,9 @@ Your parallelogram snowflake is cool, but it does not look as snowflake-like as 
   ```python
     for i in range(3):
         for i in range(3):
-              elsa.forward(30)
-              elsa.backward(30)
-              elsa.right(45)
+            elsa.forward(30)
+            elsa.backward(30)
+            elsa.right(45)
         elsa.left(90)
         elsa.backward(30)
         elsa.left(45)

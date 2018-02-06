@@ -4,25 +4,25 @@ To create a square, you have repeated some lines of code. It is not the most eff
 
 Instead of code to create a square like this:
   
-  ```python
-  elsa.forward(100)
-  elsa.right(90)
-  elsa.forward(100)
-  elsa.right(90)
-  elsa.forward(100)
-  elsa.right(90)
-  elsa.forward(100)
-  ```
+```python
+elsa.forward(100)
+elsa.right(90)
+elsa.forward(100)
+elsa.right(90)
+elsa.forward(100)
+elsa.right(90)
+elsa.forward(100)
+```
   
 You can type:
   
-  ```python
-  for i in range(4):
-      elsa.forward(100)
-      elsa.right(90)
-  ```
+```python
+for i in range(4):
+  elsa.forward(100)
+  elsa.right(90)
+```
   
 Try it yourself and see what happens when you save and run your code.
   
-  ![](images/turtle-loop.png)
+![](images/turtle-loop.png)
 

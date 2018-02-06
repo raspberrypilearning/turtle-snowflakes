@@ -20,7 +20,7 @@ I have chosen to use the colour **cyan** but you can use any from this list:
 You can also change the colour of the background window. To set the colour of the background use this instruction:
 
 ```python
-wn.bgcolor("blue")
+turtle.Screen().bgcolor("blue")
 ```
 
 ![](images/colour.png)
