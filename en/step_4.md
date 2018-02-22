@@ -1,6 +1,6 @@
 ## How to turn with Python Turtle
 
-Your turtle is only moving in one direction, which is good news if you want to draw a line, but drawing a shape like a square your turtle is going to have to turn.
+Your turtle is only moving in one direction, which is good news if you want to draw a line, but to draw a shape like a square your turtle is going to have to turn.
 
 - Underneath the line `elsa.forward(100)` in your Python code, add:
 
