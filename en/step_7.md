@@ -20,7 +20,7 @@ I have chosen to use the colour **cyan** but you can use any from this list:
 You can also change the colour of the background window. To set the colour of the background use this instruction:
 
 ```python
-wn.bgcolor("blue")
+turtle.Screen().bgcolor("blue")
 ```
 
 ![](images/colour.png)
@@ -45,3 +45,12 @@ For fun you can add a random colour for your turtle, so that every time you run 
 
 ![](images/colour-list.png)
 
+--- collapse ---
+
+---
+title: More Colors
+---
+
+There are a lot more colors to choose from, have a look at the [wiki.tcl.tk/37701](https://wiki.tcl.tk/37701) for a complete list.
+
+--- /collapse ---

@@ -1,2 +1,22 @@
 title: Turtle Snowflakes
-category: learn
+hero_image: images/banner.png
+description: Create snowflakes using the Python turtle
+theme: blue # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+duration: 2 # possible values: 1, 2 or 3
+listed: true
+ingredient: false
+copyedit: true
+curriculum: creator, design-0, programming-2, phys-comp-0, manufacture-0, community-0
+interests: "art and design, nature/outside/weather"
+technologies: "python"
+site_areas:
+steps:
+  - title: Introduction
+  - title: What you will need
+  - title: How to draw with Python Turtle
+  - title: How to turn with Python Turtle
+  - title: Using loops to create shapes
+  - title: Creating spiral patterns
+  - title: Changing the pen colour randomly
+  - title: Using a function to draw a snowflake
+  - title: Challenge

@@ -1,3 +1,13 @@
 ## What you will need
 
-- A computer with Python3 installed
+### Hardware
+
++ A computer capable of accessing the [trinket.io](https://trinket.io){:target="_blank"} website 
+
+or 
+
++ A computer with Python 3 installed
+
+### Software
+
+This project can be completed in a web browser using [trinket.io](https://trinket.io){:target="_blank"}

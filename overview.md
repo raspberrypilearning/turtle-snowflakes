@@ -1,1 +1,0 @@
-Create a beautiful landscape of snowflakes using Python Turtle. This is great fun and a great way to start learning how to code with Python. Along the way you will learn how to think in sequences, use loops to repeat a sequence, use the `random` module, and how to use functions.

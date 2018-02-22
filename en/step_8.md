@@ -11,22 +11,23 @@ Your parallelogram snowflake is cool, but it does not look as snowflake-like as 
   elsa.pendown()
   ```
   
- 1. Next, define a function by typing: 
+The code to draw one branch of the snowflake will be stored inside a function, so that you can repeat it over and over to create an entire snowflake.
+
+![branch](images/branch.PNG)
+
+- Define a function by typing: 
  
   ```python
   def branch():
   ```
-  
-    *Note: The code to draw one branch of the snowflake will be stored inside this function, so that you can repeat it over and over to create an entire snowflake.*
-  
-  1. Remove the code for the parallelogram snowflake loops and replace it with:
+- Remove the code for the parallelogram snowflake loops and replace it with:
   
   ```python
     for i in range(3):
         for i in range(3):
-              elsa.forward(30)
-              elsa.backward(30)
-              elsa.right(45)
+            elsa.forward(30)
+            elsa.backward(30)
+            elsa.right(45)
         elsa.left(90)
         elsa.backward(30)
         elsa.left(45)
@@ -34,9 +35,9 @@ Your parallelogram snowflake is cool, but it does not look as snowflake-like as 
     elsa.forward(90)
   ```
   
-  *Note: Remember that indentation is important. Make sure that you check your indentation is correct or your code might not work!*
+*Note: Remember that indentation is important. Make sure that you check your indentation is correct or your code might not work!*
 
-- The last section of this code will call the snowflake function and repeat it eight times. You can use a loop in the same way as with the last snowflake:
+- The last section of this code will call the `branch` function and repeat it eight times. You can use a loop in the same way as with the last snowflake:
 
   ```python
   for i in range(8):
@@ -49,4 +50,3 @@ Your parallelogram snowflake is cool, but it does not look as snowflake-like as 
 - Save and run your code, and a snowflake should appear before your eyes! 
 
 ![](images/snowflake2.png)
-

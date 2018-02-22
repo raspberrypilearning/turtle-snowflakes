@@ -1,6 +1,6 @@
-title: Turtle Snowflakes
+title: Turtle snowflakes
 hero_image: images/banner.png
-description: Learn how to use a sequence of instructions to draw snowflakes with turtle
+description: Use a sequence of instructions to draw snowflakes with Python Turtle
 original_url: https://raspberrypi.org/learning/turtle-snowflakes
 theme: navy
 duration: 2
@@ -20,5 +20,5 @@ steps:
 - title: Creating spiral patterns
 - title: Changing the pen colour randomly
 - title: Using a function to draw a snowflake
-- title: What next?
+- title: Challenge
 
