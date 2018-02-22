@@ -45,3 +45,12 @@ For fun you can add a random colour for your turtle, so that every time you run 
 
 ![](images/colour-list.png)
 
+--- collapse ---
+
+---
+title: More Colors
+---
+
+There are a lot more colors to choose from, have a look at the [wiki.tcl.tk/37701](https://wiki.tcl.tk/37701) for a complete list.
+
+--- /collapse ---
