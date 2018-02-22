@@ -2,7 +2,11 @@
 
 ### Hardware
 
-+ A computer capable of accessing the [trinket.io](https://trinket.io){:target="_blank"} website
++ A computer capable of accessing the [trinket.io](https://trinket.io){:target="_blank"} website 
+
+or 
+
++ A computer with Python 3 installed
 
 ### Software
 

@@ -6,7 +6,7 @@
 
     ![screenshot](images/trinket.PNG)
 
-    The line `#!/bin/python3` just tells Trinket that we're using Python 3 (the latest version).
+    The line `#!/bin/python3` just tells your computer that we're using Python 3 (the latest version).
     
 + To begin using Turtle in Python you need to import the Turtle library. At the top of the text editor window type `import turtle`. 
   
