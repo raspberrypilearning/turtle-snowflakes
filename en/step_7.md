@@ -8,7 +8,7 @@ So far the turtle has been drawing black lines on a white background. Now it's t
 elsa.color("cyan")
 ```
 
-  **Note**: The spelling of 'colour' is different in other countries. In the US, it is spelled 'color', and in Python it has to be spelled the American way to work.*
+  **Note**: The spelling of 'colour' is different in other countries. In the US, it is spelled 'color', and in Python it has to be spelled the American way to work.
 
 I have chosen to use the colour **cyan**, but you can use any from this list:
 
