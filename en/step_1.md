@@ -1,22 +1,21 @@
 ## Introduction
 
-Create a beautiful landscape of snowflakes using Python Turtle. This is great fun and a great way to start learning how to code with Python. Along the way you will learn how to think in sequences, use loops to repeat a sequence, use the `random` module, and how to use functions.
+Create a beautiful landscape of snowflakes using Python Turtle. This is great fun and a great way to start learning how to code with Python.
 
 ## What you will make
 
-Snowflakes using code.
+Digital snowflakes out of code, like this one:
 
 ![snowflake](images/makeasnowflake.png)
 
 ## What you will learn
-By making snowflakes with code you will learn:
+By making snowflakes with code you will learn how to:
  
-- How to draw lines with Python Turtle
-- How to make turns
-- To use loops to repeat some instructions and create shapes
-- To use more loops to create spiral patterns
-- How to change the pen colour randomly
-- How to create a function to draw a snowflake
+- Draw lines and make turns with Python Turtle
+- Change the pen colour randomly
+- Use loops to repeat some instructions and create shapes
+- Use more loops to create spiral patterns
+- Create a function to draw a snowflake
 
 This resource covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/):
 
