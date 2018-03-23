@@ -22,7 +22,7 @@ Let's write the code to draw one branch of a snowflake, and store it inside a **
   ```python
   def branch():
   ```
-- Remove the code for the parallelogram snowflake loops. Add the following code inside the `branch` function:
+- Remove the code for the parallelogram snowflake loops. Add the following code indented inside the `branch` function:
   
   ```python
     for i in range(3):
@@ -37,7 +37,7 @@ Let's write the code to draw one branch of a snowflake, and store it inside a **
     elsa.forward(90)
   ```
   
-**Note**: Remember that indentation is important. Make sure that you check your indentation is correct, otherwise your code will not work!
+  **Note**: Remember that indentation is important. Make sure to check that all your indentation is correct, otherwise your code won't work!
 
 - Write a final section of code to **call** the `branch` function (which means to run it) eight times. You can use a loop again as for your last snowflake:
 
