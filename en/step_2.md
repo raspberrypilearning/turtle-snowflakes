@@ -6,8 +6,8 @@
 
 or 
 
-+ A computer with Python 3 installed
++ A computer that has Python 3 installed
 
 ### Software
 
-This project can be completed in a web browser using [trinket.io](https://trinket.io){:target="_blank"}
+This project can be completed in a web browser using [trinket.io](https://trinket.io){:target="_blank"}.
