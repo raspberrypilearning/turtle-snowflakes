@@ -1,35 +1,35 @@
-## How to draw with Python Turtle
+## Python Turtle से छवि कैसे बनाएँ
 
-+ Open the [blank Python template trinket](http://jumpto.cc/python-new).
++ [blank Python template trinket](http://jumpto.cc/python-new) खोलें।
 
-+ Type the following into the window that appears:
++ दिखाई देने वाली विंडो में निम्न टाइप करें:
     
-    ![screenshot](images/trinket.PNG)
+    ![स्क्रीनशॉट](images/trinket.PNG)
     
-    The line `#!/bin/python3` just tells your computer that we're using Python 3 (the latest version of Python).
+    `#!/bin/python3` पंक्ति आपके कंप्यूटर को यह बताती है कि हम Python 3 (पायथन के नवीनतम संस्करण) का उपयोग कर रहे हैं।
 
-+ To begin using Turtle in Python, you need to import the Turtle library. At the top of the text editor window, type `import turtle`.
++ Python में Turtle का उपयोग शुरू करने के लिए, आपको Turtle Library आयात करने की आवश्यकता है। टेक्स्ट एडिटर विंडो के शीर्ष पर, `import turtle` (टर्टल आयात करें) टाइप करें।
 
-+ Time to give your turtle a name! You can use a variable to do this. I'm naming my turtle `elsa`, but you can name yours whatever you like.
++ अब अपने कछुए को कोई नाम देने का समय है! इसके लिए आप किसी वेरिएबल का उपयोग कर सकते हैं। मैंने अपने कछुए का नाम `elsa` रखा है, लेकिन आप अपने कछुए को जो भी चाहें नाम दे सकते हैं।
     
     ```python
     elsa = turtle.Turtle()
     ```
 
-+ Now you can tell your turtle what to do, for example, to move forward `100`. Give it a go!
++ अब आप अपने कछुए को बता सकते हैं कि क्या करना है, उदाहरण के लिए, आगे बढ़ने के लिए `100`। इसे आजमा कर देखें!
     
     ```python
     elsa.forward(100)
     ```
 
-+ Click on **Run** to run your first Turtle program. What happens?
++ अपना पहला Turtle प्रोग्राम चलाने के लिए **Run** (चलाएँ) पर क्लिक करें। क्या होता है?
     
     ![](images/import-turtle.png)
 
-**You don't need a Trinket account to save your projects!**
+**आपको अपने प्रोजेक्ट सहेजने के लिए Trinket खाते की आवश्यकता नहीं है!**
 
-If you don't have a Trinket account, click the down arrow and then click **Link**. This will give you a link that you can save and come back to later. Just remember that you'll need to do this every time you make changes to your code, as the link will change!
+यदि आपके पास Trinket खाता नहीं है, तो नीचे के तीर पर क्लिक करें और फिर **Link** (लिंक) पर क्लिक करें। इससेआपको एक लिंक मिलेगा जिसे आप सहेज सकते हैं और बाद में वापस आ सकते हैं। बस याद रखें कि जब भी आप अपने कोड में बदलाव करते हैं, तो आपको इसे हर बार करने की आवश्यकता होगी, क्योंकि लिंक बदल जाएगा!
 
-![screenshot](images/trinket-link.PNG)
+![स्क्रीनशॉट](images/trinket-link.PNG)
 
-If you have a Trinket account, you can click **Remix** to save your own copy of the trinket.
+यदि आपके पास Trinket खाता है, तो आप Trinket की अपनी प्रति सहेजने के लिए **Remix** (रीमिक्स) पर क्लिक कर सकते हैं।
