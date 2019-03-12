@@ -1,10 +1,10 @@
-## Using a function to draw a snowflake
+## स्नोफ्लेक बनाने के लिए एक फंक्शन का उपयोग करना
 
-Your parallelogram snowflake is cool, but it does not look as snowflake-like as it could. Let's fix that!
+आपका समानांतर चतुर्भुज स्नोफ्लेक बढ़िया है, लेकिन यह स्नोफ्लेक जैसा उतना नहीं दिखता है जितना यह हो सकता था। आइए इसे ठीक करें!
 
-For this drawing, we need to move the turtle from the centre of the window. The `penup()` and `pendown()` instructions let us do this without drawing a line, just like picking up a real pen from the paper and moving it somewhere else to start writing.
+इस चित्र के लिए, हमें कछुए को विंडो के मध्य से दूसरी जगह ले जाने की आवश्यकता है। `penup()` और `pendown()` निर्देशों से हम कोई रेखा खींचे बिना ऐसा कर सकते हैं, ठीक वैसे ही जैसे पेपर से किसी असली पैन को उठाना और लिखना शुरू करने के लिए उसे कहीं और ले जाना।
 
-- Type the following instructions below the `colours` list:
+- `colours` (रंग) सूची के नीचे निम्नलिखित निर्देश टाइप करें:
     
     ```python
     elsa.penup()
@@ -13,17 +13,17 @@ For this drawing, we need to move the turtle from the centre of the window. The 
     elsa.pendown()
     ```
 
-Let's write the code to draw one branch of a snowflake, and store it inside a **function**. Then you can simply repeat it over and over to create a complete snowflake.
+आइए स्नोफ्लेक की एक शाखा बनाने के लिए कोड लिखें, और उसे किसी **फंक्शन** के भीतर संगृहीत करें। फिर आप एक पूरा स्नोफ्लेक बनाने के लिए इसे बार-बार दोहरा सकते हैं।
 
-![branch](images/branch.PNG)
+![शाखा](images/branch.PNG)
 
-- Define a function called `branch` by typing:
+- निम्नलिखित टाइप करके `branch` (शाखा) नामक फ़ंक्शन को परिभाषित करें:
     
     ```python
     def branch():
     ```
 
-- Remove the code for the parallelogram snowflake loops. Add the following code indented inside the `branch` function:
+- समांतर चतुर्भुज स्नोफ्लेक लूप के लिए कोड निकालें। `branch` (शाखा) के भीतर इंडेंट किए गए निम्नलिखित कोड को जोड़ें:
     
     ```python
     for i in range(3):
@@ -38,9 +38,9 @@ Let's write the code to draw one branch of a snowflake, and store it inside a **
     elsa.forward(90)
     ```
     
-    **Note**: Remember that indentation is important. Make sure to check that all your indentation is correct, otherwise your code won't work!
+    **नोट**: याद रखें कि इंडेंट करना महत्वपूर्ण है। यह जाँच करना सुनिश्चित करें कि आपके सभी इंडेंटेशन सही हैं, अन्यथा आपका कोड काम नहीं करेगा!
 
-- Write a final section of code to **call** the `branch` function (which means to run it) eight times. You can use a loop again as for your last snowflake:
+- `branch` (शाखा) फंक्शन को **call** (कॉल) करने के लिए कोड का अंतिम खंड लिखें (जिसका मतलब है इसे चलाना) आठ बार। आप अपने अंतिम स्नोफ्लेक के लिए फिर से एक लूप का उपयोग कर सकते हैं:
     
     ```python
     for i in range(8):
@@ -48,8 +48,8 @@ Let's write the code to draw one branch of a snowflake, and store it inside a **
       elsa.left(45)
     ```
 
-- Put a `#` at the start of the `elsa.color(random.choice(colours))` instruction to turn it into a **comment**. This means that the computer will skip that line of code. You could delete the line, but you might want to use it to add colour to your snowflake later on.
+- `elsa.color(random.choice(colours))` (यादृच्छिक चयन (रंग)) निर्देश के आरंभ में एक `#` रखें ताकि उसे **comment** (टिप्पणी) के रूप में बदला जा सके। इसका मतलब है कि कंप्यूटर कोड की उस पंक्ति को छोड़ देगा। आप इस पंक्ति को हटा सकते हैं, लेकिन हो सकता है कि आप बाद में अपने स्नोफ्लेक में रंग जोड़ने के लिए इसका उपयोग करना चाहें।
 
-- Save and run your code, and a snowflake should appear before your eyes!
+- अपना कोड सहेजें और चलाएँ, और आपकी आंखों के सामने एक स्नोफ्लेक दिखना चाहिए!
 
 ![](images/snowflake2.png)
