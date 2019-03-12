@@ -1,8 +1,8 @@
-## Creating spiral patterns
+## घुमावदार पैटर्न बनाना
 
-Enough squares! Let's create some different shapes and repeat them to make a snowflake-like spiral.
+पर्याप्त चौकोर! आइए कुछ अलग आकृतियाँ बनाएँ और स्नोफ्लेक जैसी घुमावदारआकृति बनाने के लिए उन्हें दोहराएँ।
 
-- Replace the code for your square with the following:
+- निम्नलिखित के साथ अपने चौकोर के लिए कोड बदलें:
     
     ```python
     for i in range(2):
@@ -12,26 +12,26 @@ Enough squares! Let's create some different shapes and repeat them to make a sno
       elsa.right(120)
     ```
     
-    This will draw a shape called a parallelogram. You can see what it looks like by saving and running your code.
+    इससे समानांतर चतुर्भुज नामक एक आकृति बनेगी। अपने कोड को सहेजकर और चलाकर आप देख सकते हैं कि यह कैसी दिखती है।
     
     ![](images/parallelogram.png)
 
-You can put loops inside of other loops. This is good news for us, as we can do this to easily make a drawing that looks like a snowflake.
+आप अन्य लूपों के अंदर लूप रख सकते हैं। यह हमारे लिए अच्छी खबर है, क्योंकि हम स्नोफ्लेक की तरह दिखने वाले चित्र को आसानी से बनाने के लिए ऐसा कर सकते हैं।
 
-- Above the line `for i in range(2):` for your parallelogram, type:
+- अपने समानांतर चतुर्भुज के लिए, `for i in range(2):` (रेंज(2) में i के लिए) पंक्ति के ऊपर, टाइप करें:
     
     ```python
     for i in range(10):
     ```
     
-    How many times will this loop go round?
+    यह लूप कितनी बार घूमेगा?
 
-- Move your cursor to the line below your sequence of code, and press the space bar four times to **indent** the code you're about to write. Indentation in Python is very important to ensure that your code works as you expect! Now type:
+- अपने कर्सर को अपने कोड के अनुक्रम के नीचे की पंक्ति पर ले जाएँ, और जिस कोड को आप लिखने जा रहे हैं उसे **इंडेंट** करने के लिए स्पेस बार को चार बार दबाएँ। Python में इंडेंट करना यह सुनिश्चित करने के लिए बहुत महत्वपूर्ण है कि आपका कोड आपकी उम्मीद के अनुसार काम करता है! अब टाइप करें:
     
     ```python
     elsa.right(36)
     ```
 
-- Save and run your code to see what happens. You should see a drawing like this:
+- क्या होता है यह देखने के लिए अपना कोड सहेजें और चलाएँ। आपको इस तरह एक चित्र दिखाई देना चाहिए:
     
     ![](images/snowflake1.png)
