@@ -42,6 +42,7 @@ For fun you can add a random colour for your turtle, so that every time you run 
   ```python
   elsa.color(random.choice(colours))  
   ```
+  
   **Note**: make sure this line is also indented, so that your program knows it's within the loop.
   
 - Save and run your code for a multi-coloured snowflake!
@@ -49,7 +50,6 @@ For fun you can add a random colour for your turtle, so that every time you run 
 ![](images/colour-list.png)
 
 --- collapse ---
-
 ---
 title: More colours
 ---

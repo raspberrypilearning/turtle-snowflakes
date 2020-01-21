@@ -22,6 +22,7 @@ Let's write the code to draw one branch of a snowflake, and store it inside a **
   ```python
   def branch():
   ```
+  
 - Remove the code for the parallelogram snowflake loops. Add the following code indented inside the `branch` function:
   
   ```python
