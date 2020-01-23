@@ -9,8 +9,8 @@ listed: true
 ingredient: false
 copyedit: true
 curriculum: 2, design-0, programming-2, phys-comp-0, manufacture-0, community-0
-interests: कला
-technologies: python (पायथन)
+interests: art and design
+technologies: python
 site_areas: प्रोजेक्ट
 hardware: ''
 software: python (पायथन)
@@ -18,11 +18,11 @@ version: 4
 last_tested: 2017-01-01
 steps:
   - 
-    title: परिचय
+    title: भूमिका
   - 
-    title: आपको किन चीज़ों की आवश्यकता होगी
+    title: आपको किसकी ज़रूरत होगी
   - 
-    title: Python Turtle के साथ कैसे बनाएँ
+    title: Python Turtle से छवि कैसे बनाएँ
   - 
     title: Python Turtle के साथ कैसे मुड़ें
   - 
