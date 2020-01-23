@@ -1,4 +1,4 @@
-## Python Turtle से छवि कैसे बनाएँ
+## Python Turtle के साथ कैसे बनाएँ
 
 + [blank Python template trinket](http://jumpto.cc/python-new) खोलें।
 
