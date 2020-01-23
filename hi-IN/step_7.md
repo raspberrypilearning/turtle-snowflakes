@@ -49,12 +49,10 @@ turtle.Screen().bgcolor("blue")
 
 ![](images/colour-list.png)
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
+## title: More colours
 
-## title: अधिक रंग
-
-आप और बहुत से रंगों में से चुन सकते हैं! पूरी सूची के लिए [this website](https://wiki.tcl.tk/37701) (इस वेबसाइट) पर एक नज़र डालें।
+There are a lot more colours you can choose from! Have a look at [this website](https://wiki.tcl.tk/37701) for a complete list.
 
 \--- /collapse \---
