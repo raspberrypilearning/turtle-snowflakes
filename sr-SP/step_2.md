@@ -1,13 +1,13 @@
-## Шта ће ти требати
+## What you will need
 
-### Хардвер
+### Hardware
 
-+ Рачунар који може приступити [trinket.io](https://trinket.io){:target="_blank"} сајту 
++ A computer capable of accessing the [trinket.io](https://trinket.io){:target="_blank"} website 
 
 or
 
 + A computer that has Python 3 installed
 
-### Софтвер
+### Software
 
-Овај пројекат може бити завршен у веб браузеру користећи [trinket.io](https://trinket.io){:target="_blank"}.
+This project can be completed in a web browser using [trinket.io](https://trinket.io){:target="_blank"}.
