@@ -1,37 +1,37 @@
 ---
-title: Turtle हिमलव
+title: Turtle snowflakes
 hero_image: images/banner.png
-description: Python Turtle के साथ स्नोफ्लेक बनाने के लिए कोड लिखें
+description: Write code to draw snowflakes with Python Turtle
 original_url: https://raspberrypi.org/learning/turtle-snowflakes
-theme: गहरा नीला
+theme: navy
 duration: 1
 listed: true
 ingredient: false
 copyedit: true
 curriculum: 2, design-0, programming-2, phys-comp-0, manufacture-0, community-0
-interests: art and design
+interests: art
 technologies: python
-site_areas: प्रोजेक्ट
+site_areas: projects
 hardware: ''
-software: python (पायथन)
+software: python
 version: 4
 last_tested: 2017-01-01
 steps:
   - 
-    title: भूमिका
+    title: Introduction
   - 
-    title: आपको किसकी ज़रूरत होगी
+    title: What you will need
   - 
-    title: Python Turtle से छवि कैसे बनाएँ
+    title: How to draw with Python Turtle
   - 
-    title: Python Turtle के साथ कैसे मुड़ें
+    title: How to turn with Python Turtle
   - 
-    title: आकार बनाने के लिए लूप का उपयोग करना
+    title: Using loops to create shapes
   - 
-    title: घुमावदार पैटर्न बनाना
+    title: Creating spiral patterns
   - 
-    title: पेन के रंग को यादृच्छिक रूप से बदलना
+    title: Changing the pen colour randomly
   - 
-    title: स्नोफ्लेक बनाने के लिए एक फंक्शन का उपयोग करना
+    title: Using a function to draw a snowflake
   - 
-    title: "चुनौती: हर स्नोफ्लेक अलग होता है"
+    title: "Challenge: every snowflake is different"
