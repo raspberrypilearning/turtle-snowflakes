@@ -12,8 +12,8 @@ elsa.color("cyan")
 
 I have chosen to use the colour **cyan**, but you can use any from this list:
 
-- "albastru"
-- "purpuriu"
+- "blue"
+- "magenta"
 - "grey"
 - "purple"
 
