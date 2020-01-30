@@ -33,6 +33,6 @@ elsa.forward(100)
 
 What was the result? How can you finish the shape to draw a square?
 
-\--- hint/ \---
+\--- /hint \---
 
-\--- hints/ \---
+\--- /hints \---
