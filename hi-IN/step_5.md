@@ -1,8 +1,8 @@
-## आकार बनाने के लिए लूप का उपयोग करना
+## Using loops to create shapes
 
-एक चौकोर बनाने के लिए, आपने कोड की कुछ पंक्तियों को दोहराया है। इसे करने का यह बहुत अधिक प्रभावशाली तरीका नहीं है। कोड की कई पंक्तियों को टाइप करने के बजाय, लूप का उपयोग करना अधिकआसान है।
+To create a square, you have repeated some lines of code. This is not the most efficent way of doing it. Instead of typing out many lines of code, it's easier to use a loop.
 
-चौकोर बनाने के लिए इस तरह के कोड के बजाय:
+Instead of code to create a square like this:
 
 ```python
 elsa.forward(100)
@@ -14,7 +14,7 @@ elsa.right(90)
 elsa.forward(100)
 ```
 
-आप लिख सकते हैं:
+You can type:
 
 ```python
 for i in range(4):
@@ -22,6 +22,6 @@ for i in range(4):
   elsa.right(90)
 ```
 
-इसे स्वयं आजमाएँ, और देखें कि जब आप अपना कोड सहेजते हैं और चलाते हैं तो क्या होता है।
+Try it yourself, and see what happens when you save and run your code.
 
 ![](images/turtle-loop.png)
