@@ -1,4 +1,4 @@
-\--- meydan okuma \---
+\--- challenge \---
 
 ## Challenge: every snowflake is different
 
