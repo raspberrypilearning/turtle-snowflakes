@@ -2,9 +2,9 @@
 
 + Open the [blank Python template trinket](http://jumpto.cc/python-new).
 
-+ Escribe lo siguiente en la ventana que aparece:
++ Type the following into the window that appears:
     
-    ![captura de pantalla](images/trinket.PNG)
+    ![screenshot](images/trinket.PNG)
     
     The line `#!/bin/python3` just tells your computer that we're using Python 3 (the latest version of Python).
 
@@ -26,10 +26,10 @@
     
     ![](images/import-turtle.png)
 
-**¡No necesitas una cuenta de Trinket para guardar tus proyectos!**
+**You don't need a Trinket account to save your projects!**
 
-Si no tienes una cuenta de Trinket, haz clic en la flecha hacia abajo y haz clic en **Link**. Obtendrás un enlace que podrás guardar y al que podrás regresar más tarde. Just remember that you'll need to do this every time you make changes to your code, as the link will change!
+If you don't have a Trinket account, click the down arrow and then click **Link**. This will give you a link that you can save and come back to later. Just remember that you'll need to do this every time you make changes to your code, as the link will change!
 
-![captura de pantalla](images/trinket-link.PNG)
+![screenshot](images/trinket-link.PNG)
 
-Si tienes una cuenta de Trinket, puedes hacer clic en **Remix** para guardar tu propia copia del trinket.
+If you have a Trinket account, you can click **Remix** to save your own copy of the trinket.
