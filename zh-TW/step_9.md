@@ -1,4 +1,4 @@
-\---挑戰\---
+\--- challenge \---
 
 ## Challenge: every snowflake is different
 
