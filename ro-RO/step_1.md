@@ -1,14 +1,14 @@
-## Introducere
+## Introduction
 
 Create a beautiful landscape of snowflakes using Python Turtle. This is great fun and a great way to start learning how to code with Python.
 
-## Ce veți face
+## What you will make
 
 Digital snowflakes out of code, like this one:
 
 ![snowflake](images/makeasnowflake.png)
 
-## Ce veți învăța
+## What you will learn
 
 By making snowflakes with code you will learn how to:
 
@@ -20,4 +20,4 @@ By making snowflakes with code you will learn how to:
 
 This resource covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/):
 
-- [Combină modalități de programare ca să rezolvi o problemă](https://www.raspberrypi.org/curriculum/programming/builder)
+- [Combine programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder)
