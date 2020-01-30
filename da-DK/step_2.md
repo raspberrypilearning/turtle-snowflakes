@@ -1,8 +1,8 @@
-## Hvad du får brug for
+## What you will need
 
 ### Hardware
 
-+ En computer, der er i stand til at få adgang til [ trinket.io ](https://trinket.io) {: target = "_ blank"} website 
++ A computer capable of accessing the [trinket.io](https://trinket.io){:target="_blank"} website 
 
 or
 
@@ -10,4 +10,4 @@ or
 
 ### Software
 
-Dette projekt kan udfyldes i en webbrowser ved hjælp af [ trinket.io ](https://trinket.io) {: Target = "_ blank"}.
+This project can be completed in a web browser using [trinket.io](https://trinket.io){:target="_blank"}.
