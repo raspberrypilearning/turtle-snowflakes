@@ -2,9 +2,9 @@
 
 + Open the [blank Python template trinket](http://jumpto.cc/python-new).
 
-+ Introduceți următoarele în fereastra care apare:
++ Type the following into the window that appears:
     
-    ![captură de ecran](images/trinket.PNG)
+    ![screenshot](images/trinket.PNG)
     
     The line `#!/bin/python3` just tells your computer that we're using Python 3 (the latest version of Python).
 
@@ -22,14 +22,14 @@
     elsa.forward(100)
     ```
 
-+ Click on **Run** to run your first Turtle program. Ce se itampla?
++ Click on **Run** to run your first Turtle program. What happens?
     
     ![](images/import-turtle.png)
 
-**Nu aveți nevoie de un cont Trinket pentru a vă salva proiectele!**
+**You don't need a Trinket account to save your projects!**
 
-Dacă nu aveți un cont Trinket, dați click pe săgeată-jos și, mai apoi, pe **Link**. Acest lucru vă va oferi un link pe care îl puteți salva și la care puteți reveni mai târziu. Just remember that you'll need to do this every time you make changes to your code, as the link will change!
+If you don't have a Trinket account, click the down arrow and then click **Link**. This will give you a link that you can save and come back to later. Just remember that you'll need to do this every time you make changes to your code, as the link will change!
 
-![captură de ecran](images/trinket-link.PNG)
+![screenshot](images/trinket-link.PNG)
 
-Dacă aveți un cont Trinket, puteți da click pe **Remix** pentru a vă salva propria copie a trinket-ului.
+If you have a Trinket account, you can click **Remix** to save your own copy of the trinket.
