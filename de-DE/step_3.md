@@ -16,7 +16,7 @@
     elsa = turtle.Turtle()
     ```
 
-+ Now you can tell your turtle what to do, for example, to move forward `100`. Probiere es aus!
++ Now you can tell your turtle what to do, for example, to move forward `100`. Give it a go!
     
     ```python
     elsa.forward(100)
@@ -26,9 +26,9 @@
     
     ![](images/import-turtle.png)
 
-**Du benötigst kein Trinket-Konto, um deine Projekte zu speichern!**
+**You don't need a Trinket account to save your projects!**
 
-Wenn du kein Trinket-Konto hast, klicke auf den Pfeil hinunter und dann auf **Link**. Dadurch erhältst du einen Link, den du speichern und später wiederherstellen kannst. Just remember that you'll need to do this every time you make changes to your code, as the link will change!
+If you don't have a Trinket account, click the down arrow and then click **Link**. This will give you a link that you can save and come back to later. Just remember that you'll need to do this every time you make changes to your code, as the link will change!
 
 ![screenshot](images/trinket-link.PNG)
 
