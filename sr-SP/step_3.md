@@ -2,9 +2,9 @@
 
 + Open the [blank Python template trinket](http://jumpto.cc/python-new).
 
-+ У прозор који се појавио упиши следеће:
++ Type the following into the window that appears:
     
-    ![слика екрана](images/trinket.PNG)
+    ![screenshot](images/trinket.PNG)
     
     The line `#!/bin/python3` just tells your computer that we're using Python 3 (the latest version of Python).
 
@@ -26,10 +26,10 @@
     
     ![](images/import-turtle.png)
 
-**Не треба ти Trinket налог како би сачувао своје пројекте!**
+**You don't need a Trinket account to save your projects!**
 
-Ако немаш Trinket налог кликни на стрелицу која показује на доле, а затим кликни на **линк**. Ово ће ти дати линк који можеш да сачуваш и касније се вратиш. Just remember that you'll need to do this every time you make changes to your code, as the link will change!
+If you don't have a Trinket account, click the down arrow and then click **Link**. This will give you a link that you can save and come back to later. Just remember that you'll need to do this every time you make changes to your code, as the link will change!
 
-![слика екрана](images/trinket-link.PNG)
+![screenshot](images/trinket-link.PNG)
 
-Ако имаш Trinket налог, можеш кликнути на **Remix** како би сачувао своју копију програма.
+If you have a Trinket account, you can click **Remix** to save your own copy of the trinket.
