@@ -1,4 +1,4 @@
-## Was du brauchen wirst
+## What you will need
 
 ### Hardware
 
@@ -10,4 +10,4 @@ or
 
 ### Software
 
-Dieses Projekt kann in einem Webbrowser mit [ trinket.io ](https://trinket.io) {:target="_blank"} abgeschlossen werden.
+This project can be completed in a web browser using [trinket.io](https://trinket.io){:target="_blank"}.
