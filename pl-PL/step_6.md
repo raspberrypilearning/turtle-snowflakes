@@ -21,7 +21,7 @@ You can put loops inside of other loops. This is good news for us, as we can do 
 - Above the line `for i in range(2):` for your parallelogram, type:
     
     ```python
-            for i in range(10):
+    for i in range(10):
     ```
     
     How many times will this loop go round?
