@@ -1,14 +1,14 @@
 ---
 title: Turtle snowflakes
-hero_image: images / banner.png
+hero_image: images/banner.png
 description: Write code to draw snowflakes with Python Turtle
 original_url: https://raspberrypi.org/learning/turtle-snowflakes
-theme: 해군
+theme: navy
 duration: 1
 listed: true
 ingredient: false
 copyedit: true
-curriculum: 2, 디자인 -0, 프로그래밍 -2, phys-comp-0, 제조 -0, 커뮤니티 -0
+curriculum: 2, design-0, programming-2, phys-comp-0, manufacture-0, community-0
 interests: art
 technologies: python
 site_areas: projects
@@ -18,9 +18,9 @@ version: 4
 last_tested: 2017-01-01
 steps:
   - 
-    title: 소개
+    title: Introduction
   - 
-    title: 준비물
+    title: What you will need
   - 
     title: How to draw with Python Turtle
   - 
