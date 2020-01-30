@@ -2,7 +2,7 @@
 
 + Open the [blank Python template trinket](http://jumpto.cc/python-new).
 
-+ Πληκτρολόγησε τα ακόλουθα στο παράθυρο που εμφανίζεται:
++ Type the following into the window that appears:
     
     ![screenshot](images/trinket.PNG)
     
@@ -26,10 +26,10 @@
     
     ![](images/import-turtle.png)
 
-**Δεν χρειάζεσαι λογαριασμό Trinket για να αποθηκεύσεις τα έργα σου!**
+**You don't need a Trinket account to save your projects!**
 
-Εάν δεν διαθέτεις λογαριασμό Trinket, κάνε κλικ στο κάτω βέλος και, στη συνέχεια, κάνε κλικ στην επιλογή **Link**. Αυτό θα σου δώσει έναν σύνδεσμο που μπορείς να αποθηκεύσεις και να επιστρέψεις αργότερα. Just remember that you'll need to do this every time you make changes to your code, as the link will change!
+If you don't have a Trinket account, click the down arrow and then click **Link**. This will give you a link that you can save and come back to later. Just remember that you'll need to do this every time you make changes to your code, as the link will change!
 
-![screenshot (στιγμιότυπο οθόνης)](images/trinket-link.PNG)
+![screenshot](images/trinket-link.PNG)
 
-Αν έχεις λογαριασμό Trinket, μπορείς να κάνεις κλικ στο **Remix** για να αποθηκεύσεις το δικό σου αντίγραφο του Trinket.
+If you have a Trinket account, you can click **Remix** to save your own copy of the trinket.
