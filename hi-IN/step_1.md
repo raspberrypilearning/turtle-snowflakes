@@ -1,23 +1,23 @@
-## परिचय
+## Introduction
 
-Python Turtle का उपयोग करके स्नोफ्लेक का एक सुंदर लैंडस्केप बनाएँ। यह बहुत मजेदार है और यह सीखना शुरू करने का एक शानदार तरीका है कि Python के साथ कोड कैसे करें।
+Create a beautiful landscape of snowflakes using Python Turtle. This is great fun and a great way to start learning how to code with Python.
 
-## आप क्या बनाएँगे
+## What you will make
 
-कोड से डिजिटल स्नोफ्लेक, इस तरह के:
+Digital snowflakes out of code, like this one:
 
-![स्नोफ्लेक](images/makeasnowflake.png)
+![snowflake](images/makeasnowflake.png)
 
-## आप क्या सीखेंगे
+## What you will learn
 
-कोड के साथ स्नोफ्लेक्स बनाकर आप सीखेंगे कि इन्हें कैसे करें:
+By making snowflakes with code you will learn how to:
 
-- रेखाएँ खींचना और Python Turtle के साथ उन्हें मोड़ना
-- पेन के रंग को यादृच्छिक रूप से बदलना
-- कुछ निर्देशों को दोहराने और आकार बनाने के लिए लूप का उपयोग करना
-- घुमावदार पैटर्न बनाने के लिए अधिक लूप का उपयोग करना
-- स्नोफ्लेक बनाने के लिए कोई फंक्शन तैयार करना
+- Draw lines and make turns with Python Turtle
+- Change the pen colour randomly
+- Use loops to repeat some instructions and create shapes
+- Use more loops to create spiral patterns
+- Create a function to draw a snowflake
 
-इस संसाधन में [Raspberry Pi डिजिटल निर्माण पाठ्यक्रम](https://www.raspberrypi.org/curriculum/) के निम्नलिखित तत्वों के पहलू शामिल हैं:
+This resource covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/):
 
-- [किसी समस्या को हल करने के लिए प्रोग्रामिंग संरचनाओं को जोड़ना](https://www.raspberrypi.org/curriculum/programming/builder)
+- [Combine programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder)
