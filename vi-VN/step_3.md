@@ -2,9 +2,9 @@
 
 + Open the [blank Python template trinket](http://jumpto.cc/python-new).
 
-+ Nhập thông tin sau vào cửa sổ xuất hiện:
++ Type the following into the window that appears:
     
-    ![ảnh chụp màn hình](images/trinket.PNG)
+    ![screenshot](images/trinket.PNG)
     
     The line `#!/bin/python3` just tells your computer that we're using Python 3 (the latest version of Python).
 
@@ -26,10 +26,10 @@
     
     ![](images/import-turtle.png)
 
-**Bạn không cần tài khoản Trinket để lưu dự án của bạn!**
+**You don't need a Trinket account to save your projects!**
 
-Nếu bạn không có tài khoản Trinket, hãy nhấp vào mũi tên xuống và nhấp vào **Link**. Điều này sẽ cung cấp cho bạn một liên kết mà bạn có thể lưu lại và vào lại sau. Just remember that you'll need to do this every time you make changes to your code, as the link will change!
+If you don't have a Trinket account, click the down arrow and then click **Link**. This will give you a link that you can save and come back to later. Just remember that you'll need to do this every time you make changes to your code, as the link will change!
 
-![ảnh chụp màn hình](images/trinket-link.PNG)
+![screenshot](images/trinket-link.PNG)
 
-Nếu bạn có tài khoản Trinket, bạn có thể nhấp vào **Remix** để tạo bản sao của riêng bạn.
+If you have a Trinket account, you can click **Remix** to save your own copy of the trinket.
