@@ -2,9 +2,9 @@
 
 + Open the [blank Python template trinket](http://jumpto.cc/python-new).
 
-+ У вікні, яке з'явиться, введіть наступне:
++ Type the following into the window that appears:
     
-    ![знімок екрану](images/trinket.PNG)
+    ![screenshot](images/trinket.PNG)
     
     The line `#!/bin/python3` just tells your computer that we're using Python 3 (the latest version of Python).
 
@@ -22,14 +22,14 @@
     elsa.forward(100)
     ```
 
-+ Click on **Run** to run your first Turtle program. Що трапилось?
++ Click on **Run** to run your first Turtle program. What happens?
     
     ![](images/import-turtle.png)
 
-**Вам не потрібен обліковий запис Trinket, щоб зберегти ваші проекти!**
+**You don't need a Trinket account to save your projects!**
 
-Якщо у вас немає облікового запису Trinket, натисніть стрілку вниз та натисніть **Link**. Ви отримаєте посилання, яке можна зберегти, і повернутись пізніше. Just remember that you'll need to do this every time you make changes to your code, as the link will change!
+If you don't have a Trinket account, click the down arrow and then click **Link**. This will give you a link that you can save and come back to later. Just remember that you'll need to do this every time you make changes to your code, as the link will change!
 
-![знімок екрану](images/trinket-link.PNG)
+![screenshot](images/trinket-link.PNG)
 
-Якщо у вас є обліковий запис Trinket, ви можете натиснути **Remix**, щоб зберегти власну Trinket копію.
+If you have a Trinket account, you can click **Remix** to save your own copy of the trinket.
