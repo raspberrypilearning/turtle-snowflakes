@@ -18,9 +18,9 @@ version: 4
 last_tested: 2017-01-01
 steps:
   - 
-    title: З днем народження
+    title: Introduction
   - 
-    title: Що вам знадобиться
+    title: What you will need
   - 
     title: How to draw with Python Turtle
   - 
