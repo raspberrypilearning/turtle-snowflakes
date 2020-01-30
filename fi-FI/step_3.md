@@ -2,9 +2,9 @@
 
 + Open the [blank Python template trinket](http://jumpto.cc/python-new).
 
-+ Kirjoita seuraava teksti avautuvaan ikkunaan:
++ Type the following into the window that appears:
     
-    ![ruutukaappaus](images/trinket.PNG)
+    ![screenshot](images/trinket.PNG)
     
     The line `#!/bin/python3` just tells your computer that we're using Python 3 (the latest version of Python).
 
@@ -26,10 +26,10 @@
     
     ![](images/import-turtle.png)
 
-**Et tarvitse Trinket-tiliä projektien tallentamiseksi!**
+**You don't need a Trinket account to save your projects!**
 
-Jos sinulla ei ole Trinket-tiliä, napsauta alanuolta ja napsauta sitten **Linkki**. Tämä antaa sinulle linkin, jonka voit tallentaa ja palata myöhemmin. Just remember that you'll need to do this every time you make changes to your code, as the link will change!
+If you don't have a Trinket account, click the down arrow and then click **Link**. This will give you a link that you can save and come back to later. Just remember that you'll need to do this every time you make changes to your code, as the link will change!
 
-![ruutukaappaus](images/trinket-link.PNG)
+![screenshot](images/trinket-link.PNG)
 
-Jos sinulla on Trinket-tili, voit napsauttaa **Remix** tallentaaksesi oman kopion trinketistä.
+If you have a Trinket account, you can click **Remix** to save your own copy of the trinket.
