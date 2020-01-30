@@ -1,13 +1,13 @@
-## 你會需要:
+## What you will need
 
-### 硬體
+### Hardware
 
-+ 一台能夠訪問[ trinket.io的計算機](https://trinket.io) {：target =“_ blank”}網站 
++ A computer capable of accessing the [trinket.io](https://trinket.io){:target="_blank"} website 
 
 or
 
 + A computer that has Python 3 installed
 
-### 軟體
+### Software
 
-你可以直接在 網頁瀏覽器中 使用[trinket.io](https://trinket.io){：target =“_ blank”}完成這個專案。
+This project can be completed in a web browser using [trinket.io](https://trinket.io){:target="_blank"}.
