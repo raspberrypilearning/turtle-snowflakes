@@ -22,7 +22,7 @@ You are on your way to creating a square! What do you need to add to your code i
 
 \--- hints \---
 
-\---hint\---
+\--- hint \---
 
 Try adding the following code and running you program:
 
