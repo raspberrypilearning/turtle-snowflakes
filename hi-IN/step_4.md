@@ -1,37 +1,37 @@
-## Python Turtle के साथ कैसे मुड़ें
+## How to turn with Python Turtle
 
-अभी तक आपका कछुए एक दिशा में आगे बढ़ रहा है। यदि आप सीधी रेखा खींचना चाहते हैं तो यह अच्छी खबर है, लेकिन चौकोर जैसा कोई आकार बनाने के लिए आपके कछुए को मुड़ना होगा।
+Your turtle is only moving in one direction so far. This is good news if you want to draw a straight line, but to draw a shape such as a square, your turtle is going to have to turn.
 
-- अपने Python कोड में `elsa.forward(100)` पंक्ति के नीचे, यह जोड़ें:
+- Below the line `elsa.forward(100)` in your Python code, add:
     
     ```python
     elsa.right(90)
     ```
     
-    **ध्यान दें:** Turtle कोणों का उपयोग डिग्री में करता है। एक सर्कल में 360 डिग्री होती हैं। किसी चौकोर के समकोण में कितनी डिग्री होती हैं? यह सही है: 9 0 डिग्री। `elsa.right(90)` में कोष्ठकों के अंदर दिया गया मूल्य `90` डिग्री में है। तो यह पंक्ति आपके कछुए को बता रही है कि दाईं ओर 90 डिग्री मुड़ना है।
+    **Note:** Turtle uses angles in degrees. There are 360 degrees in a circle. How many degrees does the right angle of a square have? That's right: 90. The value `90` inside the brackets in `elsa.right(90)` is in degrees. So this line is telling your turtle to turn right by 90 degrees.
 
-- अपने कछुए को 100 तक आगे बढ़ाने के लिए नीचे एक और निर्देश जोड़ें:
+- Add another instruction below to move your turtle forward by 100:
     
     ```python
     elsa.forward(100)
     ```
 
-- क्या होता है यह देखने के लिए अपना कोड सहेजें और चलाएँ।
+- Save and run your code to see what happens.
 
-आप एक चौकोर बनाने की राह पर हैं! चौकोर को पूरा करने के लिए आपको अपने कोड में क्या जोड़ने की ज़रूरत है?
+You are on your way to creating a square! What do you need to add to your code in order to complete the square?
 
 \--- hints \---
 
 \--- hint \---
 
-निम्नलिखित कोड जोड़कर अपना प्रोग्राम चलाने का प्रयास करें:
+Try adding the following code and running you program:
 
 ```python
 elsa.right(90)
 elsa.forward(100)
 ```
 
-क्या परिणाम रहा? चौकोर बनाने के लिए आप आकार को कैसे पूरा कर सकते हैं?
+What was the result? How can you finish the shape to draw a square?
 
 \--- /hint \---
 
