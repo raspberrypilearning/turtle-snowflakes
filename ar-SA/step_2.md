@@ -1,13 +1,13 @@
-## ما ستحتاج اليه
+## What you will need
 
-### الأجهزة
+### Hardware
 
-+ جهاز كمبيوتر يمكنه الوصول إلى موقع الإلكتروني [trinket.io](https://trinket.io){:target="_blank"} 
++ A computer capable of accessing the [trinket.io](https://trinket.io){:target="_blank"} website 
 
 or
 
 + A computer that has Python 3 installed
 
-### البرمجيات
+### Software
 
-هذا المشروع يمكن أن تكتمل في متصفح الويب باستخدام [trinket.io](https://trinket.io){:target="_blank"}.
+This project can be completed in a web browser using [trinket.io](https://trinket.io){:target="_blank"}.
