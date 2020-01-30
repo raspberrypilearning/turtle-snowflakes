@@ -13,8 +13,8 @@ elsa.left(45)
 elsa.pendown()
 
 def branch():
-          for i in range(3):
-            for i in range(3):
+  for i in range(3):
+    for i in range(3):
       elsa.forward(30)
       elsa.backward(30)
       elsa.right(45)
@@ -24,7 +24,7 @@ def branch():
   elsa.right(90)
   elsa.forward(90)
 
-        for i in range(8):
+for i in range(8):
     branch()
     elsa.left(45)
 
