@@ -2,9 +2,9 @@
 
 + Open the [blank Python template trinket](http://jumpto.cc/python-new).
 
-+ اكتب ما يلي في النافذة التي يتم عرضها:
++ Type the following into the window that appears:
     
-    ![لقطة الشاشة](images/trinket.PNG)
+    ![screenshot](images/trinket.PNG)
     
     The line `#!/bin/python3` just tells your computer that we're using Python 3 (the latest version of Python).
 
@@ -22,14 +22,14 @@
     elsa.forward(100)
     ```
 
-+ Click on **Run** to run your first Turtle program. ماذا حدث؟
++ Click on **Run** to run your first Turtle program. What happens?
     
     ![](images/import-turtle.png)
 
-**لا تحتاج إلى حساب Trinket لحفظ مشاريعك!**
+**You don't need a Trinket account to save your projects!**
 
-إذا لم يكن لديك حساب Trinket، فانقر فوق سهم لأسفل ثم انقر فوق **Link**. سيعطيك هذا رابطًا يمكنك حفظه والعودة إليه لاحقًا. Just remember that you'll need to do this every time you make changes to your code, as the link will change!
+If you don't have a Trinket account, click the down arrow and then click **Link**. This will give you a link that you can save and come back to later. Just remember that you'll need to do this every time you make changes to your code, as the link will change!
 
-![لقطة شاشة](images/trinket-link.PNG)
+![screenshot](images/trinket-link.PNG)
 
-إذا كان لديك حساب Trinket، فيمكنك النقر فوق **Remix** لحفظ نسختك من trinket.
+If you have a Trinket account, you can click **Remix** to save your own copy of the trinket.
