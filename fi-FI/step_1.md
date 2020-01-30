@@ -1,14 +1,14 @@
-## Esittely
+## Introduction
 
 Create a beautiful landscape of snowflakes using Python Turtle. This is great fun and a great way to start learning how to code with Python.
 
-## Mitä tulet tekemään
+## What you will make
 
 Digital snowflakes out of code, like this one:
 
 ![snowflake](images/makeasnowflake.png)
 
-## Mitä opit
+## What you will learn
 
 By making snowflakes with code you will learn how to:
 
