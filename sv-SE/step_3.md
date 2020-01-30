@@ -2,9 +2,9 @@
 
 + Open the [blank Python template trinket](http://jumpto.cc/python-new).
 
-+ Skriv följande i fönstret som visas:
++ Type the following into the window that appears:
     
-    ![skärmdump](images/trinket.PNG)
+    ![screenshot](images/trinket.PNG)
     
     The line `#!/bin/python3` just tells your computer that we're using Python 3 (the latest version of Python).
 
@@ -26,10 +26,10 @@
     
     ![](images/import-turtle.png)
 
-**Du behöver inte ett Trinket -konto för att spara dina projekt!**
+**You don't need a Trinket account to save your projects!**
 
-Om du inte har ett Trinket -konto klickar du på pilen nedåt och klickar sedan på **Länk**. Detta ger dig en länk som du kan spara och komma tillbaka till senare. Just remember that you'll need to do this every time you make changes to your code, as the link will change!
+If you don't have a Trinket account, click the down arrow and then click **Link**. This will give you a link that you can save and come back to later. Just remember that you'll need to do this every time you make changes to your code, as the link will change!
 
-![skärmdump](images/trinket-link.PNG)
+![screenshot](images/trinket-link.PNG)
 
-Om du har ett Trinket -konto kan du klicka på **Remix** att spara din egen kopia av trinket.
+If you have a Trinket account, you can click **Remix** to save your own copy of the trinket.
