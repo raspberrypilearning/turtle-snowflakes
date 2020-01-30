@@ -4,7 +4,7 @@
 
 + Type the following into the window that appears:
     
-    ![螢幕截圖](images/trinket.PNG)
+    ![screenshot](images/trinket.PNG)
     
     The line `#!/bin/python3` just tells your computer that we're using Python 3 (the latest version of Python).
 
@@ -26,10 +26,10 @@
     
     ![](images/import-turtle.png)
 
-**您不需要Trinket帳戶來保存您的項目！**
+**You don't need a Trinket account to save your projects!**
 
-如果您沒有Trinket帳戶，請點擊 箭頭然後點擊**連結** 。 這將為您提供一個連結，您可以保存並稍後再回來。 Just remember that you'll need to do this every time you make changes to your code, as the link will change!
+If you don't have a Trinket account, click the down arrow and then click **Link**. This will give you a link that you can save and come back to later. Just remember that you'll need to do this every time you make changes to your code, as the link will change!
 
-![截圖](images/trinket-link.PNG)
+![screenshot](images/trinket-link.PNG)
 
 If you have a Trinket account, you can click **Remix** to save your own copy of the trinket.
