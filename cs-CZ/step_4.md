@@ -20,7 +20,7 @@ Your turtle is only moving in one direction so far. This is good news if you wan
 
 You are on your way to creating a square! What do you need to add to your code in order to complete the square?
 
-\--- tipy \---
+\--- hints \---
 
 \--- hint \---
 
@@ -33,6 +33,6 @@ elsa.forward(100)
 
 What was the result? How can you finish the shape to draw a square?
 
-\--- /tip \---
+\--- /hint \---
 
-\--- /tipy \---
+\--- /hints \---
