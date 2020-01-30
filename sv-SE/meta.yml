@@ -8,19 +8,19 @@ duration: 1
 listed: true
 ingredient: false
 copyedit: true
-curriculum: 2, design-0, programmering-2, phys-comp-0, tillverkning-0, community-0
-interests: konst
+curriculum: 2, design-0, programming-2, phys-comp-0, manufacture-0, community-0
+interests: art
 technologies: python
-site_areas: projekt
+site_areas: projects
 hardware: ''
 software: python
 version: 4
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduktion
+    title: Introduction
   - 
-    title: Vad du kommer att behöva
+    title: What you will need
   - 
     title: How to draw with Python Turtle
   - 
