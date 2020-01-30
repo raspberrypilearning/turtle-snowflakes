@@ -1,4 +1,4 @@
-\--- завдання \---
+\--- challenge \---
 
 ## Challenge: every snowflake is different
 
