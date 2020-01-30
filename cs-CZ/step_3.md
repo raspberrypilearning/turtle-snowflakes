@@ -2,7 +2,7 @@
 
 + Open the [blank Python template trinket](http://jumpto.cc/python-new).
 
-+ Do zobrazeného okna zadej následující:
++ Type the following into the window that appears:
     
     ![screenshot](images/trinket.PNG)
     
@@ -26,10 +26,10 @@
     
     ![](images/import-turtle.png)
 
-**Pro ukládání projektů na Trinketu vlastní účet nepotřebuješ!**
+**You don't need a Trinket account to save your projects!**
 
-Pokud účet na Trinketu nemáš, klikni na šipku dolů a pak na odkaz **Link**. Tím získáš odkaz, který si můžeš uložit a pozdeji se k němu vrátit. Just remember that you'll need to do this every time you make changes to your code, as the link will change!
+If you don't have a Trinket account, click the down arrow and then click **Link**. This will give you a link that you can save and come back to later. Just remember that you'll need to do this every time you make changes to your code, as the link will change!
 
 ![screenshot](images/trinket-link.PNG)
 
-Pokud máš účet na Trinketu, můžeš kliknout na tlačítko **Remix** uložit si vlastní kopii skriptu.
+If you have a Trinket account, you can click **Remix** to save your own copy of the trinket.
