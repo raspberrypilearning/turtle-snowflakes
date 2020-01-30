@@ -2,7 +2,7 @@
 
 + Open the [blank Python template trinket](http://jumpto.cc/python-new).
 
-+ Typ het volgende in het venster dat verschijnt:
++ Type the following into the window that appears:
     
     ![screenshot](images/trinket.PNG)
     
@@ -16,20 +16,20 @@
     elsa = turtle.Turtle()
     ```
 
-+ Now you can tell your turtle what to do, for example, to move forward `100`. Probeer het eens!
++ Now you can tell your turtle what to do, for example, to move forward `100`. Give it a go!
     
     ```python
     elsa.forward(100)
     ```
 
-+ Click on **Run** to run your first Turtle program. Wat gebeurt er?
++ Click on **Run** to run your first Turtle program. What happens?
     
     ![](images/import-turtle.png)
 
-**Je hebt geen Trinket-account nodig om je projecten op te slaan!**
+**You don't need a Trinket account to save your projects!**
 
-Als je geen Trinket-account hebt, klik dan op de pijl-omlaag en vervolgens op ** Link **. Hiermee krijg je een link die je kunt opslaan en later kunt openen. Just remember that you'll need to do this every time you make changes to your code, as the link will change!
+If you don't have a Trinket account, click the down arrow and then click **Link**. This will give you a link that you can save and come back to later. Just remember that you'll need to do this every time you make changes to your code, as the link will change!
 
 ![screenshot](images/trinket-link.PNG)
 
-Als je een Trinket-account hebt, kun je op ** Remix ** klikken om je eigen exemplaar van de trinket op te slaan.
+If you have a Trinket account, you can click **Remix** to save your own copy of the trinket.
