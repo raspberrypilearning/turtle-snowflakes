@@ -12,7 +12,7 @@ elsa.color("cyan")
 
 I have chosen to use the colour **cyan**, but you can use any from this list:
 
-- "blau"
+- "blue"
 - "magenta"
 - "grey"
 - "purple"
