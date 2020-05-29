@@ -1,10 +1,10 @@
-## Using a function to draw a snowflake
+## Een functie gebruiken om een sneeuwvlok te tekenen
 
-Your parallelogram snowflake is cool, but it does not look as snowflake-like as it could. Let's fix that!
+Je parallellogram-sneeuwvlok is cool, maar ziet er niet zo sneeuwvlokachtig uit als zou kunnen. Daar gaan we iets aan doen!
 
-For this drawing, we need to move the turtle from the centre of the window. The `penup()` and `pendown()` instructions let us do this without drawing a line, just like picking up a real pen from the paper and moving it somewhere else to start writing.
+Voor deze tekening moeten we de schildpad vanuit het midden van het venster verplaatsen. De `penup()` en `pendown()` instructies laten ons dit doen zonder een lijn te tekenen. Net als een echte pen ophalen van het papier en hem elders verplaatsen om te beginnen met schrijven.
 
-- Type the following instructions below the `colours` list:
+- Typ de volgende instructies onder de `kleuren` lijst:
     
     ```python
     elsa.penup()
@@ -13,17 +13,17 @@ For this drawing, we need to move the turtle from the centre of the window. The 
     elsa.pendown()
     ```
 
-Let's write the code to draw one branch of a snowflake, and store it inside a **function**. Then you can simply repeat it over and over to create a complete snowflake.
+Laten we de code schrijven om een zijtak van een sneeuwvlok te tekenen en deze op te slaan in een **functie**. Dan kun je het gewoon herhalen om een complete sneeuwvlok te maken.
 
-![branch](images/branch.PNG)
+![zijtak](images/branch.PNG)
 
-- Define a function called `branch` by typing:
+- Definieer een functie met de naam `zijtak` door te typen:
     
     ```python
-    def branch():
+    def zijtak():
     ```
 
-- Remove the code for the parallelogram snowflake loops. Add the following code indented inside the `branch` function:
+- Verwijder de code voor de parallellogram-sneeuwvloklussen. Voeg de volgende ingesprongen code toe binnen de `zijtak`-functie:
     
     ```python
     for i in range(3):
@@ -38,18 +38,18 @@ Let's write the code to draw one branch of a snowflake, and store it inside a **
     elsa.forward(90)
     ```
     
-    **Note**: Remember that indentation is important. Make sure to check that all your indentation is correct, otherwise your code won't work!
+    **Opmerking**: Onthoud dat inspringen belangrijk is. Zorg ervoor dat je controleert of al je inspringing correct is, anders werkt je code niet!
 
-- Write a final section of code to **call** the `branch` function (which means to run it) eight times. You can use a loop again as for your last snowflake:
+- Schrijf een laatste stukje code om acht keer een **aanroep** te doen van de `zijtak`-functie (wat betekent dat die moet worden uitgevoerd). Je kunt opnieuw een lus gebruiken zoals voor je laatste sneeuwvlok:
     
     ```python
     for i in range(8):
-      branch()
+      zijtak()
       elsa.left(45)
     ```
 
-- Put a `#` at the start of the `elsa.color(random.choice(colours))` instruction to turn it into a **comment**. This means that the computer will skip that line of code. You could delete the line, but you might want to use it to add colour to your snowflake later on.
+- Zet een `#` aan het begin van de `elsa.color(random.choice(kleuren))` instructie om er een **opmerking** van te maken. Dit betekent dat de computer die regel code overslaat. Je kunt de regel verwijderen, maar je wilt deze misschien later gebruiken om kleur toe te voegen aan je sneeuwvlok.
 
-- Save and run your code, and a snowflake should appear before your eyes!
+- Sla je code op en voer uit en er zou een sneeuwvlok voor je ogen moeten verschijnen!
 
 ![](images/snowflake2.png)
