@@ -1,8 +1,8 @@
-## Using loops to create shapes
+## Lussen gebruiken om vormen te maken
 
-To create a square, you have repeated some lines of code. This is not the most efficent way of doing it. Instead of typing out many lines of code, it's easier to use a loop.
+Om een vierkant te maken, heb je enkele regels code herhaald. Dit is niet de meest efficiënte manier om dit te doen. In plaats van veel regels code te typen, is het gemakkelijker om een lus te gebruiken.
 
-Instead of code to create a square like this:
+In plaats van code om een vierkant zo te maken:
 
 ```python
 elsa.forward(100)
@@ -14,7 +14,7 @@ elsa.right(90)
 elsa.forward(100)
 ```
 
-You can type:
+Kun je typen:
 
 ```python
 for i in range(4):
@@ -22,6 +22,6 @@ for i in range(4):
   elsa.right(90)
 ```
 
-Try it yourself, and see what happens when you save and run your code.
+Probeer het zelf en kijk wat er gebeurt als je je code opslaat en uitvoert.
 
 ![](images/turtle-loop.png)
