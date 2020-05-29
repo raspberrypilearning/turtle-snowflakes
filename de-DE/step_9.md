@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: every snowflake is different
+## Herausforderung: jede Schneeflocke ist anders
 
-- Can you uncomment the random colour instruction and place it in the function, so that each branch has a different colour?
-- Can you create a snowflake function and then repeat it all over the window to create a snowflake landscape?
-- Can you draw snowflakes of different colours and different sizes, like those in Carrie Anne's video [Make snowflakes with code](https://www.youtube.com/watch?v=DHmeX7YTHBY)?
+- Kannst du die zufällige Farbanweisung auskommentieren und in die Funktion einfügen, sodass jeder Zweig eine andere Farbe hat?
+- Kannst du eine Schneeflockenfunktion erstellen und sie dann im ganzen Fenster wiederholen, um eine Schneeflockenlandschaft zu erstellen?
+- Kannst du Schneeflocken unterschiedlicher Farben und Größen zeichnen, wie im Video von Carrie Anne [Schneeflocken mit Code machen](https://www.youtube.com/watch?v=DHmeX7YTHBY)?
 
-\--- /challenge \---
+Und ergänze den CSS-Code in <0>style.css</0>, um das Bild zu positionieren.
