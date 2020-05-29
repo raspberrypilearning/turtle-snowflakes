@@ -1,23 +1,23 @@
-## Changing the pen colour randomly
+## De penkleur willekeurig wijzigen
 
-So far the turtle has been drawing black lines on a white background. Now it's time to add colour!
+Tot dusver tekende de schildpad zwarte lijnen op een witte achtergrond. Nu is het tijd om kleur toe te voegen!
 
-- To set the colour of the turtle, move you're cursor below where you named your turtle and before your loops, and type in the following:
+- Om de kleur van de schildpad in te stellen, beweeg je je cursor naar beneden waar je je schildpad een naam hebt gegeven en nog voor je lussen, en typ het volgende:
 
 ```python
 elsa.color("cyan")
 ```
 
-**Note**: The spelling of 'colour' is different in other countries. In the US, it is spelled 'color', and in Python it has to be spelled the American way to work.
+**Opmerking**: De spelling van 'color' is verschillend in andere landen. In de VS wordt het als 'color' gespeld en in Python moet het op de Amerikaanse manier worden gespeld.
 
-I have chosen to use the colour **cyan**, but you can use any from this list:
+Ik heb ervoor gekozen om de kleur **cyan (cyaan)** te gebruiken, maar je kunt alles uit deze lijst gebruiken:
 
-- "blue"
+- "blue" (blauw)
 - "magenta"
-- "grey"
-- "purple"
+- "grey" (grijs)
+- "purple" (paars)
 
-You can also change the colour of the background window. To set the colour of the background, use this instruction below the code you've just written:
+Je kunt ook de kleur van het achtergrondvenster wijzigen. Gebruik deze instructie onder de code die je zojuist hebt geschreven om de achtergrondkleur in te stellen:
 
 ```python
 turtle.Screen().bgcolor("blue")
@@ -25,34 +25,34 @@ turtle.Screen().bgcolor("blue")
 
 ![](images/colour.png)
 
-For fun you can add a random colour for your turtle, so that every time you run your code, you will get a slightly different snowflake.
+Voor de lol kun je een willekeurige kleur voor je schildpad toevoegen, zodat je elke keer dat je je code uitvoert een iets andere sneeuwvlok krijgt.
 
-- First you will need to import the `random` library: below `import turtle`, type `import random`.
+- Eerst moet je de `random` bibliotheek importeren: onder `import turtle`, typ `import random`.
 
-- Next, change the background colour from `"blue"` to `"grey"`.
+- Verander vervolgens de achtergrondkleur van `"blue"` naar `"grey"`.
 
-- Below that line, create a variable called `colours` to store a list of the colours to select from, like this:
+- Onder die regel maak je een variabele met de naam `kleuren` om een lijst met de kleuren op te slaan waaruit je kunt kiezen, zoals dit:
     
     ```python
-    colours = ["cyan", "purple", "white", "blue"]
+    kleuren = ["cyan", "purple", "white", "blue"]
     ```
 
-- At the end of the spiral loop, below `elsa.right(36)`, type:
+- Aan het einde van de spiraallus, onder `elsa.right(36)` typ:
     
     ```python
-    elsa.color(random.choice(colours))  
+    elsa.color(random.choice(kleuren))  
     ```
     
-    **Note**: make sure this line is also indented, so that your program knows it's within the loop.
+    **Opmerking**: zorg ervoor dat deze regel ook is ingesprongen, zodat je programma weet dat het in de lus zit.
 
-- Save and run your code for a multi-coloured snowflake!
+- Sla je code op en voer uit voor een meerkleurige sneeuwvlok!
 
 ![](images/colour-list.png)
 
 ## \--- collapse \---
 
-## title: More colours
+## title: Meer kleuren
 
-There are a lot more colours you can choose from! Have a look at [this website](https://wiki.tcl.tk/37701) for a complete list.
+Er zijn veel meer kleuren waaruit je kunt kiezen! Neem een kijkje op [deze website ](https://wiki.tcl.tk/37701) voor een volledige lijst.
 
 \--- /collapse \---
