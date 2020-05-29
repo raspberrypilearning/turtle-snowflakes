@@ -1,23 +1,23 @@
-## Introduction
+## Inleiding
 
-Create a beautiful landscape of snowflakes using Python Turtle. This is great fun and a great way to start learning how to code with Python.
+Creëer een prachtig landschap van sneeuwvlokken met Python Turtle. Dit is erg leuk en een geweldige manier om te leren programmeren met Python.
 
-## What you will make
+## Wat ga je maken
 
-Digital snowflakes out of code, like this one:
+Digitale sneeuwvlokken vanuit code, zoals deze:
 
-![snowflake](images/makeasnowflake.png)
+![sneeuwvlok](images/makeasnowflake.png)
 
-## What you will learn
+## Wat ga je leren
 
-By making snowflakes with code you will learn how to:
+Door sneeuwvlokken met code te maken, leer je hoe je:
 
-- Draw lines and make turns with Python Turtle
-- Change the pen colour randomly
-- Use loops to repeat some instructions and create shapes
-- Use more loops to create spiral patterns
-- Create a function to draw a snowflake
+- Lijnen tekent en bochten maakt met Python Turtle
+- De penkleur willekeurig wijzigt
+- Lussen gebruikt om enkele instructies te herhalen en vormen te maken
+- Meer lussen gebruikt om spiraalpatronen te maken
+- Een functie maakt om een sneeuwvlok te tekenen
 
-This resource covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/):
+Dit project behandelt elementen uit de volgende onderdelen van het [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/):
 
-- [Combine programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder)
+- [Combineer programmeerconstructies om een ​​probleem op te lossen](https://www.raspberrypi.org/curriculum/programming/builder)
