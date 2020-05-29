@@ -1,37 +1,37 @@
-## How to turn with Python Turtle
+## Hoe te draaien met Python Turtle
 
-Your turtle is only moving in one direction so far. This is good news if you want to draw a straight line, but to draw a shape such as a square, your turtle is going to have to turn.
+Je schildpad beweegt tot nu toe maar in één richting. Dit is goed nieuws als je een rechte lijn wilt tekenen, maar om een vorm zoals een vierkant te tekenen, zal je schildpad moeten draaien.
 
-- Below the line `elsa.forward(100)` in your Python code, add:
+- Onder de regel `elsa.forward(100)` voeg je in je Python-code toe:
     
     ```python
     elsa.right(90)
     ```
     
-    **Note:** Turtle uses angles in degrees. There are 360 degrees in a circle. How many degrees does the right angle of a square have? That's right: 90. The value `90` inside the brackets in `elsa.right(90)` is in degrees. So this line is telling your turtle to turn right by 90 degrees.
+    **Opmerking:** Turtle gebruikt hoeken in graden. Er zitten 360 graden in een cirkel. Hoeveel graden heeft de rechte hoek van een vierkant? Dat klopt: 90. De waarde `90` tussen de haakjes in `elsa.right(90)` is in graden. Deze regel vertelt je schildpad dus dat hij 90 graden naar rechts moet draaien.
 
-- Add another instruction below to move your turtle forward by 100:
+- Voeg hieronder nog een instructie toe om je schildpad met 100 vooruit te bewegen:
     
     ```python
     elsa.forward(100)
     ```
 
-- Save and run your code to see what happens.
+- Sla je code op en voer deze uit om te zien wat er gebeurt.
 
-You are on your way to creating a square! What do you need to add to your code in order to complete the square?
+Je bent op weg om een vierkant te maken! Wat moet je toevoegen aan je code om het vierkant te voltooien?
 
 \--- hints \---
 
 \--- hint \---
 
-Try adding the following code and running you program:
+Probeer de volgende code toe te voegen en voer je programma uit:
 
 ```python
 elsa.right(90)
 elsa.forward(100)
 ```
 
-What was the result? How can you finish the shape to draw a square?
+Wat was het resultaat? Hoe kun je de vorm afmaken om een vierkant te tekenen?
 
 \--- /hint \---
 
