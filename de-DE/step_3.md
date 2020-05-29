@@ -1,35 +1,35 @@
-## How to draw with Python Turtle
+## Wie man mit Python Turtle zeichnet
 
-+ Open the [blank Python template trinket](http://jumpto.cc/python-new).
++ Öffne das [leere Python Template Trinket](http://jumpto.cc/python-new).
 
-+ Type the following into the window that appears:
++ Gib Folgendes in das erscheinende Fenster ein:
     
     ![screenshot](images/trinket.PNG)
     
-    The line `#!/bin/python3` just tells your computer that we're using Python 3 (the latest version of Python).
+    Die Zeile `#!/bin/python3` teilt Ihrem Computer mit, dass wir Python 3 verwenden (die neueste Version von Python).
 
-+ To begin using Turtle in Python, you need to import the Turtle library. At the top of the text editor window, type `import turtle`.
++ Um Turtle in Python zu verwenden, musst du die Turtle-Bibliothek importieren. Zu Beginn des Texteditorfenster, tippe `import turtle`.
 
-+ Time to give your turtle a name! You can use a variable to do this. I'm naming my turtle `elsa`, but you can name yours whatever you like.
++ Zeit, deiner Schildkröte einen Namen zu geben! Du kannst eine Variable verwenden, um dies zu tun. Ich nenne mein Turtle `elsa`, aber du kannst deines benennen, wie du möchtest.
     
     ```python
     elsa = turtle.Turtle()
     ```
 
-+ Now you can tell your turtle what to do, for example, to move forward `100`. Give it a go!
++ Jetzt kannst du deinem Turtle sagen, was zum Beispiel zu tun ist, um `100` vorwärts zu kommen. Probiere es aus!
     
     ```python
     elsa.forward(100)
     ```
 
-+ Click on **Run** to run your first Turtle program. What happens?
++ Klicke auf **Ausführen** um dein erstes Turtle-Programm auszuführen. Was passiert?
     
     ![](images/import-turtle.png)
 
-**You don't need a Trinket account to save your projects!**
+**Du benötigst kein Trinket-Konto, um deine Projekte zu speichern!**
 
-If you don't have a Trinket account, click the down arrow and then click **Link**. This will give you a link that you can save and come back to later. Just remember that you'll need to do this every time you make changes to your code, as the link will change!
+Wenn du kein Trinket-Konto hast, klicke auf den Pfeil hinunter und dann auf **Link**. Dadurch erhältst du einen Link, den du speichern und später wiederherstellen kannst. Denke daran, dass du dies jedes Mal tun musst, wenn du Änderungen an deinem Code vornimmst, da der Link sich ändert!
 
 ![screenshot](images/trinket-link.PNG)
 
-If you have a Trinket account, you can click **Remix** to save your own copy of the trinket.
+Wenn Du ein Trinket-Konto hast, kannst Du auf **Remix** klicken, um deine eigene Kopie des Trinkets zu speichern.
