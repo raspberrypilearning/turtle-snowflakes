@@ -1,35 +1,35 @@
-## How to draw with Python Turtle
+## Hoe te tekenen met Python Turtle
 
-+ Open the [blank Python template trinket](http://jumpto.cc/python-new).
++ Open de [lege Python-sjabloontrinket](http://jumpto.cc/python-new).
 
-+ Type the following into the window that appears:
++ Typ het volgende in het venster dat verschijnt:
     
-    ![screenshot](images/trinket.PNG)
+    ![schermafbeelding](images/trinket.PNG)
     
-    The line `#!/bin/python3` just tells your computer that we're using Python 3 (the latest version of Python).
+    De regel `#!/bin/python3` vertelt je computer dat we Python 3 gebruiken (de nieuwste versie van Python).
 
-+ To begin using Turtle in Python, you need to import the Turtle library. At the top of the text editor window, type `import turtle`.
++ Om Turtle in Python te kunnen gebruiken, moet je de Turtle-bibliotheek importeren. Typ bovenaan het venster van de teksteditor `import turtle`.
 
-+ Time to give your turtle a name! You can use a variable to do this. I'm naming my turtle `elsa`, but you can name yours whatever you like.
++ Tijd om je turtle (schildpad) een naam te geven! Hiervoor kun je een variabele gebruiken. Ik noem mijn schildpad `elsa`, maar je kunt de jouwe elke naam geven die je maar wilt.
     
     ```python
     elsa = turtle.Turtle()
     ```
 
-+ Now you can tell your turtle what to do, for example, to move forward `100`. Give it a go!
++ Nu kun je je schildpad vertellen wat hij moet doen, bijvoorbeeld om `100` vooruit te gaan. Probeer het eens!
     
     ```python
     elsa.forward(100)
     ```
 
-+ Click on **Run** to run your first Turtle program. What happens?
++ Klik op **Run** om je eerste Turtle-programma uit te voeren. Wat gebeurt er?
     
     ![](images/import-turtle.png)
 
-**You don't need a Trinket account to save your projects!**
+**Je hebt geen Trinket-account nodig om je projecten op te slaan!**
 
-If you don't have a Trinket account, click the down arrow and then click **Link**. This will give you a link that you can save and come back to later. Just remember that you'll need to do this every time you make changes to your code, as the link will change!
+Als je geen Trinket-account hebt, klik dan op de pijl-omlaag en vervolgens op **Link**. Hiermee krijg je een link die je kunt opslaan en later kunt openen. Vergeet niet dat je dit elke keer moet doen als je je code wijzigt, want de link zal veranderen!
 
-![screenshot](images/trinket-link.PNG)
+![schermafbeelding](images/trinket-link.PNG)
 
-If you have a Trinket account, you can click **Remix** to save your own copy of the trinket.
+Als je een Trinket-account hebt, kun je op **Remix** klikken om je eigen exemplaar van de trinket op te slaan.
