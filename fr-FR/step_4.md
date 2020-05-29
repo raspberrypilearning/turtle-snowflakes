@@ -1,37 +1,37 @@
-## How to turn with Python Turtle
+## Comment tourner avec Turtle de Python
 
-Your turtle is only moving in one direction so far. This is good news if you want to draw a straight line, but to draw a shape such as a square, your turtle is going to have to turn.
+Ta « tortue » ne va que dans une direction jusqu'à présent. C'est une bonne nouvelle si tu veux tracer une ligne droite, mais pour dessiner une forme comme un carré, ta « tortue » devra tourner.
 
-- Below the line `elsa.forward(100)` in your Python code, add:
+- Sous la ligne `elsa.forward(100)` dans ton code Python, ajoute :
     
     ```python
     elsa.right(90)
     ```
     
-    **Note:** Turtle uses angles in degrees. There are 360 degrees in a circle. How many degrees does the right angle of a square have? That's right: 90. The value `90` inside the brackets in `elsa.right(90)` is in degrees. So this line is telling your turtle to turn right by 90 degrees.
+    **Note :** La tortue utilise des angles en degrés. Il y a 360 degrés dans un cercle. Combien de degrés a l'angle droit d'un carré ? C'est correct : 90. La valeur `90` entre parenthèses dans `elsa.right(90)` est en degrés. Cette ligne dit donc à ta « tortue » de tourner à droite de 90 degrés.
 
-- Add another instruction below to move your turtle forward by 100:
+- Ajoute une autre instruction en-dessous pour avancer ta « tortue » de 100 :
     
     ```python
     elsa.forward(100)
     ```
 
-- Save and run your code to see what happens.
+- Enregistre et exécute ton code pour voir ce qui se passe.
 
-You are on your way to creating a square! What do you need to add to your code in order to complete the square?
+Tu es sur le point de créer un carré ! Qu'est-ce que tu dois ajouter à ton code pour compléter le carré ?
 
 \--- hints \---
 
 \--- hint \---
 
-Try adding the following code and running you program:
+Essaie d'ajouter le code suivant et exécute ton programme :
 
 ```python
 elsa.right(90)
 elsa.forward(100)
 ```
 
-What was the result? How can you finish the shape to draw a square?
+Quel en a été le résultat ? Comment peux-tu finir la forme pour dessiner un carré ?
 
 \--- /hint \---
 
