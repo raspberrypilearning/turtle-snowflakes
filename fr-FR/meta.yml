@@ -1,7 +1,7 @@
 ---
-title: Turtle snowflakes
+title: Flocons de neige avec Turtle
 hero_image: images/banner.png
-description: Write code to draw snowflakes with Python Turtle
+description: Écrit du code pour dessiner des flocons de neige avec Turtle de Python
 original_url: https://raspberrypi.org/learning/turtle-snowflakes
 theme: navy
 duration: 1
@@ -20,18 +20,18 @@ steps:
   - 
     title: Introduction
   - 
-    title: What you will need
+    title: Ce dont tu auras besoin
   - 
-    title: How to draw with Python Turtle
+    title: Comment dessiner avec Turtle de Python
   - 
-    title: How to turn with Python Turtle
+    title: Comment tourner avec Turtle de Python
   - 
-    title: Using loops to create shapes
+    title: Utiliser des boucles pour créer des formes
   - 
-    title: Creating spiral patterns
+    title: Créer des motifs en spirale
   - 
-    title: Changing the pen colour randomly
+    title: Changement aléatoire de la couleur du stylo
   - 
-    title: Using a function to draw a snowflake
+    title: Utiliser une fonction pour dessiner un flocon de neige
   - 
-    title: "Challenge: every snowflake is different"
+    title: "Défi : chaque flocon de neige est différent"
