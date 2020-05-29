@@ -1,8 +1,8 @@
-## Creating spiral patterns
+## Spiraalpatronen creëren
 
-Enough squares! Let's create some different shapes and repeat them to make a snowflake-like spiral.
+Genoeg vierkanten! Laten we een paar verschillende vormen maken en ze herhalen om een sneeuwvlokachtige spiraal te maken.
 
-- Replace the code for your square with the following:
+- Vervang de code voor je vierkant door het volgende:
     
     ```python
     for i in range(2):
@@ -12,26 +12,26 @@ Enough squares! Let's create some different shapes and repeat them to make a sno
       elsa.right(120)
     ```
     
-    This will draw a shape called a parallelogram. You can see what it looks like by saving and running your code.
+    Hiermee wordt een vorm getekend die een parallellogram wordt genoemd. Je kunt zien hoe het eruit ziet door je code op te slaan en uit te voeren.
     
     ![](images/parallelogram.png)
 
-You can put loops inside of other loops. This is good news for us, as we can do this to easily make a drawing that looks like a snowflake.
+Je kunt lussen binnen andere lussen plaatsen. Dit is goed nieuws voor ons, omdat we dit kunnen doen om gemakkelijk een tekening te maken die op een sneeuwvlok lijkt.
 
-- Above the line `for i in range(2):` for your parallelogram, type:
+- Boven de regel `for i in range(2):` voor je parallellogram, typ:
     
     ```python
     for i in range(10):
     ```
     
-    How many times will this loop go round?
+    Hoe vaak gaat deze lus rond?
 
-- Move your cursor to the line below your sequence of code, and press the space bar four times to **indent** the code you're about to write. Indentation in Python is very important to ensure that your code works as you expect! Now type:
+- Verplaats je cursor naar de regel onder je blok code en druk vier keer op de spatiebalk om de code die je gaat schrijven **in te springen**. Inspringen in Python is erg belangrijk om ervoor te zorgen dat je code werkt zoals je verwacht! Typ nu:
     
     ```python
     elsa.right(36)
     ```
 
-- Save and run your code to see what happens. You should see a drawing like this:
+- Sla je code op en voer deze uit om te zien wat er gebeurt. Je zou een tekening als volgt moeten zien:
     
     ![](images/snowflake1.png)
