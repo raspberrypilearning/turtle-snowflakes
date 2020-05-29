@@ -1,8 +1,8 @@
-## Using loops to create shapes
+## Utiliser des boucles pour créer des formes
 
-To create a square, you have repeated some lines of code. This is not the most efficent way of doing it. Instead of typing out many lines of code, it's easier to use a loop.
+Pour créer un carré, tu as répété quelques lignes de code. Ce n'est pas la manière la plus efficace de le faire. Au lieu de taper plusieurs lignes de code, il est plus facile d'utiliser une boucle.
 
-Instead of code to create a square like this:
+Au lieu du code pour créer un carré comme ceci :
 
 ```python
 elsa.forward(100)
@@ -14,7 +14,7 @@ elsa.right(90)
 elsa.forward(100)
 ```
 
-You can type:
+Tu peux taper :
 
 ```python
 for i in range(4):
@@ -22,6 +22,6 @@ for i in range(4):
   elsa.right(90)
 ```
 
-Try it yourself, and see what happens when you save and run your code.
+Essaie-le toi-même, et vois ce qui se passe lorsque tu enregistres et exécutes ton code.
 
 ![](images/turtle-loop.png)
