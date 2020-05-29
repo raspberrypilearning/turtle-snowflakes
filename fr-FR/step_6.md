@@ -1,8 +1,8 @@
-## Creating spiral patterns
+## Créer des motifs en spirale
 
-Enough squares! Let's create some different shapes and repeat them to make a snowflake-like spiral.
+Assez de carrés ! Créons des formes différentes et répétons-les pour faire une spirale semblable à un flocon de neige.
 
-- Replace the code for your square with the following:
+- Remplace le code de ton carré par ce qui suit :
     
     ```python
     for i in range(2):
@@ -12,26 +12,26 @@ Enough squares! Let's create some different shapes and repeat them to make a sno
       elsa.right(120)
     ```
     
-    This will draw a shape called a parallelogram. You can see what it looks like by saving and running your code.
+    Cela dessinera une forme appelée parallélogramme. Tu peux voir à quoi il ressemble en enregistrant et en exécutant ton code.
     
     ![](images/parallelogram.png)
 
-You can put loops inside of other loops. This is good news for us, as we can do this to easily make a drawing that looks like a snowflake.
+Tu peux mettre des boucles à l'intérieur d'autres boucles. C'est une bonne nouvelle pour nous, car nous pouvons le faire pour créer facilement un dessin qui ressemble à un flocon de neige.
 
-- Above the line `for i in range(2):` for your parallelogram, type:
+- Au-dessus de la ligne `for i in range(2):` pour ton parallélogramme, tape :
     
     ```python
     for i in range(10):
     ```
     
-    How many times will this loop go round?
+    Combien de fois cette boucle tournera-t-elle ?
 
-- Move your cursor to the line below your sequence of code, and press the space bar four times to **indent** the code you're about to write. Indentation in Python is very important to ensure that your code works as you expect! Now type:
+- Déplace ton curseur à la ligne en dessous de ta séquence de code, et appuie sur la barre d'espace quatre fois pour **indenter** le code que tu es sur le point d'écrire. L'indentation en Python est très importante pour s'assurer que ton code fonctionne comme tu l'attends ! Tape maintenant :
     
     ```python
     elsa.right(36)
     ```
 
-- Save and run your code to see what happens. You should see a drawing like this:
+- Enregistre et exécute ton code pour voir ce qui se passe. Tu devrais voir un dessin comme celui-ci :
     
     ![](images/snowflake1.png)
