@@ -1,13 +1,13 @@
-## What you will need
+## Wat heb je nodig
 
 ### Hardware
 
-+ A computer capable of accessing the [trinket.io](https://trinket.io){:target="_blank"} website 
++ Een computer die toegang heeft tot de [trinket.io](https://trinket.io){:target="_blank"} website 
 
-or
+of
 
-+ A computer that has Python 3 installed
++ Een computer waarop Python 3 is geïnstalleerd
 
 ### Software
 
-This project can be completed in a web browser using [trinket.io](https://trinket.io){:target="_blank"}.
+Dit project kan in een webbrowser worden voltooid met behulp van [trinket.io](https://trinket.io){:target="_blank"}.
