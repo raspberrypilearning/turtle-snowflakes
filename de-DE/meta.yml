@@ -1,0 +1,28 @@
+---
+title: Turtle Schneeflocken
+hero_image: images/banner.png
+description: Schreibe Code um Schneeflocken mit Python Turtle zu zeichnen
+original_url: https://raspberrypi.org/learning/turtle-snowflakes
+theme: navy
+duration: 1
+listed: true
+ingredient: false
+copyedit: true
+curriculum: 2, design-0, programming-2, phys-comp-0, manufacture-0, community-0
+interests: art
+technologies: python
+site_areas: projects
+hardware: ''
+software: python
+version: 4
+last_tested: 2017-01-01
+steps:
+  - title: Einleitung
+  - title: Was du brauchen wirst
+  - title: Wie man mit Python Turtle zeichnet
+  - title: Wie man mit Python Turtle dreht
+  - title: Schleifen benutzen um Formen zu erzeugen
+  - title: Spiralförmige Muster erzeugen
+  - title: Die Stiftfarbe zufällig ändern
+  - title: Erstelle eine Funktion um eine Schneeflocke zu zeichnen
+  - title: "Herausforderung: jede Schneeflocke ist anders"

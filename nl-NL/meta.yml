@@ -1,0 +1,28 @@
+---
+title: Turtle sneeuwvlokken
+hero_image: images/banner.png
+description: Schrijf code om sneeuwvlokken te tekenen met Python Turtle
+original_url: https://raspberrypi.org/learning/turtle-snowflakes
+theme: navy
+duration: 1
+listed: true
+ingredient: false
+copyedit: true
+curriculum: 2, design-0, programming-2, phys-comp-0, manufacture-0, community-0
+interests: art
+technologies: python
+site_areas: projects
+hardware: ''
+software: python
+version: 4
+last_tested: 2017-01-01
+steps:
+  - title: Inleiding
+  - title: Wat heb je nodig
+  - title: Hoe te tekenen met Python Turtle
+  - title: Hoe te draaien met Python Turtle
+  - title: Lussen gebruiken om vormen te maken
+  - title: Spiraalpatronen creëren
+  - title: De penkleur willekeurig wijzigen
+  - title: Een functie gebruiken om een sneeuwvlok te tekenen
+  - title: "Uitdaging: elke sneeuwvlok is anders"
