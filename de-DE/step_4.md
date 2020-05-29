@@ -1,37 +1,37 @@
-## How to turn with Python Turtle
+## Wie man mit Python Turtle dreht
 
-Your turtle is only moving in one direction so far. This is good news if you want to draw a straight line, but to draw a shape such as a square, your turtle is going to have to turn.
+Deine Schildkröte bewegt sich bisher nur in eine Richtung. Dies ist eine gute Nachricht, wenn du eine gerade Linie zeichnen möchtest, aber um eine Form wie ein Quadrat zu zeichnen, muss sich deine Schildkröte drehen.
 
-- Below the line `elsa.forward(100)` in your Python code, add:
+- Füge unter der Zeile `elsa.forward(100)` in deinem Python-Code hinzu:
     
     ```python
     elsa.right(90)
     ```
     
-    **Note:** Turtle uses angles in degrees. There are 360 degrees in a circle. How many degrees does the right angle of a square have? That's right: 90. The value `90` inside the brackets in `elsa.right(90)` is in degrees. So this line is telling your turtle to turn right by 90 degrees.
+    **Hinweis:** Turtle verwendet Winkel in Grad. Es gibt 360 Grad in einem Kreis. Wie viele Grad hat der rechte Winkel eines Quadrats? Das stimmt: 90. Der Wert `90` innerhalb der Klammern in `elsa.right(90)` ist in Grad. Diese Linie sagte deinem Turtles, dass es sich um 90 Grad rechts drehen soll.
 
-- Add another instruction below to move your turtle forward by 100:
+- Füge eine weitere Anweisung darunter hinzu, um deine Turtle um 100 vorwärts zu bewegen:
     
     ```python
     elsa.forward(100)
     ```
 
-- Save and run your code to see what happens.
+- Speichere und starte deinen Code, um zu sehen, was passiert.
 
-You are on your way to creating a square! What do you need to add to your code in order to complete the square?
+Du bist auf dem Weg ein Quadrat zu erstellen! Was musst du deinem Code hinzufügen, um das Quadrat zu vervollständigen?
 
 \--- hints \---
 
 \--- hint \---
 
-Try adding the following code and running you program:
+Füge den folgenden Code hinzu und führe dein Programm aus:
 
 ```python
 elsa.right(90)
 elsa.forward(100)
 ```
 
-What was the result? How can you finish the shape to draw a square?
+Was war das Ergebnis? Wie kann man die Form beenden, um ein Quadrat zu zeichnen?
 
 \--- /hint \---
 
