@@ -4,7 +4,7 @@ import turtle
 import random
 elsa = turtle.Turtle()
 
-turtle.Screen().bgcolor("grey")
+turtle.Screen().bgcolor("blue")
 colours = ["cyan", "purple", "white", "blue"]
 
 elsa.penup()
