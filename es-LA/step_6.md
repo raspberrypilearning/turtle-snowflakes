@@ -1,8 +1,8 @@
-## Creating spiral patterns
+## Crear patrones en espiral
 
-Enough squares! Let's create some different shapes and repeat them to make a snowflake-like spiral.
+¡Basta de cuadrados! Ahora vamos a crear otras formas y a repetirlas para hacer un espiral con forma de copo de nieve.
 
-- Replace the code for your square with the following:
+- Reemplaza el código de tu cuadrado con el siguiente:
     
     ```python
     for i in range(2):
@@ -12,26 +12,26 @@ Enough squares! Let's create some different shapes and repeat them to make a sno
       elsa.right(120)
     ```
     
-    This will draw a shape called a parallelogram. You can see what it looks like by saving and running your code.
+    Esto dibujará una forma llamada paralelogramo. Puedes ver cómo se ve al guardar y ejecutar tu código.
     
     ![](images/parallelogram.png)
 
-You can put loops inside of other loops. This is good news for us, as we can do this to easily make a drawing that looks like a snowflake.
+Puedes poner bucles dentro de otros bucles. Esta es una buena noticia para nosotros, ya que podemos usar esto para hacer fácilmente un dibujo que parezca un copo de nieve.
 
-- Above the line `for i in range(2):` for your parallelogram, type:
+- Sobre la línea "`for i in range(2):`" de tu paralelogramo, escribe:
     
     ```python
     for i in range(10):
     ```
     
-    How many times will this loop go round?
+    ¿Cuántas veces se repetirá el bucle?
 
-- Move your cursor to the line below your sequence of code, and press the space bar four times to **indent** the code you're about to write. Indentation in Python is very important to ensure that your code works as you expect! Now type:
+- Mueve el cursor a la línea debajo de tu secuencia de código y presiona la barra espaciadora cuatro veces para **dar indentación** al código que estás a punto de escribir. La indentación en Python es muy importante para asegurar que tu código funciona como esperas! Ahora escribe:
     
     ```python
     elsa.right(36)
     ```
 
-- Save and run your code to see what happens. You should see a drawing like this:
+- Guarda y ejecuta tu código para ver qué pasa. Deberías ver un dibujo como este:
     
     ![](images/snowflake1.png)
