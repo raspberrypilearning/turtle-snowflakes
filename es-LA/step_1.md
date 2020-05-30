@@ -1,16 +1,16 @@
-## Introduction
+## Introducción
 
-Create a beautiful landscape of snowflakes using Python Turtle. This is great fun and a great way to start learning how to code with Python.
+Crea un hermoso paisaje de copos de nieve utilizando Python Turtle. Es muy divertido y una excelente forma de comenzar a aprender a programar con Python.
 
-## What you will make
+## Lo que harás
 
-Digital snowflakes out of code, like this one:
+Copos de nieve digitales como este:
 
 ![snowflake](images/makeasnowflake.png)
 
-## What you will learn
+## Lo que aprenderás
 
-By making snowflakes with code you will learn how to:
+Haciendo copos de nieve con código aprenderás a:
 
 - Draw lines and make turns with Python Turtle
 - Change the pen colour randomly
