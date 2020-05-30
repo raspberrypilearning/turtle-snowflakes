@@ -30,8 +30,8 @@ steps:
   - 
     title: Creando patrones en espiral
   - 
-    title: Changing the pen colour randomly
+    title: Cambiar el color del lápiz aleatoriamente
   - 
-    title: Using a function to draw a snowflake
+    title: Usar una función para dibujar el copo de nieve
   - 
-    title: "Challenge: every snowflake is different"
+    title: "Desafío: cada copo de nieve es diferente"
