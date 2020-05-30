@@ -1,24 +1,24 @@
-## How to turn with Python Turtle
+## Cómo girar con Turtle en Python
 
-Your turtle is only moving in one direction so far. This is good news if you want to draw a straight line, but to draw a shape such as a square, your turtle is going to have to turn.
+Por ahora, tu tortuga solo puede moverse en una dirección. Si quieres que se mueva en línea recta, no hay problem. Pero si quieres dibujar una forma, por ejemplo, un cuadrado, necesitas que tu tortuga gire.
 
-- Below the line `elsa.forward(100)` in your Python code, add:
+- Debajo de la línea ` elsa.forward (100) ` en tu código de Python agrega:
     
     ```python
     elsa.right(90)
     ```
     
-    **Note:** Turtle uses angles in degrees. There are 360 degrees in a circle. How many degrees does the right angle of a square have? That's right: 90. The value `90` inside the brackets in `elsa.right(90)` is in degrees. So this line is telling your turtle to turn right by 90 degrees.
+    **Nota:** Turtle expresa los ángulos en grados. Hay 360 grados en un círculo. ¿Cuántos grados tiene el ángulo recto de un cuadrado? Así es: 90 grados. El valor `90` dentro de los paréntesis en `elsa.right(90)` representa los grados. Esta línea le dice a tu tortuga que debe girar 90 grados a la derecha.
 
-- Add another instruction below to move your turtle forward by 100:
+- A continuación, agrega una instrucción para mover tu tortuga 100 píxeles hacia adelante:
     
     ```python
     elsa.forward(100)
     ```
 
-- Save and run your code to see what happens.
+- Guarda y ejecuta tu código para ver qué sucede.
 
-You are on your way to creating a square! What do you need to add to your code in order to complete the square?
+¡Falta poco para completar el cuadrado! ¿Qué debes agregar a tu código para terminarlo?
 
 \--- hints \---
 
