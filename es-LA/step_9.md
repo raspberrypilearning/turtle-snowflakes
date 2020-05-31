@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: every snowflake is different
+## Desafío: cada copo de nieve es diferente
 
-- Can you uncomment the random colour instruction and place it in the function, so that each branch has a different colour?
-- Can you create a snowflake function and then repeat it all over the window to create a snowflake landscape?
-- Can you draw snowflakes of different colours and different sizes, like those in Carrie Anne's video [Make snowflakes with code](https://www.youtube.com/watch?v=DHmeX7YTHBY)?
+- ¿Puedes hacer que la instrucción de color aleatorio no sea un comentario y colocarla dentro de la función para que cada rama tenga un color diferente?
+- ¿Puedes crear una función copo de nieve y luego repetirla por toda la ventana para crear un paisaje de copos de nieve?
+- ¿Puedes dibujar copos de nieve de diferentes colores y tamaños como los del video de Carrie Anne [Hacer copos de nieve con código](https://www.youtube.com/watch?v=DHmeX7YTHBY)?
 
 \--- /challenge \---
