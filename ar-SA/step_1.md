@@ -2,22 +2,22 @@
 
 إنشاء مشهد جميل لرقاقات الثلج باستخدام السلحفاة بلغة بايثون. هذه متعة رائعة وطريقة رائعة لبدء تعلم كيفية البرمجة باستخدام بايثون.
 
-## What you will make
+## ما الذي ستصنعه
 
-Digital snowflakes out of code, like this one:
+رقاقات ثلج رقمية من خلال تعليمات برمجية، مثل هذه:
 
-![snowflake](images/makeasnowflake.png)
+![رقاقة](images/makeasnowflake.png)
 
-## What you will learn
+## ما الذي ستتعلمه
 
-By making snowflakes with code you will learn how to:
+من خلال صنع رقاقات الثلج باستخدام التعليمات البرمجية، ستتعلم كيفية:
 
-- Draw lines and make turns with Python Turtle
-- Change the pen colour randomly
-- Use loops to repeat some instructions and create shapes
-- Use more loops to create spiral patterns
-- Create a function to draw a snowflake
+- رسم خطوط بألوان مختلفة بإستخدام سلحفاة البايثون
+- تغيير لون القلم عشوائياً
+- استخدام حلقات التكرار لتكرار بعض التعليمات وإنشاء الأشكال
+- استخدام المزيد من الحلقات لإنشاء أنماط حلزونية
+- استخدام دالة لرسم رقاقة الثلج
 
-This resource covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/):
+يتناول هذا المشروع عناصر من الصفوف التالية من المناهج الرقمية الخاصة بـ [Raspberry Pi](https://www.raspberrypi.org/curriculum/):
 
-- [Combine programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder)
+- [دمج الإنشاءات البرمجية لحل مشكلة](https://www.raspberrypi.org/curriculum/programming/builder)
