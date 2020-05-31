@@ -43,16 +43,16 @@ Para hacerlo más divertido, puedes agregar un color aleatorio. El color del cop
     elsa.color(random.choice(colores))  
     ```
     
-    **Note**: make sure this line is also indented, so that your program knows it's within the loop.
+    **Nota**: asegúrate de que esta línea también tenga indentación para que tu programa sepa que está dentro del bucle.
 
-- Save and run your code for a multi-coloured snowflake!
+- ¡Guarda y ejecuta tu código para ver un copo de nieve multicolor!
 
 ![](images/colour-list.png)
 
 ## \--- collapse \---
 
-## title: More colours
+## title: Más colores
 
-There are a lot more colours you can choose from! Have a look at [this website](https://wiki.tcl.tk/37701) for a complete list.
+¡Puede elegir muchos colores! Echa un vistazo a [este sitio web](https://wiki.tcl.tk/37701) para ver una lista completa.
 
 \--- /collapse \---
