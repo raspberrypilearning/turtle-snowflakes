@@ -4,7 +4,7 @@
 
 + اكتب ما يلي في النافذة التي يتم عرضها:
     
-    ![screenshot](images/trinket.PNG)
+    ![لقطة الشاشة](images/trinket.PNG)
     
     السطر `#!/bin/python3` فقط يخبر حاسوبك أننا نستخدم Python 3 (أحدث إصدار من بايثون).
 
@@ -22,14 +22,14 @@
     elsa.forward(100)
     ```
 
-+ Click on **Run** to run your first Turtle program. What happens?
++ انقر فوق **Run** لتشغيل برنامج السلحفاة الأول الخاص بك. ماذا حدث؟
     
     ![](images/import-turtle.png)
 
-**You don't need a Trinket account to save your projects!**
+**لا تحتاج إلى حساب Trinket لحفظ مشاريعك!**
 
-If you don't have a Trinket account, click the down arrow and then click **Link**. This will give you a link that you can save and come back to later. Just remember that you'll need to do this every time you make changes to your code, as the link will change!
+إذا لم يكن لديك حساب Trinket، فانقر فوق سهم لأسفل ثم انقر فوق **Link**. سيعطيك هذا رابطًا يمكنك حفظه والعودة إليه لاحقًا. فقط تذكر أنك ستحتاج إلى القيام بذلك في كل مرة تقوم فيها بتغيير الرمز الخاص بك، لأن الرابط سوف يتغير!
 
-![screenshot](images/trinket-link.PNG)
+![لقطة شاشة](images/trinket-link.PNG)
 
-If you have a Trinket account, you can click **Remix** to save your own copy of the trinket.
+إذا كان لديك حساب Trinket، فيمكنك النقر فوق **Remix** لحفظ نسختك من trinket.
