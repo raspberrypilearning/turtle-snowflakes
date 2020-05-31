@@ -25,34 +25,34 @@ turtle.Screen().bgcolor("blue")
 
 ![](images/colour.png)
 
-For fun you can add a random colour for your turtle, so that every time you run your code, you will get a slightly different snowflake.
+من أجل المتعة ، يمكنك إضافة لون عشوائي لسلحفاتك ، بحيث تحصل في كل مرة تقوم فيها بتشغيل التعليمات البرمجية ، على رقاقة ثلج مختلفة قليلاً.
 
-- First you will need to import the `random` library: below `import turtle`, type `import random`.
+- أولاً سوف تحتاج إلى استيراد مكتبة `random` أدناه: `mport turtle`، اكتب `import random`.
 
-- Next, change the background colour from `"blue"` to `"grey"`.
+- بعد ذلك ، قم بتغيير لون الخلفية من`"blue"` إلى `"grey"`.
 
-- Below that line, create a variable called `colours` to store a list of the colours to select from, like this:
+- أسفل هذا السطر ، قم بإنشاء متغير يسمى ` colours ` لتخزين قائمة الألوان التي يمكن الاختيار منها، مثل هذا:
     
     ```python
     colours = ["cyan", "purple", "white", "blue"]
     ```
 
-- At the end of the spiral loop, below `elsa.right(36)`, type:
+- في نهاية التعليمة البرمجية تكرار ، وتحت `elsa.right(36)`، اكتب:
     
     ```python
     elsa.color(random.choice(colours))  
     ```
     
-    **Note**: make sure this line is also indented, so that your program knows it's within the loop.
+    ** ملاحظة **: تأكد من وجود مسافة بادئة لهذا السطر أيضًا ، حتى يعرف برنامجك أنه داخل الحلقة التكرارية.
 
-- Save and run your code for a multi-coloured snowflake!
+- حفظ وتشغيل التعليمات البرمجية الخاصة بك للثلج متعدد الألوان!
 
 ![](images/colour-list.png)
 
 ## \--- collapse \---
 
-## title: More colours
+## title: المزيد من الألوان
 
-There are a lot more colours you can choose from! Have a look at [this website](https://wiki.tcl.tk/37701) for a complete list.
+هناك الكثير من الألوان التي يمكنك الاختيار من بينها! ألق نظرة على [هذا الموقع](https://wiki.tcl.tk/37701) للحصول على قائمة كاملة.
 
 \--- /collapse \---
