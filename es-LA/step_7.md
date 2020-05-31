@@ -1,23 +1,23 @@
-## Changing the pen colour randomly
+## Cambiar el color del lápiz aleatoriamente
 
-So far the turtle has been drawing black lines on a white background. Now it's time to add colour!
+Por ahora, la tortuga puede dibujar líneas negras sobre un fondo blanco. ¡Es hora de añadir colores!
 
-- To set the colour of the turtle, move you're cursor below where you named your turtle and before your loops, and type in the following:
+- Para elegir el color de la tortuga, mueve el cursor por debajo de donde escribiste su nombre y antes de los bucles, y escribe lo siguiente:
 
 ```python
 elsa.color("cyan")
 ```
 
-**Note**: The spelling of 'colour' is different in other countries. In the US, it is spelled 'color', and in Python it has to be spelled the American way to work.
+**Nota**: "color" puede escribirse diferente en otros países. En Python, "color" debe escribirse igual que en el inglés estadounidense ("color").
 
-I have chosen to use the colour **cyan**, but you can use any from this list:
+Yo elegí el color **turquesa**, pero puedes elegir cualquiera de esta lista:
 
-- "blue"
+- "blue" (azul)
 - "magenta"
-- "grey"
-- "purple"
+- "grey" (gris)
+- "purple" (violeta)
 
-You can also change the colour of the background window. To set the colour of the background, use this instruction below the code you've just written:
+También puedes cambiar el color de fondo. Escribe la siguiente instrucción debajo del código que acabas de escribir:
 
 ```python
 turtle.Screen().bgcolor("blue")
@@ -25,22 +25,22 @@ turtle.Screen().bgcolor("blue")
 
 ![](images/colour.png)
 
-For fun you can add a random colour for your turtle, so that every time you run your code, you will get a slightly different snowflake.
+Para hacerlo más divertido, puedes agregar un color aleatorio. El color del copo de nieve cambiará cada vez que ejecutes tu código.
 
-- First you will need to import the `random` library: below `import turtle`, type `import random`.
+- Primero debes importar la biblioteca `random (aleatorio)`: debajo de `import turtle` escribe `import random`.
 
-- Next, change the background colour from `"blue"` to `"grey"`.
+- A continuación, cambia el color de fondo de `"blue"` a `"grey"`.
 
-- Below that line, create a variable called `colours` to store a list of the colours to select from, like this:
+- Debajo de esa línea, crea una variable llamada `colores` para almacenar una lista de los colores a elegir, así:
     
     ```python
-    colours = ["cyan", "purple", "white", "blue"]
+    colores = ["cyan", "purple", "white", "blue"]
     ```
 
-- At the end of the spiral loop, below `elsa.right(36)`, type:
+- Al final del bucle de espiral, debajo de `elsa.right(36)` escribe:
     
     ```python
-    elsa.color(random.choice(colours))  
+    elsa.color(random.choice(colores))  
     ```
     
     **Note**: make sure this line is also indented, so that your program knows it's within the loop.
