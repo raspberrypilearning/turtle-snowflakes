@@ -1,7 +1,7 @@
 ---
 title: رقاقات ثلج السلاحف
 hero_image: images/banner.png
-description: اكتب تعليمة برمجية لرسم رقاقات الثلج مع السلحفاة باستخدام اللغة البرمجية بايثون
+description: اكتب تعليمة برمجية لرسم رقاقات الثلج مع السلحفاة باستخدام اللغة البرمجية Python
 original_url: https://raspberrypi.org/learning/turtle-snowflakes
 theme: navy
 duration: 1
@@ -22,9 +22,9 @@ steps:
   - 
     title: ما ستحتاج إليه
   - 
-    title: كيفية الرسم مع سلحفاة البايثون
+    title: كيفية الرسم مع سلحفاة Python
   - 
-    title: كيف تستدير مع السلحفاة باستخدام بايثون
+    title: كيف تستدير مع سلحفاة Python
   - 
     title: استخدام الحلقات التكرارية لإنشاء أشكال
   - 
