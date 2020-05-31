@@ -1,8 +1,8 @@
-## Using loops to create shapes
+## استخدام الحلقات التكرارية لإنشاء أشكال
 
-To create a square, you have repeated some lines of code. This is not the most efficent way of doing it. Instead of typing out many lines of code, it's easier to use a loop.
+لإنشاء مربع، لقد كررت بعض الأسطر من التعليمات البرمجية. هذه ليست الطريقة الأكثر فعالية للقيام بذلك. بدلاً من كتابة العديد من الأسطر من التعليمات البرمجية، من الأسهل استخدام حلقة التكرار.
 
-Instead of code to create a square like this:
+بدلاً من التعليمة البرمجية لإنشاء مربع مثل هذا:
 
 ```python
 elsa.forward(100)
@@ -14,14 +14,14 @@ elsa.right(90)
 elsa.forward(100)
 ```
 
-You can type:
+يمكنك كتابة:
 
 ```python
-for i in range(4):
-  elsa.forward(100)
-  elsa.right(90)
+for i in range (4):
+  elsa.forward (100)
+  elsa.right (90)
 ```
 
-Try it yourself, and see what happens when you save and run your code.
+جربها بنفسك ، وشاهد ما يحدث عند حفظ التعليمات البرمجية وتشغيلها.
 
 ![](images/turtle-loop.png)
