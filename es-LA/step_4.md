@@ -24,14 +24,14 @@ Por ahora, tu tortuga solo puede moverse en una dirección. Si quieres que se mu
 
 \--- hint \---
 
-Try adding the following code and running you program:
+Intenta añadir el siguiente código y ejecuta tu programa:
 
 ```python
 elsa.right(90)
 elsa.forward(100)
 ```
 
-What was the result? How can you finish the shape to draw a square?
+¿Cuál fue el resultado? ¿Cómo puedes terminar la forma para dibujar un cuadrado?
 
 \--- /hint \---
 
