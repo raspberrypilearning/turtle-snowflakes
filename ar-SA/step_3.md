@@ -1,22 +1,22 @@
-## How to draw with Python Turtle
+## كيفية الرسم مع سلحفاة البايثون
 
-+ Open the [blank Python template trinket](http://jumpto.cc/python-new).
++ افتح [ قالب بايثون فارغ في trinket. ](http://jumpto.cc/python-new).
 
-+ Type the following into the window that appears:
++ اكتب ما يلي في النافذة التي يتم عرضها:
     
     ![screenshot](images/trinket.PNG)
     
-    The line `#!/bin/python3` just tells your computer that we're using Python 3 (the latest version of Python).
+    السطر `#!/bin/python3` فقط يخبر حاسوبك أننا نستخدم Python 3 (أحدث إصدار من بايثون).
 
-+ To begin using Turtle in Python, you need to import the Turtle library. At the top of the text editor window, type `import turtle`.
++ لبدء استخدام سلحفاة Python، تحتاج إلى استيراد مكتبة السلاحف. في الجزء العلوي من نافذة محرر النصوص، اكتب `import turtle`.
 
-+ Time to give your turtle a name! You can use a variable to do this. I'm naming my turtle `elsa`, but you can name yours whatever you like.
++ حان الوقت لإعطاء سلحفاتك اسماً! يمكنك استخدام متغير للقيام بذلك. أنا سأعطي الاسم` elsa` للسلحفاة الخاصة بي، ولكن يمكنك تسميتها بما تريد.
     
     ```python
     elsa = turtle.Turtle()
     ```
 
-+ Now you can tell your turtle what to do, for example, to move forward `100`. Give it a go!
++ الآن يمكنك أن تخبر السلاحف بما تفعله، على سبيل المثال، لتتحرك إلى الأمام `100`. Give it a go!
     
     ```python
     elsa.forward(100)
