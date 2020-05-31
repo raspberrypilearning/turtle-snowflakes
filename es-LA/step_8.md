@@ -1,10 +1,10 @@
-## Using a function to draw a snowflake
+## Usar una función para dibujar un copo de nieve
 
-Your parallelogram snowflake is cool, but it does not look as snowflake-like as it could. Let's fix that!
+Tu copo de nieve con forma de paralelogramo está genial, pero se podría ver aún mejor. ¡Vamos a arreglarlo!
 
-For this drawing, we need to move the turtle from the centre of the window. The `penup()` and `pendown()` instructions let us do this without drawing a line, just like picking up a real pen from the paper and moving it somewhere else to start writing.
+Para este dibujo, necesitamos que la tortuga esté en el centro de la ventana. Las instrucciones `penup()` y `pendown()` nos permiten hacer esto sin dibujar una línea, así como normalmente haríamos levantando el lápiz para escribir en otro lugar de una hoja.
 
-- Type the following instructions below the `colours` list:
+- Escribe las siguientes instrucciones debajo de la lista `colores`:
     
     ```python
     elsa.penup()
@@ -13,17 +13,17 @@ For this drawing, we need to move the turtle from the centre of the window. The 
     elsa.pendown()
     ```
 
-Let's write the code to draw one branch of a snowflake, and store it inside a **function**. Then you can simply repeat it over and over to create a complete snowflake.
+Ahora escribiremos el código para dibujar un lado del copo de nieve y guardarlo dentro de una **función**. Luego, simplemente lo repites una y otra vez para crear un copo de nieve completo.
 
-![branch](images/branch.PNG)
+![rama](images/branch.PNG)
 
-- Define a function called `branch` by typing:
+- Define una función llamada `rama` escribiendo:
     
     ```python
-    def branch():
+    def rama():
     ```
 
-- Remove the code for the parallelogram snowflake loops. Add the following code indented inside the `branch` function:
+- Elimina el código del paralelogramo de los bucles del copo de nieve. Agrega el siguiente código con indentación dentro de la función `rama`:
     
     ```python
     for i in range(3):
@@ -38,18 +38,18 @@ Let's write the code to draw one branch of a snowflake, and store it inside a **
     elsa.forward(90)
     ```
     
-    **Note**: Remember that indentation is important. Make sure to check that all your indentation is correct, otherwise your code won't work!
+    **Nota**: Recuerda que la indentación es importante. Asegúrate de que el espacio de la indentación sea correcto, de lo contrario ¡tu código no funcionará!
 
-- Write a final section of code to **call** the `branch` function (which means to run it) eight times. You can use a loop again as for your last snowflake:
+- Escribe una sección final del código para **llamar **a la función `rama`, es decir, ejecutarla, ocho veces. Puedes usar un bucle tal como hicimos con copo de nieve anterior:
     
     ```python
     for i in range(8):
-      branch()
+      rama()
       elsa.left(45)
     ```
 
-- Put a `#` at the start of the `elsa.color(random.choice(colours))` instruction to turn it into a **comment**. This means that the computer will skip that line of code. You could delete the line, but you might want to use it to add colour to your snowflake later on.
+- Agrega `#` al comienzo de la instrucción `elsa.color(random.choice(colores))` para convertirlo en un **comentario**. Esto significa que la computadora se saltará esa línea de código. Puedes borrar la línea, pero puede ser mejor guardarla para después darle color a tu copo de nieve.
 
-- Save and run your code, and a snowflake should appear before your eyes!
+- Guarda y ejecuta tu código, ¡debería aparecer un copo de nieve!
 
 ![](images/snowflake2.png)
