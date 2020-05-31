@@ -1,6 +1,6 @@
-## Introduction
+## المقدمة
 
-Create a beautiful landscape of snowflakes using Python Turtle. This is great fun and a great way to start learning how to code with Python.
+إنشاء مشهد جميل لرقاقات الثلج باستخدام السلحفاة بلغة بايثون. هذه متعة رائعة وطريقة رائعة لبدء تعلم كيفية البرمجة باستخدام بايثون.
 
 ## What you will make
 
