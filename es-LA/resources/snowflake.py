@@ -5,14 +5,14 @@ import random
 elsa = turtle.Turtle()
 
 turtle.Screen().bgcolor("grey")
-colours = ["cyan", "purple", "white", "blue"]
+colores = ["cyan", "purple", "white", "blue"]
 
 elsa.penup()
 elsa.forward(90)
 elsa.left(45)
 elsa.pendown()
 
-def branch():
+def rama():
   for i in range(3):
     for i in range(3):
       elsa.forward(30)
@@ -25,7 +25,7 @@ def branch():
   elsa.forward(90)
 
 for i in range(8):
-    branch()
+    rama()
     elsa.left(45)
 
-# elsa.color(random.choice(colours))
+# elsa.color(random.choice(colores))
