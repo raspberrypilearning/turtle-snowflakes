@@ -1,6 +1,6 @@
-## Using a function to draw a snowflake
+## استخدام دالة لرسم رقاقة الثلج
 
-Your parallelogram snowflake is cool, but it does not look as snowflake-like as it could. Let's fix that!
+إن رقاقة الثلج المتوازية الأضلاع رائعة، لكنها لا تبدو مثل رقاقة الثلج كما ينبغي. دعونا نصلح ذلك!
 
 For this drawing, we need to move the turtle from the centre of the window. The `penup()` and `pendown()` instructions let us do this without drawing a line, just like picking up a real pen from the paper and moving it somewhere else to start writing.
 
