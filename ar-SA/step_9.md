@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: every snowflake is different
+## التحدي: كل رقاقة ثلج مختلفة
 
-- Can you uncomment the random colour instruction and place it in the function, so that each branch has a different colour?
-- Can you create a snowflake function and then repeat it all over the window to create a snowflake landscape?
-- Can you draw snowflakes of different colours and different sizes, like those in Carrie Anne's video [Make snowflakes with code](https://www.youtube.com/watch?v=DHmeX7YTHBY)?
+- هل يمكنك إلغاء تعليق تعليمات الألوان العشوائية ووضعها في الدالة البرمجية، بحيث يكون لكل فرع لون مختلف؟
+- هل يمكنك إنشاء دالة برمجية لرقاقة الثلج ثم تكرارها في جميع أنحاء النافذة لإنشاء مشهد رقاقة الثلج؟
+- هل يمكنك رسم رقاقات الثلج بألوان مختلفة وأحجام مختلفة ، مثل تلك الموجودة في فيديو كاري آن [صنع رقاقات ثلجية مع تعليمة برمجية](https://www.youtube.com/watch?v=DHmeX7YTHBY) ؟
 
 \--- /challenge \---
