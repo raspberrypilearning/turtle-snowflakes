@@ -1,37 +1,37 @@
-## Creating spiral patterns
+## انشاء أنماط حلزونية
 
-Enough squares! Let's create some different shapes and repeat them to make a snowflake-like spiral.
+مربعات كافية! دعونا ننشئ بعض الأشكال المختلفة ونكررها لعمل دوامة تشبه رقاقة الثلج.
 
-- Replace the code for your square with the following:
+- استبدل التعليمة البرمجية الخاصة بمربعك بما يلي:
     
     ```python
-    for i in range(2):
-      elsa.forward(100)
-      elsa.right(60)
-      elsa.forward(100)
-      elsa.right(120)
+    for i in range (2):
+      elsa.forward (100)
+      elsa.right (60)
+      elsa.forward (100)
+      elsa.right (120)
     ```
     
-    This will draw a shape called a parallelogram. You can see what it looks like by saving and running your code.
+    سيؤدي ذلك إلى رسم شكل يسمى متوازي الأضلاع. يمكنك أن ترى ما يبدو من خلال حفظ التعليمات البرمجية وتشغيلها.
     
     ![](images/parallelogram.png)
 
-You can put loops inside of other loops. This is good news for us, as we can do this to easily make a drawing that looks like a snowflake.
+يمكنك وضع حلقات تكرار داخل حلقات تكرار أخرى. هذه أخبار جيدة بالنسبة لنا، حيث يمكننا أن نفعل ذلك بسهولة لرسم يبدو وكأنه رقاقة ثلج.
 
-- Above the line `for i in range(2):` for your parallelogram, type:
+- فوق السطر `for i in range (2): ` لمتوازي الأضلاع الخاص بك، اكتب:
     
     ```python
     for i in range(10):
     ```
     
-    How many times will this loop go round?
+    كم عدد المرات التي ستدور فيها هذه الحلقة ؟
 
-- Move your cursor to the line below your sequence of code, and press the space bar four times to **indent** the code you're about to write. Indentation in Python is very important to ensure that your code works as you expect! Now type:
+- حرك المؤشر إلى السطر الموجود أسفل تسلسل التعليمات البرمجية ، واضغط على شريط المسافة أربع مرات **للمسافة البادئة** للتعليمة البرمجية التي توشك على كتابتها. المسافة البادئة في Python مهمة جدًا لضمان عمل التعليمة البرمجية الخاصة بك كما تتوقع! اكتب الآن:
     
     ```python
-    elsa.right(36)
+    elsa.right (36)
     ```
 
-- Save and run your code to see what happens. You should see a drawing like this:
+- احفظ و قم بتشغيل التعليمات البرمجية الخاصة بك لترى ما يحدث. يجب أن ترى شيئا من هذا القبيل:
     
     ![](images/snowflake1.png)
