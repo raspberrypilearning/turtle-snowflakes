@@ -1,23 +1,23 @@
-## Changing the pen colour randomly
+## تغيير لون القلم عشوائياً
 
-So far the turtle has been drawing black lines on a white background. Now it's time to add colour!
+حتى الآن ، كانت السلحفاة ترسم خطوطًا سوداء على خلفية بيضاء. الآن حان الوقت لإضافة لون!
 
-- To set the colour of the turtle, move you're cursor below where you named your turtle and before your loops, and type in the following:
+- لتعيين لون السلحفاة ، حرك مؤشر الماوس الى السطر الذي قمت بتسمية سلحفاتك وقبل التعليمة البرمجية تكرار، واكتب ما يلي:
 
 ```python
 elsa.color("cyan")
 ```
 
-**Note**: The spelling of 'colour' is different in other countries. In the US, it is spelled 'color', and in Python it has to be spelled the American way to work.
+**ملاحظة**: يختلف تهجئة "اللون colour" في البلدان الأخرى. في الولايات المتحدة ، تم تهجئتها بـ'color' ، وفي Python يجب أن يتم تهجئة بالطريقة الأمريكية لتعمل.
 
-I have chosen to use the colour **cyan**, but you can use any from this list:
+لقد اخترت استخدام اللون الازرق الفاتح **cyan**، ولكن يمكنك استخدام أي لون من هذه القائمة:
 
 - "blue"
 - "magenta"
 - "grey"
 - "purple"
 
-You can also change the colour of the background window. To set the colour of the background, use this instruction below the code you've just written:
+يمكنك أيضا تغيير لون نافذة الخلفية. لتعيين لون الخلفية، استخدم هذه التعليمات أسفل التعليمات البرمجية التي كتبتها للتو:
 
 ```python
 turtle.Screen().bgcolor("blue")
