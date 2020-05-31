@@ -2,9 +2,9 @@
 
 إن رقاقة الثلج المتوازية الأضلاع رائعة، لكنها لا تبدو مثل رقاقة الثلج كما ينبغي. دعونا نصلح ذلك!
 
-For this drawing, we need to move the turtle from the centre of the window. The `penup()` and `pendown()` instructions let us do this without drawing a line, just like picking up a real pen from the paper and moving it somewhere else to start writing.
+ولهذا الرسم، نحتاج إلى تحريك السلحفاة من وسط النافذة. التعليمات `penup()` و `pendown()` تتيح لنا القيام بذلك دون رسم سطر، تماما مثل التقاط قلم حقيقي من الورق وتحريره في مكان آخر لبدء الكتابة.
 
-- Type the following instructions below the `colours` list:
+- اكتب التعليمات التالية أسفل قائمة ` الألوان `:
     
     ```python
     elsa.penup()
@@ -13,43 +13,43 @@ For this drawing, we need to move the turtle from the centre of the window. The 
     elsa.pendown()
     ```
 
-Let's write the code to draw one branch of a snowflake, and store it inside a **function**. Then you can simply repeat it over and over to create a complete snowflake.
+دعونا نكتب التعليمات البرمجية لرسم فرع واحد من رقاقة الثلج، وتخزينها داخل **دالة **. ثم يمكنك ببساطة تكرارها مرارًا وتكرارًا لإنشاء رقاقة ثلج كاملة.
 
 ![branch](images/branch.PNG)
 
-- Define a function called `branch` by typing:
+- قم بتعريف دالة بالاسم ` branch ` عن طريق كتابة:
     
     ```python
     def branch():
     ```
 
-- Remove the code for the parallelogram snowflake loops. Add the following code indented inside the `branch` function:
+- قم بإزالة التعليمة البرمجية لحلقات متوازي الأضلاع لرقاقة الثلج. أضف التعليمات البرمجية التالية بمسافة بادئة داخل دالة ` branch `:
     
     ```python
-    for i in range(3):
-        for i in range(3):
-            elsa.forward(30)
-            elsa.backward(30)
-            elsa.right(45)
-        elsa.left(90)
-        elsa.backward(30)
-        elsa.left(45)
-    elsa.right(90)
-    elsa.forward(90)
+    for i in range (3):
+        for i in range (3):
+            elsa.forward (30)
+            elsa.backward (30)
+            elsa.right (45)
+        elsa.left (90)
+        elsa.backward ( 30)
+        elsa.left (45)
+    elsa.right (90)
+    elsa.ward (90)
     ```
     
-    **Note**: Remember that indentation is important. Make sure to check that all your indentation is correct, otherwise your code won't work!
+    **ملاحظة**: تذكر أن المسافة البادئة مهمة. تأكد من التحقق من صحة كل المسافات البادئة، وإلا فلن يعمل الكود الخاص بك!
 
-- Write a final section of code to **call** the `branch` function (which means to run it) eight times. You can use a loop again as for your last snowflake:
+- اكتب قسمًا أخيرًا من التعليمة البرمجية **لاستدعاء** الدالة ` branch ` (مما يعني تشغيلها) ثماني مرات. يمكنك استخدام حلقة التكرار مرة أخرى كما في آخر رقاقة ثلج لك:
     
     ```python
-    for i in range(8):
-      branch()
-      elsa.left(45)
+    for i in range (8):
+      branch ()
+      elsa.left (45)
     ```
 
-- Put a `#` at the start of the `elsa.color(random.choice(colours))` instruction to turn it into a **comment**. This means that the computer will skip that line of code. You could delete the line, but you might want to use it to add colour to your snowflake later on.
+- ضع ` # ` في بداية التعليمات ` elsa.color (random.choice (colors)) ` لتحويلها إلى ** تعليق**. هذا يعني أن الحاسوب سوف يتخطى هذا السطر من التعليمات البرمجية. يمكنك حذف السطر البرمجي، ولكن قد ترغب في استخدامه لإضافة لون إلى رقاقة الثلج لاحقًا.
 
-- Save and run your code, and a snowflake should appear before your eyes!
+- حفظ وتشغيل التعليمات البرمجية الخاصة بك ، ويجب أن تظهر رقاقة الثلج أمام عينيك!
 
 ![](images/snowflake2.png)
