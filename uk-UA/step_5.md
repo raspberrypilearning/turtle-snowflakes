@@ -1,8 +1,8 @@
-## Using loops to create shapes
+## Використання циклів для створення фігур
 
-To create a square, you have repeated some lines of code. This is not the most efficent way of doing it. Instead of typing out many lines of code, it's easier to use a loop.
+Щоб намалювати квадрат, ти повторював (-ла) деякі рядки коду. Це — не найкращий спосіб. Замість того, щоб вводити багато рядків коду, простіше використати цикл.
 
-Instead of code to create a square like this:
+Замість коду, щоб створити квадрат отак:
 
 ```python
 elsa.forward(100)
@@ -14,7 +14,7 @@ elsa.right(90)
 elsa.forward(100)
 ```
 
-You can type:
+Ти можеш ввести:
 
 ```python
 for i in range(4):
@@ -22,6 +22,6 @@ for i in range(4):
   elsa.right(90)
 ```
 
-Try it yourself, and see what happens when you save and run your code.
+Спробуй сам (-а) і перевір, що відбувається, коли ти зберігаєш і запускаєш свій код.
 
 ![](images/turtle-loop.png)
