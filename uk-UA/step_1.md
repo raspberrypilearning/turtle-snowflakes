@@ -1,23 +1,23 @@
-## Introduction
+## Вступ
 
-Create a beautiful landscape of snowflakes using Python Turtle. This is great fun and a great way to start learning how to code with Python.
+Створи чудові сніжинки за допомогою Python Turtle. Це дуже весело і дає можливість розпочати вивчати програмування на Python.
 
-## What you will make
+## Що ти зробиш
 
-Digital snowflakes out of code, like this one:
+Віртуальні сніжинки, побудовані за допомогою коду, як ось ця:
 
-![snowflake](images/makeasnowflake.png)
+![сніжинка](images/makeasnowflake.png)
 
-## What you will learn
+## Чому ти навчишся
 
-By making snowflakes with code you will learn how to:
+Створивши сніжинку за допомогою програми, ти навчишся:
 
-- Draw lines and make turns with Python Turtle
-- Change the pen colour randomly
-- Use loops to repeat some instructions and create shapes
-- Use more loops to create spiral patterns
-- Create a function to draw a snowflake
+- Малювати лінії та робити повороти за допомогою Python Turtle
+- Випадково змінювати колір ручки
+- Використовувати цикли, щоб повторювати певні команди та створювати фігури
+- Використовувати цикли, щоб створювати візерунки для сніжинок
+- Створювати функцію для малювання сніжинки
 
-This resource covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/):
+Цей проєкт охоплює елементи з наступних напрямків [Електронного навчального плану Raspberry Pi](https://www.raspberrypi.org/curriculum/):
 
-- [Combine programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder)
+- [Застосування програмних конструкцій для вирішення задач](https://www.raspberrypi.org/curriculum/programming/builder)
