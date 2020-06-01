@@ -1,13 +1,13 @@
-## What you will need
+## Що тобі знадобиться
 
-### Hardware
+### Обладнання
 
-+ A computer capable of accessing the [trinket.io](https://trinket.io){:target="_blank"} website 
++ Комп'ютер, який має доступ до вебсайту [trinket.io](https://trinket.io){:target="_blank"} 
 
-or
+або
 
-+ A computer that has Python 3 installed
++ Комп'ютер, на якому встановлено Python 3
 
-### Software
+### Програмне забезпечення
 
-This project can be completed in a web browser using [trinket.io](https://trinket.io){:target="_blank"}.
+Цей проєкт можна виконати у браузері за допомогою [trinket.io](https://trinket.io){:target="_blank"}.
