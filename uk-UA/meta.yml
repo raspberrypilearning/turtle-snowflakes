@@ -1,7 +1,7 @@
 ---
-title: Turtle snowflakes
+title: Черепахові сніжинки
 hero_image: images/banner.png
-description: Write code to draw snowflakes with Python Turtle
+description: Напиши код, щоб малювати сніжинки за допомогою Python Turtle (черепаха)
 original_url: https://raspberrypi.org/learning/turtle-snowflakes
 theme: navy
 duration: 1
@@ -18,20 +18,20 @@ version: 4
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: Вступ
   - 
-    title: What you will need
+    title: Що тобі знадобиться
   - 
-    title: How to draw with Python Turtle
+    title: Як малювати за допомогою Python Turtle
   - 
-    title: How to turn with Python Turtle
+    title: Як повертати за допомогою Python Turtle
   - 
-    title: Using loops to create shapes
+    title: Використання циклів для створення фігур
   - 
-    title: Creating spiral patterns
+    title: Створення візерунків для сніжинок
   - 
-    title: Changing the pen colour randomly
+    title: Випадкова зміна кольору ручки
   - 
-    title: Using a function to draw a snowflake
+    title: Використання функції для малювання сніжинки
   - 
-    title: "Challenge: every snowflake is different"
+    title: "Завдання: кожна сніжинка — унікальна"
