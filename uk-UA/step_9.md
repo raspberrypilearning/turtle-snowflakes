@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: every snowflake is different
+## Завдання: кожна сніжинка — унікальна
 
-- Can you uncomment the random colour instruction and place it in the function, so that each branch has a different colour?
-- Can you create a snowflake function and then repeat it all over the window to create a snowflake landscape?
-- Can you draw snowflakes of different colours and different sizes, like those in Carrie Anne's video [Make snowflakes with code](https://www.youtube.com/watch?v=DHmeX7YTHBY)?
+- Чи можеш ти розкоментувати команду для випадкового кольору і помістити її в функцію, щоб кожна гілка мала свій колір?
+- Чи можеш ти зробити функцію для малювання сніжинки і повторити її по всьому екрану, щоб створити візерунок із сніжинок?
+- Чи можеш ти намалювати сніжинки різних кольорів та розмірів, як це зробила Кері Енн у відео [Кодування сніжинок](https://www.youtube.com/watch?v=DHmeX7YTHBY)?
 
 \--- /challenge \---
