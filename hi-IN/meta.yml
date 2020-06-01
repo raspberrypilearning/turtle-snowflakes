@@ -1,9 +1,9 @@
 ---
-title: Turtle हिमलव
+title: कछुआ हिमलव
 hero_image: images/banner.png
-description: Python Turtle के साथ स्नोफ्लेक बनाने के लिए कोड लिखें
+description: Python (पायथन) कछुए के साथ स्नोफ्लेक बनाने के लिए कोड लिखें
 original_url: https://raspberrypi.org/learning/turtle-snowflakes
-theme: navy
+theme: गहरा नीला
 duration: 1
 listed: true
 ingredient: false
@@ -17,9 +17,9 @@ software: python
 version: 4
 last_tested: 2017-01-01
 steps:
-  - title: परिचय
-  - title: आपको किन चीज़ों की आवश्यकता होगी
-  - title: Python Turtle के साथ कैसे बनाएँ
+  - title: भूमिका
+  - title: आपको किसकी ज़रूरत होगी
+  - title: Python Turtle (पायथन कछुए) के साथ कैसे बनाएँ
   - title: Python Turtle के साथ कैसे मुड़ें
   - title: आकार बनाने के लिए लूप का उपयोग करना
   - title: घुमावदार पैटर्न बनाना

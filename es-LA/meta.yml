@@ -1,0 +1,28 @@
+---
+title: Copos de nieve de tortuga
+hero_image: images/banner.png
+description: Escribe código para dibujar copos de nieve con el módulo Turtle de Python
+original_url: https://raspberrypi.org/learning/turtle-snowflakes
+theme: navy
+duration: 1
+listed: true
+ingredient: false
+copyedit: true
+curriculum: 2, design-0, programming-2, phys-comp-0, manufacture-0, community-0
+interests: art
+technologies: python
+site_areas: projects
+hardware: ''
+software: python
+version: 4
+last_tested: 2017-01-01
+steps:
+  - title: Introducción
+  - title: Lo que necesitarás
+  - title: Cómo dibujar con el módulo Turtle de Python
+  - title: Cómo girar usando Turtle en Python
+  - title: Usar bucles para crear formas
+  - title: Crear patrones en espiral
+  - title: Cambiar el color del lápiz aleatoriamente
+  - title: Usar una función para dibujar un copo de nieve
+  - title: "Desafío: cada copo de nieve es diferente"
