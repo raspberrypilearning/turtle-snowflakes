@@ -1,8 +1,8 @@
-## How to draw with Python Turtle
+## Як малювати за допомогою Python Turtle
 
-+ Open the [blank Python template trinket](http://jumpto.cc/python-new).
++ Відкрий [порожній Python-шаблон в trinklet](http://jumpto.cc/python-new).
 
-+ Type the following into the window that appears:
++ У вікні, яке з'явиться, введи наступне:
     
     ![screenshot](images/trinket.PNG)
     
