@@ -26,12 +26,12 @@
     
     Скільки разів виконується цей цикл?
 
-- Move your cursor to the line below your sequence of code, and press the space bar four times to **indent** the code you're about to write. Indentation in Python is very important to ensure that your code works as you expect! Now type:
+- Переведи курсор в рядок під своїм кодом і натисни клавішу пропуск два рази, щоб зробити **відступ** в коді, який ти збираєшся написати. В Python відступи дуже важливі для того, щоб твій код працював, як ти очікуєш! Тепер введи:
     
     ```python
     elsa.right(36)
     ```
 
-- Save and run your code to see what happens. You should see a drawing like this:
+- Збережи та запусти свій код, щоб побачити, що відбудеться. Ти маєш побачити таке зображення:
     
     ![](images/snowflake1.png)
