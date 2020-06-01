@@ -17,7 +17,7 @@ elsa.color("cyan")
 - "grey" (сірий)
 - "purple" (пурпурний)
 
-Також ти можеш змінити колір тла. To set the colour of the background, use this instruction below the code you've just written:
+Також ти можеш змінити колір тла. Для цього використай наступну команду після коду, який ти щойно написав (-ла):
 
 ```python
 turtle.Screen().bgcolor("blue")
@@ -25,34 +25,34 @@ turtle.Screen().bgcolor("blue")
 
 ![](images/colour.png)
 
-For fun you can add a random colour for your turtle, so that every time you run your code, you will get a slightly different snowflake.
+Для забави ти можеш додати випадковий колір до своєї "черепахи", щоб кожного разу, коли ти запускаєш програму, сніжинка виходила трохи інша.
 
-- First you will need to import the `random` library: below `import turtle`, type `import random`.
+- Спочатку тобі треба імпортувати бібліотеку `random`: під `import turtle` введи `import random`.
 
-- Next, change the background colour from `"blue"` to `"grey"`.
+- Далі, зміни колір тла із `"blue"` (синього) на `"grey"` (сірий).
 
-- Below that line, create a variable called `colours` to store a list of the colours to select from, like this:
+- Нижче створи змінну з назвою `colours`, яка зберігатиме набір кольорів, з якого відбуватиметься вибір, наприклад, ось так:
     
     ```python
     colours = ["cyan", "purple", "white", "blue"]
     ```
 
-- At the end of the spiral loop, below `elsa.right(36)`, type:
+- Вкінці циклу під `elsa.right(36)` введи:
     
     ```python
     elsa.color(random.choice(colours))  
     ```
     
-    **Note**: make sure this line is also indented, so that your program knows it's within the loop.
+    **Примітка**: переконайся, що цей рядок також має правильний відступ, щоб він виконувався в циклі.
 
-- Save and run your code for a multi-coloured snowflake!
+- Збережи та запусти свій код, щоб побачити різнокольорову сніжинку!
 
 ![](images/colour-list.png)
 
 ## \--- collapse \---
 
-## title: More colours
+## title: Більше кольорів
 
-There are a lot more colours you can choose from! Have a look at [this website](https://wiki.tcl.tk/37701) for a complete list.
+Існує величезна кількість кольорів, які можна використовувати! Поглянь на [цей вебсайт](https://wiki.tcl.tk/37701), щоб побачити повний список.
 
 \--- /collapse \---
