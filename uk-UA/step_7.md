@@ -1,23 +1,23 @@
-## Changing the pen colour randomly
+## Випадкова зміна кольору ручки
 
-So far the turtle has been drawing black lines on a white background. Now it's time to add colour!
+Поки що "черепаха" малювала чорні лінії на білому фоні. Настав час додати кольору!
 
-- To set the colour of the turtle, move you're cursor below where you named your turtle and before your loops, and type in the following:
+- Щоб задати колір, перемісти свій курсор між рядком, де ти давав (-ла) ім’я своїй "черепасі" і циклами, а потім введи наступне:
 
 ```python
 elsa.color("cyan")
 ```
 
-**Note**: The spelling of 'colour' is different in other countries. In the US, it is spelled 'color', and in Python it has to be spelled the American way to work.
+**Примітка**: написання слова "colour" (колір) відрізняється в різних англомовних країнах. В США воно пишеться як "color", і в Python воно теж має писатися по-американськи.
 
-I have chosen to use the colour **cyan**, but you can use any from this list:
+Ми вибрали колір **cyan** (блакитний), але ти можеш вибрати будь-який із наступного списку:
 
-- "blue"
-- "magenta"
-- "grey"
-- "purple"
+- "blue" (синій)
+- "magenta" (фіолетово-рожевий)
+- "grey" (сірий)
+- "purple" (пурпурний)
 
-You can also change the colour of the background window. To set the colour of the background, use this instruction below the code you've just written:
+Також ти можеш змінити колір тла. To set the colour of the background, use this instruction below the code you've just written:
 
 ```python
 turtle.Screen().bgcolor("blue")
