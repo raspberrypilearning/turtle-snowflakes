@@ -1,37 +1,37 @@
-## How to turn with Python Turtle
+## Як повертати за допомогою Python Turtle
 
-Your turtle is only moving in one direction so far. This is good news if you want to draw a straight line, but to draw a shape such as a square, your turtle is going to have to turn.
+Твоя "черепаха" поки що переміщується тільки в одному напрямі. Це підходить, якщо тобі треба намалювати пряму лінію, але щоб намалювати фігуру, наприклад, квадрат, твоя черепаха повинна зробити поворот.
 
-- Below the line `elsa.forward(100)` in your Python code, add:
+- Під рядком `elsa.forward(100)` в своєму коді Python додай:
     
     ```python
     elsa.right(90)
     ```
     
-    **Note:** Turtle uses angles in degrees. There are 360 degrees in a circle. How many degrees does the right angle of a square have? That's right: 90. The value `90` inside the brackets in `elsa.right(90)` is in degrees. So this line is telling your turtle to turn right by 90 degrees.
+    **Примітка:** Turtle використовує кути в градусах. У колі 360 градусів. Скільки градусів у прямому куті? Правильно — 90. Значення `90` в дужках `elsa.right(90)` є у градусах. Тому цей рядок говорить твоїй "черепасі" повернути вправо на 90 градусів.
 
-- Add another instruction below to move your turtle forward by 100:
+- Додай нижче ще одну інструкцію, щоб перемістити "черепаху" вперед на 100:
     
     ```python
     elsa.forward(100)
     ```
 
-- Save and run your code to see what happens.
+- Збережи і запусти свій код, щоб перевірити, що відбуватиметься.
 
-You are on your way to creating a square! What do you need to add to your code in order to complete the square?
+Ти на шляху до створення квадрата! Що тобі треба додати до свого коду, щоб завершити квадрат?
 
 \--- hints \---
 
 \--- hint \---
 
-Try adding the following code and running you program:
+Спробуй додати наступний код і запусти свою програму:
 
 ```python
 elsa.right(90)
 elsa.forward(100)
 ```
 
-What was the result? How can you finish the shape to draw a square?
+Який результат? Як ти можеш закінчити фігуру, щоб вийшов квадрат?
 
 \--- /hint \---
 
