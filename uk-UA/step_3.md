@@ -4,32 +4,32 @@
 
 + У вікні, яке з'явиться, введи наступне:
     
-    ![screenshot](images/trinket.PNG)
+    ![знімок екрана](images/trinket.PNG)
     
     Рядок `#!/bin/python3` говорить твоєму комп’ютеру, що ми будемо використовувати Python 3 (останню версію Python).
 
-+ To begin using Turtle in Python, you need to import the Turtle library. At the top of the text editor window, type `import turtle`.
++ Для початку роботи із Turtle (черепаха) в Python тобі необхідно імпортувати бібліотеку Turtle. Вгорі вікна текстового редактора введи `import turtle`.
 
-+ Time to give your turtle a name! You can use a variable to do this. I'm naming my turtle `elsa`, but you can name yours whatever you like.
++ Настав час надати ім’я твоїй "черепасі"! Ти можеш це зробити за допомогою змінної. Ми назвемо свою "черепаху" `elsa`, але ти можеш назвати свою, як забажаєш.
     
     ```python
     elsa = turtle.Turtle()
     ```
 
-+ Now you can tell your turtle what to do, for example, to move forward `100`. Give it a go!
++ Тепер ти можеш казати своїй "черепасі", що їй робити, наприклад, переміститися вперед на `100`. Спробуй!
     
     ```python
     elsa.forward(100)
     ```
 
-+ Click on **Run** to run your first Turtle program. What happens?
++ Клацни **Run** для запуску своєї першої програми із використанням Turtle. Що відбувається?
     
     ![](images/import-turtle.png)
 
-**You don't need a Trinket account to save your projects!**
+**Тобі не потрібен обліковий запис Trinket, щоб зберігати свої проєкти!**
 
-If you don't have a Trinket account, click the down arrow and then click **Link**. This will give you a link that you can save and come back to later. Just remember that you'll need to do this every time you make changes to your code, as the link will change!
+Якщо у тебе немає облікового запису Trinket, натисни стрілку вниз та клацни **Link**. Це надасть тобі посилання, яке можна зберегти, щоб повернутись пізніше. Але пам’ятай, що тобі треба буде робити це щоразу, коли ти вносиш зміни у свій код, тому що посилання буде змінюватися!
 
-![screenshot](images/trinket-link.PNG)
+![знімок екрана](images/trinket-link.PNG)
 
-If you have a Trinket account, you can click **Remix** to save your own copy of the trinket.
+Якщо у тебе є обліковий запис Trinket, ти можеш натиснути **Remix**, щоб зберегти власну копію цього проєкту Trinket.
