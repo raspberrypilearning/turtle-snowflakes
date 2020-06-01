@@ -17,7 +17,7 @@ software: python
 version: 4
 last_tested: 2017-01-01
 steps:
-  - title: भूमिका
+  - title: परिचय
   - title: आपको किसकी ज़रूरत होगी
   - title: Python Turtle (पायथन कछुए) के साथ कैसे बनाएँ
   - title: Python Turtle के साथ कैसे मुड़ें
