@@ -1,0 +1,28 @@
+---
+title: Черепахові сніжинки
+hero_image: images/banner.png
+description: Напиши код, щоб малювати сніжинки за допомогою Python Turtle (черепаха)
+original_url: https://raspberrypi.org/learning/turtle-snowflakes
+theme: navy
+duration: 1
+listed: true
+ingredient: false
+copyedit: true
+curriculum: 2, design-0, programming-2, phys-comp-0, manufacture-0, community-0
+interests: art
+technologies: python
+site_areas: projects
+hardware: ''
+software: python
+version: 4
+last_tested: 2017-01-01
+steps:
+  - title: Вступ
+  - title: Що тобі знадобиться
+  - title: Як малювати за допомогою Python Turtle
+  - title: Як повертати за допомогою Python Turtle
+  - title: Використання циклів для створення фігур
+  - title: Створення візерунків для сніжинок
+  - title: Випадкова зміна кольору ручки
+  - title: Використання функції для малювання сніжинки
+  - title: "Завдання: кожна сніжинка — унікальна"

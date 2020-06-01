@@ -1,0 +1,28 @@
+---
+title: رقاقات ثلج السلاحف
+hero_image: images/banner.png
+description: اكتب تعليمة برمجية لرسم رقاقات الثلج مع السلحفاة باستخدام اللغة البرمجية Python
+original_url: https://raspberrypi.org/learning/turtle-snowflakes
+theme: navy
+duration: 1
+listed: true
+ingredient: false
+copyedit: true
+curriculum: 2, design-0, programming-2, phys-comp-0, manufacture-0, community-0
+interests: art
+technologies: python
+site_areas: projects
+hardware: ''
+software: python
+version: 4
+last_tested: 2017-01-01
+steps:
+  - title: المقدمة
+  - title: ما ستحتاج إليه
+  - title: كيفية الرسم مع سلحفاة Python
+  - title: كيف تستدير مع سلحفاة Python
+  - title: استخدام الحلقات التكرارية لإنشاء أشكال
+  - title: خلق أنماط حلزونية
+  - title: تغيير لون القلم عشوائياً
+  - title: استخدام دالة لرسم رقاقة الثلج
+  - title: "التحدي: كل رقاقة ثلج مختلفة"
