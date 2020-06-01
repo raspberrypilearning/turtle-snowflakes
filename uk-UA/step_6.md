@@ -1,8 +1,8 @@
-## Creating spiral patterns
+## Створення візерунків для сніжинок
 
-Enough squares! Let's create some different shapes and repeat them to make a snowflake-like spiral.
+Досить квадратів! Давай намалюємо якісь інші фігури і повторюватимемо їх, щоб вийшла сніжинка.
 
-- Replace the code for your square with the following:
+- Заміни код для квадрата наступним:
     
     ```python
     for i in range(2):
@@ -12,19 +12,19 @@ Enough squares! Let's create some different shapes and repeat them to make a sno
       elsa.right(120)
     ```
     
-    This will draw a shape called a parallelogram. You can see what it looks like by saving and running your code.
+    Так ти намалюєш фігуру, що називається паралелограм. Ти можеш побачити, як вона виглядає, якщо збережеш і запустиш код.
     
     ![](images/parallelogram.png)
 
-You can put loops inside of other loops. This is good news for us, as we can do this to easily make a drawing that looks like a snowflake.
+Можна розміщувати цикли всередині інших циклів. Це нам підходить, тому що ми можемо це використати, щоб намалювати сніжинку.
 
-- Above the line `for i in range(2):` for your parallelogram, type:
+- Над рядком `for i in range(2):` для паралелограма, введи:
     
     ```python
     for i in range(10):
     ```
     
-    How many times will this loop go round?
+    Скільки разів виконується цей цикл?
 
 - Move your cursor to the line below your sequence of code, and press the space bar four times to **indent** the code you're about to write. Indentation in Python is very important to ensure that your code works as you expect! Now type:
     
