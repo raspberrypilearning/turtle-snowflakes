@@ -1,10 +1,10 @@
-## Using a function to draw a snowflake
+## Використання функції для малювання сніжинки
 
-Your parallelogram snowflake is cool, but it does not look as snowflake-like as it could. Let's fix that!
+Твоя сніжинка з паралелограмів виглядає класно, але вона не дуже реалістична. Давай це виправимо!
 
-For this drawing, we need to move the turtle from the centre of the window. The `penup()` and `pendown()` instructions let us do this without drawing a line, just like picking up a real pen from the paper and moving it somewhere else to start writing.
+Для цього малюнка нам треба буде рухати "черепаху" із центра вікна. Команди `penup()` (підняти ручку) та `pendown()` (опустити ручку) дозволять нам це зробити без малювання ліній, так само, як відірвати реальну ручку від паперу і перенести її в якесь інше місце для початку письма.
 
-- Type the following instructions below the `colours` list:
+- Введи наступні команди під списком ` colours`:
     
     ```python
     elsa.penup()
@@ -13,34 +13,34 @@ For this drawing, we need to move the turtle from the centre of the window. The 
     elsa.pendown()
     ```
 
-Let's write the code to draw one branch of a snowflake, and store it inside a **function**. Then you can simply repeat it over and over to create a complete snowflake.
+Давай напишемо код для малювання однієї "гілки" сніжинки і помістимо його в **функцію**. Потім ти зможеш легко викликати його знову і знову, щоб намалювати повну сніжинку.
 
-![branch](images/branch.PNG)
+![гілка](images/branch.PNG)
 
-- Define a function called `branch` by typing:
+- Визнач функцію з назвою `branch` (гілка), ввівши:
     
     ```python
     def branch():
     ```
 
-- Remove the code for the parallelogram snowflake loops. Add the following code indented inside the `branch` function:
+- Видали код для циклів паралелограмів сніжники. Додай наступний код із відступом до функції `branch`:
     
     ```python
     for i in range(3):
-        for i in range(3):
-            elsa.forward(30)
-            elsa.backward(30)
-            elsa.right(45)
-        elsa.left(90)
+      for i in range(3):
+        elsa.forward(30)
         elsa.backward(30)
-        elsa.left(45)
+        elsa.right(45)
+      elsa.left(90)
+      elsa.backward(30)
+      elsa.left(45)
     elsa.right(90)
     elsa.forward(90)
     ```
     
-    **Note**: Remember that indentation is important. Make sure to check that all your indentation is correct, otherwise your code won't work!
+    **Примітка**: пам’ятай, що відступи є дуже важливими. Переконайся, що всі твої відступи правильні, інакше твій код не працюватиме!
 
-- Write a final section of code to **call** the `branch` function (which means to run it) eight times. You can use a loop again as for your last snowflake:
+- Напиши останню частину коду, щоб **викликати** функцію `branch` (тобто запустити її) вісім разів. Ти можеш використати цикл так само, як і для останньої сніжинки:
     
     ```python
     for i in range(8):
@@ -48,8 +48,8 @@ Let's write the code to draw one branch of a snowflake, and store it inside a **
       elsa.left(45)
     ```
 
-- Put a `#` at the start of the `elsa.color(random.choice(colours))` instruction to turn it into a **comment**. This means that the computer will skip that line of code. You could delete the line, but you might want to use it to add colour to your snowflake later on.
+- Постав `#` перед початком команди `elsa.color(random.choice(colours))`, щоб перетворити її на **коментар**. Це означає, що комп’ютер пропускатиме її. Ти міг би видалити цей рядок, але, можливо, ти захочеш використати його пізніше для додавання кольору до сніжинки.
 
-- Save and run your code, and a snowflake should appear before your eyes!
+- Збережи та запусти свій код, і сніжинка має з’явитися перед твоїми очима!
 
 ![](images/snowflake2.png)
