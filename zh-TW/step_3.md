@@ -28,8 +28,8 @@
 
 **您不需要Trinket帳號來保存您的項目！**
 
-如果您沒有Trinket帳號，請點擊向下箭頭再點擊**連結** ， This will give you a link that you can save and come back to later. Just remember that you'll need to do this every time you make changes to your code, as the link will change!
+如果您沒有Trinket帳號，請點擊向下箭頭再點擊**連結** ， 這將為您提供一個連結，您可以保存並稍後再回來。 請記住，每次您更改程式碼時都需要執行此操作，因為連結會更動！
 
-![screenshot](images/trinket-link.PNG)
+![截圖](images/trinket-link.PNG)
 
-If you have a Trinket account, you can click **Remix** to save your own copy of the trinket.
+如果您有 Trinket 帳戶，可以點擊** Remix **保存自己的存檔。
