@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: every snowflake is different
+## チャレンジ：一つずつ違う雪の結晶
 
-- Can you uncomment the random colour instruction and place it in the function, so that each branch has a different colour?
-- Can you create a snowflake function and then repeat it all over the window to create a snowflake landscape?
-- Can you draw snowflakes of different colours and different sizes, like those in Carrie Anne's video [Make snowflakes with code](https://www.youtube.com/watch?v=DHmeX7YTHBY)?
+- ランダムな色の命令のコメントを外して関数内に配置し、それぞれの枝が違う色になるようにできますか？
+- 雪の結晶を描く関数を作成し、それをウィンドウ全体で繰り返して、雪の結晶の風景を作成できますか？
+- キャリー・アンさんの動画[Make snowflakes with code](https://www.youtube.com/watch?v=DHmeX7YTHBY)（コードで雪の結晶をつくる）のように、さまざまな色や大きさの雪の結晶を描けますか？
 
 \--- /challenge \---
