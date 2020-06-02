@@ -1,9 +1,9 @@
-\--- challenge \---
+\---挑戰\---
 
-## Challenge: every snowflake is different
+## 挑戰：每個不一樣的雪花
 
-- Can you uncomment the random colour instruction and place it in the function, so that each branch has a different colour?
-- Can you create a snowflake function and then repeat it all over the window to create a snowflake landscape?
-- Can you draw snowflakes of different colours and different sizes, like those in Carrie Anne's video [Make snowflakes with code](https://www.youtube.com/watch?v=DHmeX7YTHBY)?
+- 您能啟用隨機選色的指令並放在函式中，讓每一個分支有不一樣的顏色嗎？
+- 您能創建一個雪花函式，然後重複那一個函式來充滿整個視窗，進而創造出雪花紛飛的景象嗎？
+- 您能畫出不同顏色和不同大小的雪花，正如Carrie Anne的影片中[用程式來創造雪花](https://www.youtube.com/watch?v=DHmeX7YTHBY)嗎？
 
-\--- /challenge \---
+\--- /挑戰 \---
