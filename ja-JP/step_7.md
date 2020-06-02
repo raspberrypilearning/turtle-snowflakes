@@ -12,10 +12,10 @@ elsa.color("cyan")
 
 私は**cyan**（青緑色）を選択しましたが、以下のどの色でも使用することができます：
 
-- 「blue」（青色）
-- 「magenta」（赤紫色）
-- 「grey」（灰色）
-- 「purple」（紫色）
+- "blue"（青色）
+- "magenta"（赤紫色）
+- "grey"（灰色）
+- "purple"（紫色）
 
 ウィンドウの背景色を変更することもできます。 背景色を設定するには、今書いたコードの下にこの命令を入力します：
 
@@ -27,9 +27,9 @@ turtle.Screen().bgcolor("blue")
 
 タートルの色をランダムに追加して楽しむこともできます。 コードを実行するたびに少しずつ違う雪の結晶ができます：
 
-- First you will need to import the `random` library: below `import turtle`, type `import random`.
+- まず、`random`ライブラリをインポートします：`import turtle`の下に、`import random`と入力します。
 
-- Next, change the background colour from `"blue"` to `"grey"`.
+- 次に、背景色を`"blue"`（青色）から `"grey"`（灰色）に変更します。
 
 - Below that line, create a variable called `colours` to store a list of the colours to select from, like this:
     
