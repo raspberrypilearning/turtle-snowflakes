@@ -1,23 +1,23 @@
-## Introduction
+## 介紹
 
-Create a beautiful landscape of snowflakes using Python Turtle. This is great fun and a great way to start learning how to code with Python.
+使用Python Turtle創造漂亮的雪花景象。 有趣的是，這也是開始學習如何使用Python設計程式的好方法。
 
-## What you will make
+## 你將會做出
 
-Digital snowflakes out of code, like this one:
+出於程式的數位雪花，例如：
 
-![snowflake](images/makeasnowflake.png)
+![雪花](images/makeasnowflake.png)
 
-## What you will learn
+## 你將會學到
 
-By making snowflakes with code you will learn how to:
+藉由程式製作雪花，您將會學到：
 
-- Draw lines and make turns with Python Turtle
-- Change the pen colour randomly
-- Use loops to repeat some instructions and create shapes
-- Use more loops to create spiral patterns
-- Create a function to draw a snowflake
+- 使用Python Turtle 來繪製直線和轉彎
+- 隨意地更改筆的顏色
+- 使用迴圈語法來重複執行某些指令並且創建形狀
+- 使用更多迴圈語法來創建螺旋的圖案
+- 創建函數來繪製雪花
 
-This resource covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/):
+該專案涵蓋了 [Raspberry Pi數位創造課程](https://www.raspberrypi.org/curriculum/)的以下幾個元素：
 
-- [Combine programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder)
+- [結合程式設計結構來解決問題。](https://www.raspberrypi.org/curriculum/programming/builder)
