@@ -31,28 +31,28 @@ turtle.Screen().bgcolor("blue")
 
 - 次に、背景色を`"blue"`（青色）から `"grey"`（灰色）に変更します。
 
-- Below that line, create a variable called `colours` to store a list of the colours to select from, like this:
+- その行の下に、`colours`という名前の変数を作成して、選択する色のリストを格納します。
     
     ```python
     colours = ["cyan", "purple", "white", "blue"]
     ```
 
-- At the end of the spiral loop, below `elsa.right(36)`, type:
+- うずまきを描くループの最後、`elsa.right(36)`の下に、以下を入力します。
     
     ```python
     elsa.color(random.choice(colours))  
     ```
     
-    **Note**: make sure this line is also indented, so that your program knows it's within the loop.
+    **注意**：この行もインデントされていることを確認してください。これにより、この行がループ内にあることをプログラムが認識します。
 
-- Save and run your code for a multi-coloured snowflake!
+- 色とりどりな雪の結晶を描くコードを保存し、実行してみましょう！
 
 ![](images/colour-list.png)
 
 ## \--- collapse \---
 
-## title: More colours
+## title: もっとたくさんの色
 
-There are a lot more colours you can choose from! Have a look at [this website](https://wiki.tcl.tk/37701) for a complete list.
+選ぶことのできる色はこの他にもたくさんあります！ 完全なリストについては、[このウェブサイト](https://wiki.tcl.tk/37701)を見てください。
 
 \--- /collapse \---
