@@ -1,34 +1,34 @@
-## How to draw with Python Turtle
+## 如何使用Python Turtle繪圖
 
-+ Open the [blank Python template trinket](http://jumpto.cc/python-new).
++ 打開一個空白的[Python template trinket](http://jumpto.cc/python-new)。
 
-+ Type the following into the window that appears:
++ 在出現的視窗中輸入以下內容：
     
-    ![screenshot](images/trinket.PNG)
+    ![螢幕截圖](images/trinket.PNG)
     
-    The line `#!/bin/python3` just tells your computer that we're using Python 3 (the latest version of Python).
+    這行 `#!/bin/python3` 只是告訴您的電腦，我們正在使用Python3 (Python的最新版本)。
 
-+ To begin using Turtle in Python, you need to import the Turtle library. At the top of the text editor window, type `import turtle`.
++ 開始使用Turtle前，您需要先導入Turtle函式庫， 在編輯視窗的頂端輸入`import turtle`。
 
-+ Time to give your turtle a name! You can use a variable to do this. I'm naming my turtle `elsa`, but you can name yours whatever you like.
++ 是時候給您的烏龜取名了！ 您可以用一個變數來取名， 我把我的烏龜取名為`elsa`，您也可以取一個您喜歡的名字。
     
     ```python
     elsa = turtle.Turtle()
     ```
 
-+ Now you can tell your turtle what to do, for example, to move forward `100`. Give it a go!
++ 現在您可以對您的烏龜下指令，例如向前走`100`步， 試試看！
     
     ```python
     elsa.forward(100)
     ```
 
-+ Click on **Run** to run your first Turtle program. What happens?
++ 點擊**執行**來執行您的第一個Turtle程式， 看到了嗎？
     
     ![](images/import-turtle.png)
 
-**You don't need a Trinket account to save your projects!**
+**您不需要Trinket帳號來保存您的項目！**
 
-If you don't have a Trinket account, click the down arrow and then click **Link**. This will give you a link that you can save and come back to later. Just remember that you'll need to do this every time you make changes to your code, as the link will change!
+如果您沒有Trinket帳號，請點擊向下箭頭再點擊**連結** ， This will give you a link that you can save and come back to later. Just remember that you'll need to do this every time you make changes to your code, as the link will change!
 
 ![screenshot](images/trinket-link.PNG)
 
