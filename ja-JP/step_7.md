@@ -2,22 +2,22 @@
 
 これまでのところ、タートルは白い背景に黒い線を描いていました。 色を追加する時が来ました！
 
-- To set the colour of the turtle, move you're cursor below where you named your turtle and before your loops, and type in the following:
+- タートルの色を設定するには、タートルに名前を付けた行の下、ループの前にカーソルを移動して次のように入力します：
 
 ```python
 elsa.color("cyan")
 ```
 
-**Note**: The spelling of 'colour' is different in other countries. In the US, it is spelled 'color', and in Python it has to be spelled the American way to work.
+**注意**：「colour」（色）のつづり方は国によって違います。 アメリカでは「color」とつづられており、Pythonではアメリカ式につづらなければなりません。
 
-I have chosen to use the colour **cyan**, but you can use any from this list:
+私は**cyan**（青緑色）を選択しましたが、以下のどの色でも使用することができます：
 
-- "blue"
-- "magenta"
-- "grey"
-- "purple"
+- 「blue」（青色）
+- 「magenta」（赤紫色）
+- 「grey」（灰色）
+- 「purple」（紫色）
 
-You can also change the colour of the background window. To set the colour of the background, use this instruction below the code you've just written:
+ウィンドウの背景色を変更することもできます。 背景色を設定するには、今書いたコードの下にこの命令を入力します：
 
 ```python
 turtle.Screen().bgcolor("blue")
@@ -25,7 +25,7 @@ turtle.Screen().bgcolor("blue")
 
 ![](images/colour.png)
 
-For fun you can add a random colour for your turtle, so that every time you run your code, you will get a slightly different snowflake.
+タートルの色をランダムに追加して楽しむこともできます。 コードを実行するたびに少しずつ違う雪の結晶ができます：
 
 - First you will need to import the `random` library: below `import turtle`, type `import random`.
 
