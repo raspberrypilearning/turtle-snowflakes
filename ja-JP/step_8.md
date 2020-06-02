@@ -1,10 +1,10 @@
-## Using a function to draw a snowflake
+## 関数を使って雪の結晶を描く
 
-Your parallelogram snowflake is cool, but it does not look as snowflake-like as it could. Let's fix that!
+平行四辺形を使った雪の結晶はクールですが、本当の雪の結晶のようには見えません。 修正しましょう！
 
-For this drawing, we need to move the turtle from the centre of the window. The `penup()` and `pendown()` instructions let us do this without drawing a line, just like picking up a real pen from the paper and moving it somewhere else to start writing.
+この描画方法では、タートルがウィンドウの中心から動き出すようにする必要があります。 `penup()`および`pendown()`命令を使えば、本物のペンを紙から持ち上げてどこか別の場所に移動して書き始めるように、線を引くことなく移動することができます。
 
-- Type the following instructions below the `colours` list:
+- `colours`リストの下に次の命令を入力します：
     
     ```python
     elsa.penup()
@@ -13,7 +13,7 @@ For this drawing, we need to move the turtle from the centre of the window. The 
     elsa.pendown()
     ```
 
-Let's write the code to draw one branch of a snowflake, and store it inside a **function**. Then you can simply repeat it over and over to create a complete snowflake.
+雪の結晶の枝を一本描くコードを書いて**関数**の中に入れましょう。 そうすれば、これを繰り返して使うことで、完全な雪の結晶を作成できます。
 
 ![branch](images/branch.PNG)
 
