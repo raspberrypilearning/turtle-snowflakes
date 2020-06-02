@@ -8,30 +8,30 @@
     elsa.right(90)
     ```
     
-    **注意：**タートルは度単位の角度を使用します。 円は一周360度です。 正方形の直角は何度ですか？ That's right: 90. The value `90` inside the brackets in `elsa.right(90)` is in degrees. So this line is telling your turtle to turn right by 90 degrees.
+    **注意：**タートルは度単位の角度を使用します。 円は一周360度です。 正方形の直角は何度ですか？ その通り、90°(度)です。 `elsa.right(90)`のかっこ内の値`90`は度単位です。 つまり、この行はタートルに90°右に曲がるように指示しています。
 
-- Add another instruction below to move your turtle forward by 100:
+- タートルを100ずつ前に進ませるには、以下の命令を追加してください。
     
     ```python
     elsa.forward(100)
     ```
 
-- Save and run your code to see what happens.
+- プログラムを保存して実行し、何が起こるかを確認します。
 
-You are on your way to creating a square! What do you need to add to your code in order to complete the square?
+正方形が途中までできました！ 正方形を完成させるには、コードに何を追加する必要がありますか？
 
 \--- hints \---
 
 \--- hint \---
 
-Try adding the following code and running you program:
+次のコードを追加して、プログラムを実行してみてください。
 
 ```python
 elsa.right(90)
 elsa.forward(100)
 ```
 
-What was the result? How can you finish the shape to draw a square?
+結果はどうでしたか？ どうすれば正方形を完成させることができますか？
 
 \--- /hint \---
 
