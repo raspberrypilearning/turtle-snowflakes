@@ -1,7 +1,7 @@
 ---
 title: タートルによる雪の結晶
 hero_image: images/banner.png
-description: Python タートルで雪の結晶を描くコードを書く
+description: Pythonタートルで雪の結晶を描くコードを書く
 original_url: https://raspberrypi.org/learning/turtle-snowflakes
 theme: navy
 duration: 1
