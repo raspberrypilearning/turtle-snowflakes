@@ -38,9 +38,9 @@
     elsa.forward(90)
     ```
     
-    **Note**: Remember that indentation is important. Make sure to check that all your indentation is correct, otherwise your code won't work!
+    **注意** ：別忘記縮排很重要。 確認所有的縮排都是正確的，否則您的程式碼不會運作！
 
-- Write a final section of code to **call** the `branch` function (which means to run it) eight times. You can use a loop again as for your last snowflake:
+- 在程式碼的最後一段**呼叫** (代表執行) 函式`branch`共八次， 您可以再藉由迴圈畫出雪花最終的形狀：
     
     ```python
     for i in range(8):
@@ -48,8 +48,8 @@
       elsa.left(45)
     ```
 
-- Put a `#` at the start of the `elsa.color(random.choice(colours))` instruction to turn it into a **comment**. This means that the computer will skip that line of code. You could delete the line, but you might want to use it to add colour to your snowflake later on.
+- 在指令`elsa.color(random.choice(colours))`的開頭添加一個`#`符號來轉換成**註釋**， 這代表電腦會跳過那一行程式碼。 您可以刪除那一行，但您可能之後會想再啟用那一行來為您的雪花添加色彩。
 
-- Save and run your code, and a snowflake should appear before your eyes!
+- 儲存並執行您的程式，雪花應該出現在您眼前了！
 
 ![](images/snowflake2.png)
