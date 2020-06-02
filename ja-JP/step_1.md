@@ -1,20 +1,20 @@
 ## はじめに
 
-Create a beautiful landscape of snowflakes using Python Turtle. This is great fun and a great way to start learning how to code with Python.
+Pythonタートルを使って雪の結晶の美しい風景を作りましょう。 これはとても楽しく、Pythonでコーディングする方法を学び始めるのに最適な方法です。
 
-## What you will make
+## 作るもの
 
-Digital snowflakes out of code, like this one:
+このようなデジタルな雪の結晶が、コードから飛び出してきます：
 
-![snowflake](images/makeasnowflake.png)
+![雪の結晶](images/makeasnowflake.png)
 
 ## What you will learn
 
-By making snowflakes with code you will learn how to:
+雪の結晶を作るコーディングをすることで、次のことを学びます。
 
-- Draw lines and make turns with Python Turtle
-- Change the pen colour randomly
-- Use loops to repeat some instructions and create shapes
+- Pythonタートルを使って線を描くこと、向きを変える方法
+- ペンの色をランダムに変更する方法
+- ループを使って命令を繰り返し、図形を作成する方法
 - Use more loops to create spiral patterns
 - Create a function to draw a snowflake
 
