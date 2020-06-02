@@ -1,14 +1,14 @@
-## How to turn with Python Turtle
+## Pythonタートルの向きを変える方法
 
-Your turtle is only moving in one direction so far. This is good news if you want to draw a straight line, but to draw a shape such as a square, your turtle is going to have to turn.
+タートルは今のところ一方向にしか動いていません。 直線を描きたい場合は、これは良いニュースです。でも、正方形のような形を描くにはタートルの向きを変える必要があります。
 
-- Below the line `elsa.forward(100)` in your Python code, add:
+- Pythonコードの`elsa.forward(100)`の下に以下を追加します。
     
     ```python
     elsa.right(90)
     ```
     
-    **Note:** Turtle uses angles in degrees. There are 360 degrees in a circle. How many degrees does the right angle of a square have? That's right: 90. The value `90` inside the brackets in `elsa.right(90)` is in degrees. So this line is telling your turtle to turn right by 90 degrees.
+    **注意：**タートルは度単位の角度を使用します。 円は一周360度です。 正方形の直角は何度ですか？ That's right: 90. The value `90` inside the brackets in `elsa.right(90)` is in degrees. So this line is telling your turtle to turn right by 90 degrees.
 
 - Add another instruction below to move your turtle forward by 100:
     
