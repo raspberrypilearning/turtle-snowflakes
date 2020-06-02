@@ -1,23 +1,23 @@
-## Changing the pen colour randomly
+## 隨意地更改筆的顏色
 
-So far the turtle has been drawing black lines on a white background. Now it's time to add colour!
+到目前為止，您的烏龜在白底上繪製許多黑線， 是時候添加新色彩了！
 
-- To set the colour of the turtle, move you're cursor below where you named your turtle and before your loops, and type in the following:
+- 要設置烏龜的顏色，將遊標移動到您命名烏龜指令的下方和迴圈之前，然後輸入以下內容：
 
 ```python
 elsa.color("cyan")
 ```
 
-**Note**: The spelling of 'colour' is different in other countries. In the US, it is spelled 'color', and in Python it has to be spelled the American way to work.
+**注意** ：“顏色”的拼寫在其他國家/地區有所不同。 在美國，它被拼寫為“color”，而在Python中，它必須以美語拼寫。
 
-I have chosen to use the colour **cyan**, but you can use any from this list:
+我選擇使用青色**cyan** ，而您可以使用下列的任何一個：
 
-- "blue"
-- "magenta"
-- "grey"
-- "purple"
+- 藍色 "blue"
+- 紫紅色 "magenta"
+- 灰色 "grey"
+- 紫色 "purple"
 
-You can also change the colour of the background window. To set the colour of the background, use this instruction below the code you've just written:
+您也可以更改背景視窗的顏色。 請在您剛剛編寫的代碼下方依照以下指令來設置背景顏色：
 
 ```python
 turtle.Screen().bgcolor("blue")
@@ -25,9 +25,9 @@ turtle.Screen().bgcolor("blue")
 
 ![](images/colour.png)
 
-For fun you can add a random colour for your turtle, so that every time you run your code, you will get a slightly different snowflake.
+有趣的是您可以為烏龜加上隨機的顏色，如此一來當您每次運行代碼時，都會得到不同的雪花。
 
-- First you will need to import the `random` library: below `import turtle`, type `import random`.
+- 首先您需要導入`random`函式庫：在`import turtle`下一行，輸入`import random` 。
 
 - Next, change the background colour from `"blue"` to `"grey"`.
 
