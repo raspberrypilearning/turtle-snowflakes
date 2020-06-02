@@ -1,6 +1,6 @@
-## Changing the pen colour randomly
+## ペンの色をランダムに変更する
 
-So far the turtle has been drawing black lines on a white background. Now it's time to add colour!
+これまでのところ、タートルは白い背景に黒い線を描いていました。 色を追加する時が来ました！
 
 - To set the colour of the turtle, move you're cursor below where you named your turtle and before your loops, and type in the following:
 
