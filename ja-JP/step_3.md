@@ -1,35 +1,35 @@
 ## Pythonタートルで描く方法
 
-+ Open the [blank Python template trinket](http://jumpto.cc/python-new).
++ [何も書かれていないPython用のひな型trinket](http://jumpto.cc/python-new)を開きます。
 
-+ Type the following into the window that appears:
++ 表示されるウィンドウに次のように入力します：
     
-    ![screenshot](images/trinket.PNG)
+    ![スクリーンショット](images/trinket.PNG)
     
-    The line `#!/bin/python3` just tells your computer that we're using Python 3 (the latest version of Python).
+    `#!/bin/python3`という行は、私たちがPython3（Pythonの最新バージョン）を使用していることをコンピュータに伝えます。
 
-+ To begin using Turtle in Python, you need to import the Turtle library. At the top of the text editor window, type `import turtle`.
++ Pythonでタートルの使用を開始するには、Turtleライブラリをインポートする必要があります。 テキストエディターウィンドウの一番上に`import turtle`と入力します。
 
-+ Time to give your turtle a name! You can use a variable to do this. I'm naming my turtle `elsa`, but you can name yours whatever you like.
++ タートルに名前を付けましょう！ そのために変数を使います。 ここではタートルの名前を`elsa`としましたが、あなたの好きな名前を付けることができます。
     
     ```python
     elsa = turtle.Turtle()
     ```
 
-+ Now you can tell your turtle what to do, for example, to move forward `100`. Give it a go!
++ これで、たとえば`100`歩だけ前に進むようにタートルに伝えることができます 。 やってみましょう！
     
     ```python
     elsa.forward(100)
     ```
 
-+ Click on **Run** to run your first Turtle program. What happens?
++ **Run**をクリックして、初めてのタートルのプログラムを実行します。 何が起きましたか？
     
     ![](images/import-turtle.png)
 
-**You don't need a Trinket account to save your projects!**
+**プロジェクトを保存するのにTrinketアカウントは必要ありません！**
 
-If you don't have a Trinket account, click the down arrow and then click **Link**. This will give you a link that you can save and come back to later. Just remember that you'll need to do this every time you make changes to your code, as the link will change!
+Trinketアカウントを持っていない場合は、下矢印をクリックして、 **Link**をクリックしてください。 これにより、保存して後で戻ってくることができるリンクが得られます。 コードを変更するたびに、これを行う必要があることを覚えておいてください。リンクが変更されるからです！
 
-![screenshot](images/trinket-link.PNG)
+![スクリーンショット](images/trinket-link.PNG)
 
-If you have a Trinket account, you can click **Remix** to save your own copy of the trinket.
+あなたがTrinketアカウントを持っている場合は、**Remix**をクリックするとtrinketのコピーを保存できます。
