@@ -1,8 +1,8 @@
-## Creating spiral patterns
+## うずまき模様（もよう）を作成する
 
-Enough squares! Let's create some different shapes and repeat them to make a snowflake-like spiral.
+正方形はもう十分です！ いくつかの異なる形を作成し、それらを繰り返して雪の結晶のようなうずまきを作りましょう。
 
-- Replace the code for your square with the following:
+- 正方形を描くコードを以下に置き換えてください。
     
     ```python
     for i in range(2):
@@ -12,7 +12,7 @@ Enough squares! Let's create some different shapes and repeat them to make a sno
       elsa.right(120)
     ```
     
-    This will draw a shape called a parallelogram. You can see what it looks like by saving and running your code.
+    これは平行四辺形と呼ばれる形を描画します。 コードを保存して実行することで、どのように見えるかを確認できます。
     
     ![](images/parallelogram.png)
 
