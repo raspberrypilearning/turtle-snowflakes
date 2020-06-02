@@ -29,30 +29,30 @@ turtle.Screen().bgcolor("blue")
 
 - 首先您需要導入`random`函式庫：在`import turtle`下一行，輸入`import random` 。
 
-- Next, change the background colour from `"blue"` to `"grey"`.
+- 接下來，將背景色從`“blue”`更改為`“grey” ` 。
 
-- Below that line, create a variable called `colours` to store a list of the colours to select from, like this:
+- 下一行，創建一個名為`colours`的變數來儲存要選擇的顏色列表，如下所示：
     
     ```python
     colours = ["cyan", "purple", "white", "blue"]
     ```
 
-- At the end of the spiral loop, below `elsa.right(36)`, type:
+- 在螺旋迴圈的最後面，在`elsa.right(36)`下方 ，輸入：
     
     ```python
     elsa.color(random.choice(colours))  
     ```
     
-    **Note**: make sure this line is also indented, so that your program knows it's within the loop.
+    **注意** ：請確保此行已經縮排，好讓這段程式碼能在迴圈內被辨識。
 
-- Save and run your code for a multi-coloured snowflake!
+- 儲存並執行程式碼以生成彩色的雪花！
 
 ![](images/colour-list.png)
 
 ## \--- collapse \---
 
-## title: More colours
+## 主題：更多的顏色
 
-There are a lot more colours you can choose from! Have a look at [this website](https://wiki.tcl.tk/37701) for a complete list.
+您可以選擇更多顏色！ 查看[這個網站](https://wiki.tcl.tk/37701)一個完整的清單。
 
 \--- /collapse \---
