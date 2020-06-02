@@ -15,7 +15,7 @@
 
 雪の結晶の枝を一本描くコードを書いて**関数**の中に入れましょう。 そうすれば、これを繰り返して使うことで、完全な雪の結晶を作成できます。
 
-![branch](images/branch.PNG)
+![枝](images/branch.PNG)
 
 - 次のように入力して`branch`という名前の関数を定義します。
     
@@ -40,7 +40,7 @@
     
     **注意**：インデントが重要であることを忘れないでください。 すべてのインデントが正しいことを確認してください。そうでなければ、コードが動作しません！
 
-- コードの最後に`branch`関数を8回**呼び出す**（関数を実行することを意味します）コードを書きます。 You can use a loop again as for your last snowflake:
+- コードの最後に`branch`関数を8回**呼び出す**（関数を実行することを意味します）コードを書きます。 前回の雪の結晶のときと同じように、もう一度ループを使います。
     
     ```python
     for i in range(8):
@@ -48,8 +48,8 @@
       elsa.left(45)
     ```
 
-- Put a `#` at the start of the `elsa.color(random.choice(colours))` instruction to turn it into a **comment**. This means that the computer will skip that line of code. You could delete the line, but you might want to use it to add colour to your snowflake later on.
+- `elsa.color(random.choice(colors))`命令の先頭に`#`を入力して**コメント**にします。 これは、コンピュータがそのコード行をスキップすることを意味します。 行を削除することもできますが、後で雪の結晶に色を追加したくなるかもしれません。
 
-- Save and run your code, and a snowflake should appear before your eyes!
+- コードを保存して実行すると、目の前に雪の結晶が現れます！
 
 ![](images/snowflake2.png)
