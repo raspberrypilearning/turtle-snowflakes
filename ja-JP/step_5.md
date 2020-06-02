@@ -1,8 +1,8 @@
-## Using loops to create shapes
+## ループを使って図形を作成する
 
-To create a square, you have repeated some lines of code. This is not the most efficent way of doing it. Instead of typing out many lines of code, it's easier to use a loop.
+正方形を作成するのに、何行かコードを繰り返しました。 これは、最も効率的な方法ではありません。 コードを何行も入力するかわりに、ループを使用する方が簡単です。
 
-Instead of code to create a square like this:
+正方形を作成する次のようなコード：
 
 ```python
 elsa.forward(100)
