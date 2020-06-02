@@ -17,13 +17,13 @@
 
 ![branch](images/branch.PNG)
 
-- Define a function called `branch` by typing:
+- 次のように入力して`branch`という名前の関数を定義します。
     
     ```python
     def branch():
     ```
 
-- Remove the code for the parallelogram snowflake loops. Add the following code indented inside the `branch` function:
+- 平行四辺形を使って雪の結晶を描くループのコードを削除します。 `branch`関数内にインデントされた次のコードを追加します：
     
     ```python
     for i in range(3):
@@ -38,9 +38,9 @@
     elsa.forward(90)
     ```
     
-    **Note**: Remember that indentation is important. Make sure to check that all your indentation is correct, otherwise your code won't work!
+    **注意**：インデントが重要であることを忘れないでください。 すべてのインデントが正しいことを確認してください。そうでなければ、コードが動作しません！
 
-- Write a final section of code to **call** the `branch` function (which means to run it) eight times. You can use a loop again as for your last snowflake:
+- コードの最後に`branch`関数を8回**呼び出す**（関数を実行することを意味します）コードを書きます。 You can use a loop again as for your last snowflake:
     
     ```python
     for i in range(8):
