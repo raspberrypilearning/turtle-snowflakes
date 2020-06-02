@@ -1,4 +1,4 @@
-## How to draw with Python Turtle
+## Pythonタートルで描く方法
 
 + Open the [blank Python template trinket](http://jumpto.cc/python-new).
 
