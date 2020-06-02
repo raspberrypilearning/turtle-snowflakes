@@ -1,10 +1,10 @@
-## Using a function to draw a snowflake
+## 使用函數來繪製雪花
 
-Your parallelogram snowflake is cool, but it does not look as snowflake-like as it could. Let's fix that!
+您用平行四邊形做的雪花很酷，但看起來還沒有雪花的樣子， 來修改一下！
 
-For this drawing, we need to move the turtle from the centre of the window. The `penup()` and `pendown()` instructions let us do this without drawing a line, just like picking up a real pen from the paper and moving it somewhere else to start writing.
+為了完成雪花，我們需要先將烏龜從視窗的中心點移開， `penup()`和`pendown()`指令能讓我們無需畫線做到這一點，就像實際上在紙上提起筆尖並將筆移到其他位置開始書寫。
 
-- Type the following instructions below the `colours` list:
+- 在`colours`清單之後輸入以下指令：
     
     ```python
     elsa.penup()
@@ -13,17 +13,17 @@ For this drawing, we need to move the turtle from the centre of the window. The 
     elsa.pendown()
     ```
 
-Let's write the code to draw one branch of a snowflake, and store it inside a **function**. Then you can simply repeat it over and over to create a complete snowflake.
+讓我們寫一段程式碼畫出一部分的雪花，並儲存成一段**function**， 這樣子您就可以輕鬆地重複該函式並製作出完整的雪花了。
 
-![branch](images/branch.PNG)
+![分支](images/branch.PNG)
 
-- Define a function called `branch` by typing:
+- 輸入以下程式碼來定義一個名為`branch`分支的函式：
     
     ```python
     def branch():
     ```
 
-- Remove the code for the parallelogram snowflake loops. Add the following code indented inside the `branch` function:
+- 從迴圈中移除製作平行四邊形雪花的程式碼片段， 在`branch`函式內添加下列已縮排過的代碼：
     
     ```python
     for i in range(3):
