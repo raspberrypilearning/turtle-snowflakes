@@ -2,7 +2,7 @@
 
 正方形はもう十分です！ いくつかの異なる形を作成し、それらを繰り返して雪の結晶のようなうずまきを作りましょう。
 
-- 正方形を描くコードを以下に置き換えてください。
+- 正方形を描くコードを以下に置き換えてください：
     
     ```python
     for i in range(2):
@@ -16,22 +16,22 @@
     
     ![](images/parallelogram.png)
 
-You can put loops inside of other loops. This is good news for us, as we can do this to easily make a drawing that looks like a snowflake.
+ループを他のループの中に入れることもできます。 これは良い知らせです。これで雪の結晶のような図形を簡単に作ることができます。
 
-- Above the line `for i in range(2):` for your parallelogram, type:
+- 平行四辺形のコードの`for i in range(2):`の行の上に、次のように入力します：
     
     ```python
     for i in range(10):
     ```
     
-    How many times will this loop go round?
+    このループは何回繰り返されますか？
 
-- Move your cursor to the line below your sequence of code, and press the space bar four times to **indent** the code you're about to write. Indentation in Python is very important to ensure that your code works as you expect! Now type:
+- カーソルを一連のコード行の下に移動し、スペースバーを4回押して入力しようとしているコードを**インデント**します。 Pythonのインデントは、あなたのコードが期待どおりに動作するようにするために非常に重要です。 次のように入力します：
     
     ```python
     elsa.right(36)
     ```
 
-- Save and run your code to see what happens. You should see a drawing like this:
+- プログラムを保存して実行し、何が起こるかを確認します。 次のような図形が表示されます：
     
     ![](images/snowflake1.png)
