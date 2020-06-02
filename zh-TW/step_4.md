@@ -1,37 +1,37 @@
-## How to turn with Python Turtle
+## 如何使用Python Turtle來轉彎
 
-Your turtle is only moving in one direction so far. This is good news if you want to draw a straight line, but to draw a shape such as a square, your turtle is going to have to turn.
+到目前為止，您的烏龜只向一個方向移動， 如果您只想畫出一條直線，恭喜，但要畫一個正方形就得讓您的烏龜轉彎。
 
-- Below the line `elsa.forward(100)` in your Python code, add:
+- 在`elsa.forward(100)`這一行下方，添加一段：
     
     ```python
     elsa.right(90)
     ```
     
-    **Note:** Turtle uses angles in degrees. There are 360 degrees in a circle. How many degrees does the right angle of a square have? That's right: 90. The value `90` inside the brackets in `elsa.right(90)` is in degrees. So this line is telling your turtle to turn right by 90 degrees.
+    **注意：**Turtle使用度數表示角度， 因為一圈共360度， 那正方形的直角是幾度呢？ 沒錯：90度， 在`elsa.right(90)`的括號內的數值`90`代表九十度， 因此，這行程式碼在告訴您的烏龜要向右轉90度。
 
-- Add another instruction below to move your turtle forward by 100:
+- 在下面添加另一條指令，讓您的烏龜向前移動100步：
     
     ```python
     elsa.forward(100)
     ```
 
-- Save and run your code to see what happens.
+- 儲存並執行您的程式碼來看發生了什麼事。
 
-You are on your way to creating a square! What do you need to add to your code in order to complete the square?
+您正在創造一個正方形！ 為了完成正方形，您還需要在程式中添加什麼程式碼？
 
 \--- hints \---
 
 \--- hint \---
 
-Try adding the following code and running you program:
+試試看添加以下程式碼並運行程序：
 
 ```python
 elsa.right(90)
 elsa.forward(100)
 ```
 
-What was the result? How can you finish the shape to draw a square?
+結果是什麼呢？ 您能如何完成正方形的形狀呢？
 
 \--- /hint \---
 
