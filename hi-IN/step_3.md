@@ -1,6 +1,6 @@
 ## Python Turtle के साथ कैसे बनाएँ
 
-+ [blank Python template trinket](http://jumpto.cc/python-new) खोलें।
++ [रिक्त पायथन टेम्पलेट ट्रिंकेट खोलें](http://jumpto.cc/python-new)।
 
 + दिखाई देने वाली विंडो में निम्न टाइप करें:
     
