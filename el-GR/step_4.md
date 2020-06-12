@@ -1,37 +1,37 @@
-## How to turn with Python Turtle
+## Πώς να στρίψεις με την Python Turtle
 
-Your turtle is only moving in one direction so far. This is good news if you want to draw a straight line, but to draw a shape such as a square, your turtle is going to have to turn.
+Η χελώνα σου κινείται προς μόνο μία κατεύθυνση μέχρι στιγμής. Αυτά είναι καλό αν θέλεις να σχεδιάσεις μια ευθεία γραμμή, αλλά για να σχεδιάσεις ένα σχήμα όπως ένα τετράγωνο, η χελώνα σου θα πρέπει να στρίψει.
 
-- Below the line `elsa.forward(100)` in your Python code, add:
+- Κάτω από τη γραμμή ` elsa.forward (100) ` στον κώδικα Python, πρόσθεσε:
     
     ```python
     elsa.right(90)
     ```
     
-    **Note:** Turtle uses angles in degrees. There are 360 degrees in a circle. How many degrees does the right angle of a square have? That's right: 90. The value `90` inside the brackets in `elsa.right(90)` is in degrees. So this line is telling your turtle to turn right by 90 degrees.
+    ** Σημείωση: ** Η χελώνα χρησιμοποιεί μοίρες για τις γωνίες. Υπάρχουν 360 μοίρες σε έναν κύκλο. Πόσες μοίρες έχει η ορθή γωνία ενός τετραγώνου; Σωστά: 90. Η τιμή `90` μέσα στις παρενθέσεις στην γραμμή `elsa.right(90)` είναι σε μοίρες. Έτσι, αυτή η γραμμή λέει στη χελώνα σου να στρίψει δεξιά κατά 90 μοίρες.
 
-- Add another instruction below to move your turtle forward by 100:
+- Πρόσθεσε μια άλλη οδηγία από κάτω για να μετακινήσεις τη χελώνα σου προς τα εμπρός κατά 100:
     
     ```python
-    elsa.forward(100)
+    elsa.forward (100)
     ```
 
-- Save and run your code to see what happens.
+- Αποθήκευσε και εκτέλεσε τον κώδικά σου για να δεις τι συμβαίνει.
 
-You are on your way to creating a square! What do you need to add to your code in order to complete the square?
+Πρόκειται να δημιουργήσεις ένα τετράγωνο! Τι πρέπει να προσθέσεις στον κώδικά σου για να ολοκληρώσεις το τετράγωνο;
 
 \--- hints \---
 
 \--- hint \---
 
-Try adding the following code and running you program:
+Δοκίμασε να προσθέσεις τον ακόλουθο κώδικα και να εκτελέσεις το πρόγραμμά σου:
 
 ```python
 elsa.right(90)
 elsa.forward(100)
 ```
 
-What was the result? How can you finish the shape to draw a square?
+Ποιο ήταν το αποτέλεσμα; Πώς μπορείς να ολοκληρώσεις το σχήμα για να σχεδιάσεις ένα τετράγωνο;
 
 \--- /hint \---
 
