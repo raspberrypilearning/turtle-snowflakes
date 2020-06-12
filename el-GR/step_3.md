@@ -4,7 +4,7 @@
 
 + Πληκτρολόγησε τα ακόλουθα στο παράθυρο που εμφανίζεται:
     
-    ![screenshot](images/trinket.PNG)
+    ![στιγμιότυπο οθόνης](images/trinket.PNG)
     
     Η γραμμή `#!/Bin/python3` λέει απλά στο υπολογιστή σου ότι χρησιμοποιούμε την Python 3 (την τελευταία έκδοση της Python).
 
@@ -16,20 +16,20 @@
     elsa = turtle.Turtle()
     ```
 
-+ Τώρα μπορείς να πεις στη χελώνα σου τι να κάνει, για παράδειγμα, να προχωρήσει προς τα εμπρός ` 100 `. Give it a go!
++ Τώρα μπορείς να πεις στη χελώνα σου τι να κάνει, για παράδειγμα, να προχωρήσει προς τα εμπρός ` 100 `. Δοκίμασέ το!
     
     ```python
-    elsa.forward(100)
+    elsa.forward (100)
     ```
 
-+ Click on **Run** to run your first Turtle program. What happens?
++ Κάνε κλικ στο ** Run** για να εκτελέσεις το πρώτο σου πρόγραμμα με την Turtle. Τι συνέβη;
     
     ![](images/import-turtle.png)
 
-**You don't need a Trinket account to save your projects!**
+**Δεν χρειάζεσαι λογαριασμό Trinket για να αποθηκεύσεις τα έργα σου!**
 
-If you don't have a Trinket account, click the down arrow and then click **Link**. This will give you a link that you can save and come back to later. Just remember that you'll need to do this every time you make changes to your code, as the link will change!
+Εάν δεν διαθέτεις λογαριασμό Trinket, κάνε κλικ στο κάτω βέλος και, στη συνέχεια, κάνε κλικ στην επιλογή **Link**. Αυτό θα σου δώσει έναν σύνδεσμο που μπορείς να αποθηκεύσεις και να επιστρέψεις αργότερα. Απλώς θυμήσου ότι θα πρέπει να το κάνεις αυτό κάθε φορά που κάνεις αλλαγές στο πρόγραμμά σου, καθώς ο σύνδεσμος θα αλλάξει!
 
-![screenshot](images/trinket-link.PNG)
+![στιγμιότυπο οθόνης](images/trinket-link.PNG)
 
-If you have a Trinket account, you can click **Remix** to save your own copy of the trinket.
+Αν έχεις λογαριασμό Trinket, μπορείς να κάνεις κλικ στο **Remix** για να αποθηκεύσεις το δικό σου αντίγραφο του Trinket.
