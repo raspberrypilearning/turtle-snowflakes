@@ -1,22 +1,22 @@
-## How to draw with Python Turtle
+## Πώς σχεδιάζεις με την Python Turtle
 
-+ Open the [blank Python template trinket](http://jumpto.cc/python-new).
++ Άνοιξε το [κενό αρχείο Python](http://jumpto.cc/python-new).
 
-+ Type the following into the window that appears:
++ Πληκτρολόγησε τα ακόλουθα στο παράθυρο που εμφανίζεται:
     
     ![screenshot](images/trinket.PNG)
     
-    The line `#!/bin/python3` just tells your computer that we're using Python 3 (the latest version of Python).
+    Η γραμμή `#!/Bin/python3` λέει απλά στο υπολογιστή σου ότι χρησιμοποιούμε την Python 3 (την τελευταία έκδοση της Python).
 
-+ To begin using Turtle in Python, you need to import the Turtle library. At the top of the text editor window, type `import turtle`.
++ Για να ξεκινήσεις να χρησιμοποιείς την Turtle στην Python, πρέπει να εισάγεις τη βιβλιοθήκη Turtle. At the top of the text editor window, type `import turtle`.
 
-+ Time to give your turtle a name! You can use a variable to do this. I'm naming my turtle `elsa`, but you can name yours whatever you like.
++ Ώρα να δώσεις ένα όνομα στη χελώνα σου! Μπορείς να χρησιμοποιήσεις μια μεταβλητή για να το κάνεις αυτό. I'm naming my turtle `elsa`, but you can name yours whatever you like.
     
     ```python
     elsa = turtle.Turtle()
     ```
 
-+ Now you can tell your turtle what to do, for example, to move forward `100`. Give it a go!
++ Τώρα μπορείς να πεις στη χελώνα σου τι να κάνει, για παράδειγμα, να προχωρήσει προς τα εμπρός ` 100 `. Give it a go!
     
     ```python
     elsa.forward(100)
