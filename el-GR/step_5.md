@@ -1,8 +1,8 @@
-## Using loops to create shapes
+## Χρησιμοποιώντας βρόχους για τη δημιουργία σχημάτων
 
-To create a square, you have repeated some lines of code. This is not the most efficent way of doing it. Instead of typing out many lines of code, it's easier to use a loop.
+Για να δημιουργήσεις ένα τετράγωνο, έχεις επαναλάβει κάποιες γραμμές κώδικα. Αυτός δεν είναι ο πιο αποτελεσματικός τρόπος για να κάνεις το τετράγωνο. Αντί να πληκτρολογείς πολλές γραμμές κώδικα, είναι πιο εύκολο να χρησιμοποιήσεις ένα βρόχο.
 
-Instead of code to create a square like this:
+Αντί για κώδικα για να δημιουργήσεις ένα τετράγωνο έτσι:
 
 ```python
 elsa.forward(100)
@@ -14,7 +14,7 @@ elsa.right(90)
 elsa.forward(100)
 ```
 
-You can type:
+Μπορείς να πληκτρολογήσεις:
 
 ```python
 for i in range(4):
@@ -22,6 +22,6 @@ for i in range(4):
   elsa.right(90)
 ```
 
-Try it yourself, and see what happens when you save and run your code.
+Δοκίμασέ το μόνος σου, και δες τι συμβαίνει όταν αποθηκεύσεις και εκτελείς τον κώδικά σου.
 
 ![](images/turtle-loop.png)
