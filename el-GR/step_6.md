@@ -1,8 +1,8 @@
-## Creating spiral patterns
+## Δημιουργία σπειροειδών σχεδίων
 
-Enough squares! Let's create some different shapes and repeat them to make a snowflake-like spiral.
+Αρκετά με τα τετράγωνα! Ας δημιουργήσουμε διαφορετικά σχήματα και να τα επαναλάβουμε για να φτιάξουμε μια σπείρα σαν νιφάδα χιονιού.
 
-- Replace the code for your square with the following:
+- Αντικατάστησε τον κώδικα για το τετράγωνό σου με τα εξής:
     
     ```python
     for i in range(2):
@@ -12,26 +12,26 @@ Enough squares! Let's create some different shapes and repeat them to make a sno
       elsa.right(120)
     ```
     
-    This will draw a shape called a parallelogram. You can see what it looks like by saving and running your code.
+    Αυτό θα σχεδιάσει ένα σχήμα που ονομάζεται παραλληλόγραμμο. Μπορείς να δεις πώς φαίνεται αποθηκεύοντας και εκτελώντας τον κώδικά σου.
     
     ![](images/parallelogram.png)
 
-You can put loops inside of other loops. This is good news for us, as we can do this to easily make a drawing that looks like a snowflake.
+Μπορείς να βάλεις βρόχους μέσα σε άλλους βρόχους. Αυτά είναι καλά νέα για εμάς, καθώς μπορούμε να το κάνουμε αυτό για να κάνουμε εύκολα ένα σχέδιο που να μοιάζει με νιφάδα χιονιού.
 
-- Above the line `for i in range(2):` for your parallelogram, type:
+- Πάνω από τη γραμμή `for i in range(2):` για το παραλληλόγραμμό σου, πληκτρολόγησε:
     
     ```python
     for i in range(10):
     ```
     
-    How many times will this loop go round?
+    Πόσες φορές θα επαναληφθεί αυτός ο βρόχος;
 
-- Move your cursor to the line below your sequence of code, and press the space bar four times to **indent** the code you're about to write. Indentation in Python is very important to ensure that your code works as you expect! Now type:
+- Μετακίνησε τον δείκτη στη γραμμή κάτω από τον κώδικά σου και πάτησε το πλήκτρο διαστήματος τέσσερις φορές για να **κάνεις εσοχή** στον κώδικα που πρόκειται να γράψεις. Η εσοχή στο Python είναι πολύ σημαντική για να διασφαλιστεί ότι ο κώδικάς σας λειτουργεί όπως περιμένεις! Τώρα πληκτρολόγησε:
     
     ```python
     elsa.right(36)
     ```
 
-- Save and run your code to see what happens. You should see a drawing like this:
+- Αποθήκευσε και εκτέλεσε τον κώδικά σου για να δεις τι συμβαίνει. Θα πρέπει να δεις ένα σχέδιο σαν κι αυτό:
     
     ![](images/snowflake1.png)
