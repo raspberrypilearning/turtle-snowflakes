@@ -1,7 +1,7 @@
 ---
-title: Turtle snowflakes
+title: Νιφάδες χιονιού με τη χελώνα
 hero_image: images/banner.png
-description: Write code to draw snowflakes with Python Turtle
+description: Γράψε κώδικα για να σχεδιάσεις νιφάδες χιονιού με την Python Turtle
 original_url: https://raspberrypi.org/learning/turtle-snowflakes
 theme: navy
 duration: 1
@@ -18,20 +18,20 @@ version: 4
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: Εισαγωγή
   - 
-    title: What you will need
+    title: Τι θα χρειαστείς
   - 
-    title: How to draw with Python Turtle
+    title: Πώς να σχεδιάσεις με την Python Turtle
   - 
-    title: How to turn with Python Turtle
+    title: Πώς να στρίψεις με την Python Turtle
   - 
-    title: Using loops to create shapes
+    title: Χρησιμοποιώντας βρόχους για τη δημιουργία σχημάτων
   - 
-    title: Creating spiral patterns
+    title: Δημιουργία σπειροειδών σχεδίων
   - 
-    title: Changing the pen colour randomly
+    title: Αλλαγή του χρώματος της πένας τυχαία
   - 
-    title: Using a function to draw a snowflake
+    title: Χρησιμοποιώντας συνάρτηση για να σχεδιάσετε μια νιφάδα χιονιού
   - 
-    title: "Challenge: every snowflake is different"
+    title: "Πρόκληση: κάθε νιφάδα χιονιού είναι διαφορετική"
