@@ -1,37 +1,37 @@
-## How to turn with Python Turtle
+## Python 터틀 그래픽으로 회전시키는 방법
 
-Your turtle is only moving in one direction so far. This is good news if you want to draw a straight line, but to draw a shape such as a square, your turtle is going to have to turn.
+지금까지 여러분의 거북이는 한 방향으로만 움직이고 있습니다. 직선만 그린다면 괜찮을 수 있지만 사각형과 같은 모양을 그리기 위해서는 거북이를 회전시켜야 합니다.
 
-- Below the line `elsa.forward(100)` in your Python code, add:
+- `elsa.forward(100)` 아래에 다음 코드를 추가하세요:
     
     ```python
     elsa.right(90)
     ```
     
-    **Note:** Turtle uses angles in degrees. There are 360 degrees in a circle. How many degrees does the right angle of a square have? That's right: 90. The value `90` inside the brackets in `elsa.right(90)` is in degrees. So this line is telling your turtle to turn right by 90 degrees.
+    **참고:** 터틀 그래픽은 도 단위(60분법)를 사용합니다. 원의 각도는 360도 입니다. 사각형의 직각은 몇 도인가요? 맞아요: 90도입니다. `elsa.right(90)`에서 괄호 안에 있는 `90`의 값은 도(60분법)입니다. 따라서 이 코드는 거북이에게 90도 회전하라고 지시합니다.
 
-- Add another instruction below to move your turtle forward by 100:
+- 거북이가 앞으로 100만큼 가기 위해서 아래에 새로운 명령을 추가하세요:
     
     ```python
     elsa.forward(100)
     ```
 
-- Save and run your code to see what happens.
+- 코드를 저장하고 실행하여 결과를 확인하세요.
 
-You are on your way to creating a square! What do you need to add to your code in order to complete the square?
+여러분은 지금 사각형을 만들고 있습니다! 사각형을 완성하려면 코드에 무엇을 추가해야 할까요?
 
 \--- hints \---
 
 \--- hint \---
 
-Try adding the following code and running you program:
+다음 코드를 추가하고 프로그램을 실행하세요:
 
 ```python
 elsa.right(90)
 elsa.forward(100)
 ```
 
-What was the result? How can you finish the shape to draw a square?
+결과가 어떤가요? 어떻게 하면 사각형을 그릴 수 있을까요?
 
 \--- /hint \---
 
