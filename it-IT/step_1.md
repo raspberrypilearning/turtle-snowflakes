@@ -1,23 +1,23 @@
-## Introduction
+## Introduzione
 
-Create a beautiful landscape of snowflakes using Python Turtle. This is great fun and a great way to start learning how to code with Python.
+Crea un bellissimo paesaggio di fiocchi di neve usando Python Turtle. Questo è un ottimo modo, molto divertente per iniziare a imparare a programmare con Python.
 
-## What you will make
+## Che cosa creerai
 
-Digital snowflakes out of code, like this one:
+Fiocchi di neve digitali fuori codice, come questo:
 
-![snowflake](images/makeasnowflake.png)
+![fiocco di neve](images/makeasnowflake.png)
 
-## What you will learn
+## Che cosa imparerai
 
-By making snowflakes with code you will learn how to:
+Facendo fiocchi di neve con il codice imparerai a:
 
-- Draw lines and make turns with Python Turtle
-- Change the pen colour randomly
-- Use loops to repeat some instructions and create shapes
-- Use more loops to create spiral patterns
-- Create a function to draw a snowflake
+- Disegnare linee e ruotare con Python Turtle
+- Cambiare il colore della penna in modo casuale
+- Usa i cicli per ripetere alcune istruzioni e creare forme
+- Usa più cicli per creare motivi a spirale
+- Creare una funzione per disegnare un fiocco di neve
 
-This resource covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/):
+Questo progetto include elementi tratti dalle seguenti componenti del [Digital Making Curriculum di Raspberry Pi](https://www.raspberrypi.org/curriculum/):
 
-- [Combine programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder)
+- [Combinare i costrutti base di un linguaggio di programmazione per risolvere un problema](https://www.raspberrypi.org/curriculum/programming/builder)
