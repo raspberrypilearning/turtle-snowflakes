@@ -10,28 +10,28 @@ La tua tartaruga si è mosso solo in una direzione finora. Questa è una buona c
     
     **Nota:** La tartaruga usa angoli in gradi. Ci sono 360 gradi in una circonferenza. Quanti gradi ha l'angolo retto di un quadrato? Esatto: 90. Il valore `90` all'interno delle parentesi in `elsa.right(90)` è in gradi. Quindi questa linea sta dicendo alla tartaruga di girare a destra di 90 gradi.
 
-- Add another instruction below to move your turtle forward by 100:
+- Aggiungi un'altra istruzione qui sotto per spostare la tartaruga in avanti di 100:
     
     ```python
     elsa.forward(100)
     ```
 
-- Save and run your code to see what happens.
+- Salva ed esegui il tuo codice per vedere cosa succede.
 
-You are on your way to creating a square! What do you need to add to your code in order to complete the square?
+Stai per creare un quadrato! Cosa devi aggiungere al tuo codice per completare il quadrato?
 
 \--- hints \---
 
 \--- hint \---
 
-Try adding the following code and running you program:
+Prova ad aggiungere il seguente codice ed esegui il programma:
 
 ```python
 elsa.right(90)
 elsa.forward(100)
 ```
 
-What was the result? How can you finish the shape to draw a square?
+Qual è stato il risultato? Come si può finire la forma per disegnare un quadrato?
 
 \--- /hint \---
 
