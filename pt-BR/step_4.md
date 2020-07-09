@@ -1,37 +1,37 @@
-## How to turn with Python Turtle
+## Como virar com Python Turtle
 
-Your turtle is only moving in one direction so far. This is good news if you want to draw a straight line, but to draw a shape such as a square, your turtle is going to have to turn.
+Sua tartaruga está se movendo apenas em uma direção até agora. Esta é uma boa notícia se você quiser desenhar uma linha reta, mas para desenhar uma forma como um quadrado, sua tartaruga terá que virar.
 
-- Below the line `elsa.forward(100)` in your Python code, add:
+- Abaixo da linha ` elsa.forward (100) ` no seu código Python, adicione:
     
     ```python
     elsa.right(90)
     ```
     
-    **Note:** Turtle uses angles in degrees. There are 360 degrees in a circle. How many degrees does the right angle of a square have? That's right: 90. The value `90` inside the brackets in `elsa.right(90)` is in degrees. So this line is telling your turtle to turn right by 90 degrees.
+    **Nota:** Turtle usa ângulos em graus. Existem 360 graus em um círculo. Quantos graus tem o ângulo reto de um quadrado? É isso mesmo: 90. O valor `90` dentro dos parênteses em `elsa.right(90)` está em graus. Então esta linha está dizendo à sua tartaruga para virar 90 graus à direita.
 
-- Add another instruction below to move your turtle forward by 100:
+- Adicione outra instrução abaixo para mover sua tartaruga para frente em 100:
     
     ```python
     elsa.forward(100)
     ```
 
-- Save and run your code to see what happens.
+- Salve e execute seu código para ver o que acontece.
 
-You are on your way to creating a square! What do you need to add to your code in order to complete the square?
+Você está a caminho de criar um quadrado! O que você precisa adicionar ao seu código para completar o quadrado?
 
 \--- hints \---
 
 \--- hint \---
 
-Try adding the following code and running you program:
+Tente adicionar o seguinte código e executar seu programa:
 
 ```python
 elsa.right(90)
 elsa.forward(100)
 ```
 
-What was the result? How can you finish the shape to draw a square?
+Qual foi o resultado? Como você pode terminar a forma para desenhar um quadrado?
 
 \--- /hint \---
 
