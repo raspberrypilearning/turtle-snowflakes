@@ -48,8 +48,8 @@ Scriviamo il codice per disegnare un ramo di un fiocco di neve, e memorizzalo al
       elsa.left(45)
     ```
 
-- Inserisci un `#` all'inizio dell'istruzione `elsa.color(random.choice (colours)) ` per trasformarlo in un **commento**. Ciò significa che il computer salterà quella riga di codice, non eseguendola. Puoi cancellare la linea ma, più tardi, potresti utilizzarla per aggiungere colore al tuo fiocco di neve.
+- Inserisci un `#` all'inizio dell'istruzione `elsa.color(random.choice (colours)) ` per trasformarlo in un **commento**. Ciò significa che il computer salterà quella riga di codice, non eseguendola. Puoi cancellare la linea ma, più tardi, potresti volerla usare per aggiungere colore al tuo fiocco di neve.
 
-- Save and run your code, and a snowflake should appear before your eyes!
+- Salva ed esegui il tuo codice e un fiocco di neve dovrebbe apparire davanti ai tuoi occhi!
 
 ![](images/snowflake2.png)
