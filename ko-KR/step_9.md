@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: every snowflake is different
+## 도전과제: 모두 다른 눈송이
 
-- Can you uncomment the random colour instruction and place it in the function, so that each branch has a different colour?
-- Can you create a snowflake function and then repeat it all over the window to create a snowflake landscape?
-- Can you draw snowflakes of different colours and different sizes, like those in Carrie Anne's video [Make snowflakes with code](https://www.youtube.com/watch?v=DHmeX7YTHBY)?
+- 랜덤 색상 설정 코드의 주석을 해제하여 함수 안에 넣어서 각 부분마다 다른 색상을 가지도록 할 수 있나요?
+- 눈송이 함수를 만들어 창 전체에서 반복하여 눈송이 경관을 만들 수 있나요?
+- 캐리 앤의 비디오인 [코드로 눈송이 만들기](https://www.youtube.com/watch?v=DHmeX7YTHBY)처럼 각각 다른 색깔과 다른 크기의 눈송이를 그릴 수 있나요?
 
 \--- /challenge \---
