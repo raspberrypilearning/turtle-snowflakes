@@ -28,8 +28,8 @@
 
 **Non hai bisogno di un account Trinket per salvare i tuoi progetti!**
 
-Se non hai un account Trinket, fai click sulla freccia che punta verso il basso e clicca su **Link**. Questo comando ti darà un link che puoi salvare e che potrai aprire nuovamente più tardi. Just remember that you'll need to do this every time you make changes to your code, as the link will change!
+Se non hai un account Trinket, fai click sulla freccia che punta verso il basso e clicca su **Link**. Questo comando ti darà un link che puoi salvare e che potrai aprire nuovamente più tardi. Ricorda solo che dovrai farlo ogni volta che modifichi il tuo codice, poiché il collegamento cambierà!
 
 ![screenshot](images/trinket-link.PNG)
 
-If you have a Trinket account, you can click **Remix** to save your own copy of the trinket.
+Se hai un account Trinket, puoi cliccare su **Remix** per salvare la tua copia del trinket.
