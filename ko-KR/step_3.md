@@ -1,35 +1,35 @@
-## How to draw with Python Turtle
+## Python 터틀 그래픽으로 그리는 방법
 
-+ Open the [blank Python template trinket](http://jumpto.cc/python-new).
++ [빈 Python trinket 템플릿](http://jumpto.cc/python-new)을 여세요.
 
-+ Type the following into the window that appears:
++ 나타나는 창에 다음을 입력 해 보세요.
     
-    ![screenshot](images/trinket.PNG)
+    ![스크린샷](images/trinket.PNG)
     
-    The line `#!/bin/python3` just tells your computer that we're using Python 3 (the latest version of Python).
+    `#!/bin/python3`이라는 Code는 우리가 Python 3(Python의 가장 최신 버전) 을 사용하고 있다는 것을 알려줍니다.
 
-+ To begin using Turtle in Python, you need to import the Turtle library. At the top of the text editor window, type `import turtle`.
++ Python에서 터틀 그래픽을 사용하기 위해서 터틀 라이브러리를 불러와야 합니다. 텍스트 편집기 창 상단에 `import turtle`을 입력하세요.
 
-+ Time to give your turtle a name! You can use a variable to do this. I'm naming my turtle `elsa`, but you can name yours whatever you like.
++ 이제 거북이에 이름을 지어줄 시간입니다! 변수를 사용해서 이름을 지을 수 있습니다. 저는 제 거북이 이름을 `엘사`라고 지었지만 여러분이 원하는 이름으로 지어도 됩니다.
     
     ```python
     elsa = turtle.Turtle()
     ```
 
-+ Now you can tell your turtle what to do, for example, to move forward `100`. Give it a go!
++ 이제 거북이에게 명령을 시킬 수 있습니다. 예를 들어, 앞으로 `100`만큼 가도록 시킬 수 있습니다. 한번 써보세요!
     
     ```python
     elsa.forward(100)
     ```
 
-+ Click on **Run** to run your first Turtle program. What happens?
++ 여러분의 첫번째 터틀 프로그램을 실행하려면 **Run**을 클릭하세요. 어떤 일이 일어나나요?
     
     ![](images/import-turtle.png)
 
-**You don't need a Trinket account to save your projects!**
+**프로젝트를 저장하기 위해 Trinket 계정이 필요하지 않습니다!**
 
-If you don't have a Trinket account, click the down arrow and then click **Link**. This will give you a link that you can save and come back to later. Just remember that you'll need to do this every time you make changes to your code, as the link will change!
+Trinket 계정이 없다면 아래쪽 화살표를 클릭 한 다음 **링크**를 클릭하십시오. 이 링크로 진행 중인 프로젝트를 계속 진행할 수 있습니다. 코드를 수정하면 링크도 바뀌기 때문에 이 작업을 매번 해야한다는 것을 기억하세요!
 
-![screenshot](images/trinket-link.PNG)
+![스크린샷](images/trinket-link.PNG)
 
-If you have a Trinket account, you can click **Remix** to save your own copy of the trinket.
+Trinket 계정이 있다면, **Remix**를 클릭해서 복사본을 Trinket에 저장할 수 있습니다.
