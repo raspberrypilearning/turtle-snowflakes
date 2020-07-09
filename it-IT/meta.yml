@@ -3,7 +3,7 @@ title: Fiocchi di tartaruga
 hero_image: images/banner.png
 description: Scrivi il codice per disegnare fiocchi di neve con Python Turtle
 original_url: https://raspberrypi.org/learning/turtle-snowflakes
-theme: navy
+theme: blu marino
 duration: 1
 listed: true
 ingredient: false
@@ -11,7 +11,7 @@ copyedit: true
 curriculum: 2, design-0, programming-2, phys-comp-0, manufacture-0, community-0
 interests: art
 technologies: python
-site_areas: projects
+site_areas: progetti
 hardware: ''
 software: python
 version: 4
@@ -26,12 +26,12 @@ steps:
   - 
     title: Come ruotare con Python Turtle
   - 
-    title: Using loops to create shapes
+    title: Usare i cicli per creare forme
   - 
-    title: Creating spiral patterns
+    title: Creazione modelli a spirale
   - 
-    title: Changing the pen colour randomly
+    title: Cambiare il colore della penna in modo casuale
   - 
-    title: Using a function to draw a snowflake
+    title: Usare una funzione per disegnare un fiocco di neve
   - 
-    title: "Challenge: every snowflake is different"
+    title: "Sfida: ogni fiocco di neve è diverso"
