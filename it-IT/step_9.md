@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: every snowflake is different
+## Sfida: ogni fiocco di neve è diverso
 
-- Can you uncomment the random colour instruction and place it in the function, so that each branch has a different colour?
-- Can you create a snowflake function and then repeat it all over the window to create a snowflake landscape?
-- Can you draw snowflakes of different colours and different sizes, like those in Carrie Anne's video [Make snowflakes with code](https://www.youtube.com/watch?v=DHmeX7YTHBY)?
+- Riesci a togliere i commenti dalle istruzioni che eseguono la scelta dei colori casuali e metterle nella funzione, in modo che ogni ramo abbia un colore diverso?
+- Puoi creare una funzione fiocco di neve e poi ripeterla su tutta la finestra per creare un paesaggio pieno di fiocchi di neve?
+- Riesci a disegnare fiocchi di neve di diversi colori e dimensioni, come quelli nel video di Carrie Anne [Crea fiocchi di neve con il codice](https://www.youtube.com/watch?v=DHmeX7YTHBY)?
 
 \--- /challenge \---
