@@ -1,8 +1,8 @@
-## Creating spiral patterns
+## 나선형 패턴 만들기
 
-Enough squares! Let's create some different shapes and repeat them to make a snowflake-like spiral.
+사각형은 이제 충분합니다! 몇 가지 다른 모양을 만들고 이를 반복해서 눈송이 같이 생긴 나선형 모양을 만들어 봅시다.
 
-- Replace the code for your square with the following:
+- 사각형 코드를 다음 코드로 바꾸세요:
     
     ```python
     for i in range(2):
@@ -12,26 +12,26 @@ Enough squares! Let's create some different shapes and repeat them to make a sno
       elsa.right(120)
     ```
     
-    This will draw a shape called a parallelogram. You can see what it looks like by saving and running your code.
+    이 코드는 평행사변형을 그릴 것입니다. 코드를 저장하고 실행하면 어떤 모습인지 알 수 있습니다.
     
     ![](images/parallelogram.png)
 
-You can put loops inside of other loops. This is good news for us, as we can do this to easily make a drawing that looks like a snowflake.
+반복문 안에 반복문을 넣을 수 있습니다. 이것은 우리가 쉽게 눈송이처럼 보이는 그림을 그릴 수 있기 때문에 우리에게 좋은 소식입니다.
 
-- Above the line `for i in range(2):` for your parallelogram, type:
+- 평행사변형 코드인 `for i in range(2):` 위에 다음을 입력하세요:
     
     ```python
     for i in range(10):
     ```
     
-    How many times will this loop go round?
+    이 반복문은 몇 번 반복할까요?
 
-- Move your cursor to the line below your sequence of code, and press the space bar four times to **indent** the code you're about to write. Indentation in Python is very important to ensure that your code works as you expect! Now type:
+- 커서를 현재 코드 아래의 줄로 이동하고 스페이스바를 네 번 눌러 현재 작성하려고 하는 코드를 **들여쓰기** 합니다. Python에서 들여쓰기는 코드가 예상대로 잘 작동하도록 하는데 매우 중요합니다. 이제 다음을 입력하세요:
     
     ```python
     elsa.right(36)
     ```
 
-- Save and run your code to see what happens. You should see a drawing like this:
+- 코드를 저장하고 실행하여 결과를 확인하세요. 다음과 같은 그림이 보일 것입니다:
     
     ![](images/snowflake1.png)
