@@ -1,23 +1,23 @@
-## Changing the pen colour randomly
+## 랜덤으로 펜 색상을 바꾸기
 
-So far the turtle has been drawing black lines on a white background. Now it's time to add colour!
+지금까지는 거북이는 하얀 배경에 검은 선을 그렸습니다. 이제는 색을 추가할 차례입니다!
 
-- To set the colour of the turtle, move you're cursor below where you named your turtle and before your loops, and type in the following:
+- 거북이의 색을 설정하려면 거북이 이름을 지정한 코드 아래 그리고 반복문 위에 커서를 놓고 다음을 입력하세요:
 
 ```python
 elsa.color("cyan")
 ```
 
-**Note**: The spelling of 'colour' is different in other countries. In the US, it is spelled 'color', and in Python it has to be spelled the American way to work.
+**참고**: 'color'의 철자가 나라마다 다를 수 있습니다. 미국에서는 'color' 라고 표기하기 때문에 Python에서도 미국식으로 입력해야 합니다.
 
-I have chosen to use the colour **cyan**, but you can use any from this list:
+저는 **cyan**색을 사용하기로 했지만 여러분은 다음 목록에서 아무 색이나 사용할 수 있습니다:
 
 - "blue"
 - "magenta"
 - "grey"
 - "purple"
 
-You can also change the colour of the background window. To set the colour of the background, use this instruction below the code you've just written:
+또한 배경 색상을 바꿀 수 있습니다. 배경 색상을 설정하기 위해서 방금 작성한 코드 아래에 다음 코드를 입력하세요:
 
 ```python
 turtle.Screen().bgcolor("blue")
@@ -25,34 +25,34 @@ turtle.Screen().bgcolor("blue")
 
 ![](images/colour.png)
 
-For fun you can add a random colour for your turtle, so that every time you run your code, you will get a slightly different snowflake.
+재미로 여러분은 거북이에 색을 랜덤하게 추가할 수 있습니다. 그래서 여러분이 코드를 실행할 때마다, 약간씩 다른 눈송이를 갖게 될 것입니다.
 
-- First you will need to import the `random` library: below `import turtle`, type `import random`.
+- 먼저 `random` 라이브러리를 불러와야 합니다:`import turtle`아래에 `import random`를 입력하세요.
 
-- Next, change the background colour from `"blue"` to `"grey"`.
+- 그런 다음 배경색을 `"blue"`"에서 `"grey"`으로 변경합니다.
 
-- Below that line, create a variable called `colours` to store a list of the colours to select from, like this:
+- 그 줄 아래에 지정한 색의 리스트를 저장하기 위해서 `colours`라는 변수를 생성합니다.
     
     ```python
     colours = ["cyan", "purple", "white", "blue"]
     ```
 
-- At the end of the spiral loop, below `elsa.right(36)`, type:
+- 나선형 반복문 아래, 즉 `elsa.right(36)` 아래에 입력하세요:
     
     ```python
     elsa.color(random.choice(colours))  
     ```
     
-    **Note**: make sure this line is also indented, so that your program knows it's within the loop.
+    **참고** 이 줄도 들여쓰기 해서 반복문 안에 있다는 것을 프로그램이 인식하도록 하세요.
 
-- Save and run your code for a multi-coloured snowflake!
+- 저장하고 코드를 실행해서 여러가지 색의 눈송이를 보세요!
 
 ![](images/colour-list.png)
 
 ## \--- collapse \---
 
-## title: More colours
+## title: 더 많은 색상
 
-There are a lot more colours you can choose from! Have a look at [this website](https://wiki.tcl.tk/37701) for a complete list.
+더 많은 색상을 선택할 수 있습니다! 모든 리스트를 보려면 [이 웹사이트](https://wiki.tcl.tk/37701)를 참고하세요.
 
 \--- /collapse \---
