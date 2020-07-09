@@ -1,0 +1,28 @@
+---
+title: タートルによる雪の結晶
+hero_image: images/banner.png
+description: Pythonタートルで雪の結晶を描くコードを書く
+original_url: https://raspberrypi.org/learning/turtle-snowflakes
+theme: navy
+duration: 1
+listed: true
+ingredient: false
+copyedit: true
+curriculum: 2, design-0, programming-2, phys-comp-0, manufacture-0, community-0
+interests: art
+technologies: python
+site_areas: projects
+hardware: ''
+software: python
+version: 4
+last_tested: 2017-01-01
+steps:
+  - title: はじめに
+  - title: 必要なもの
+  - title: Pythonタートルで描く方法
+  - title: Pythonタートルの向きを変える方法
+  - title: ループを使って図形を作成する
+  - title: うずまき模様（もよう）を作成する
+  - title: ペンの色をランダムに変更する
+  - title: 関数を使って雪の結晶を描く
+  - title: "チャレンジ：一つずつ違う雪の結晶"
