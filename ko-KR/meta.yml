@@ -1,7 +1,7 @@
 ---
-title: Turtle snowflakes
+title: 터틀 그래픽 눈송이
 hero_image: images/banner.png
-description: Write code to draw snowflakes with Python Turtle
+description: Python 터틀 그래픽으로 눈송이를 그리는 코드 작성하기
 original_url: https://raspberrypi.org/learning/turtle-snowflakes
 theme: navy
 duration: 1
@@ -18,20 +18,20 @@ version: 4
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: 소개
   - 
-    title: What you will need
+    title: 준비물
   - 
-    title: How to draw with Python Turtle
+    title: Python 터틀 그래픽으로 그리는 방법
   - 
-    title: How to turn with Python Turtle
+    title: Python 터틀 그래픽으로 회전시키는 방법
   - 
-    title: Using loops to create shapes
+    title: 반복문을 사용해 모양 만들기
   - 
-    title: Creating spiral patterns
+    title: 나선형 패턴 만들기
   - 
-    title: Changing the pen colour randomly
+    title: 랜덤으로 펜 색상을 바꾸기
   - 
-    title: Using a function to draw a snowflake
+    title: 눈송이를 그리기 위해 함수 사용하기
   - 
-    title: "Challenge: every snowflake is different"
+    title: "도전과제: 모두 다른 눈송이"
