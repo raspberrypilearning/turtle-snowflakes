@@ -1,13 +1,13 @@
-## What you will need
+## 준비물
 
-### Hardware
+### 하드웨어
 
-+ A computer capable of accessing the [trinket.io](https://trinket.io){:target="_blank"} website 
++ [trinket.io](https://trinket.io){:target="_blank"}에 접속 할 수 있는 컴퓨터 
 
-or
+혹은
 
-+ A computer that has Python 3 installed
++ Python 3이 설치된 컴퓨터
 
-### Software
+### 소프트웨어
 
-This project can be completed in a web browser using [trinket.io](https://trinket.io){:target="_blank"}.
+이 프로젝트는 [trinket.io](https://trinket.io){:target="_blank"} 사이트에서 완성할 수 있습니다.
