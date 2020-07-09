@@ -1,8 +1,8 @@
-## Using loops to create shapes
+## Usando laços para criar formas
 
-To create a square, you have repeated some lines of code. This is not the most efficent way of doing it. Instead of typing out many lines of code, it's easier to use a loop.
+Para criar um quadrado, você repetiu algumas linhas de código. Esta não é a maneira mais eficaz de fazê-lo. Em vez de digitar várias linhas de código, é mais fácil usar um laço.
 
-Instead of code to create a square like this:
+Em vez de programar para criar um quadrado como este:
 
 ```python
 elsa.forward(100)
@@ -14,7 +14,7 @@ elsa.right(90)
 elsa.forward(100)
 ```
 
-You can type:
+Você pode digitar:
 
 ```python
 for i in range(4):
@@ -22,6 +22,6 @@ for i in range(4):
   elsa.right(90)
 ```
 
-Try it yourself, and see what happens when you save and run your code.
+Tente você mesmo, e veja o que acontece quando você salva e executa seu código.
 
 ![](images/turtle-loop.png)
