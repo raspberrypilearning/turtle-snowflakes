@@ -1,10 +1,10 @@
-## Using a function to draw a snowflake
+## Usare una funzione per disegnare un fiocco di neve
 
-Your parallelogram snowflake is cool, but it does not look as snowflake-like as it could. Let's fix that!
+Il tuo fiocco di neve a parallelogramma è bello, ma non assomiglia molto a un fiocco di neve. Sistemiamolo!
 
-For this drawing, we need to move the turtle from the centre of the window. The `penup()` and `pendown()` instructions let us do this without drawing a line, just like picking up a real pen from the paper and moving it somewhere else to start writing.
+Per questo disegno, dobbiamo spostare la tartaruga dal centro della finestra. Le istruzioni `penup()` e `pendown()` ci permettono di disegnare una linea, proprio come sollevare una vera penna dal foglio e spostarla da qualche altra parte per iniziare a scrivere.
 
-- Type the following instructions below the `colours` list:
+- Digitare le seguenti istruzioni sotto la lista `colours`:
     
     ```python
     elsa.penup()
@@ -13,17 +13,17 @@ For this drawing, we need to move the turtle from the centre of the window. The 
     elsa.pendown()
     ```
 
-Let's write the code to draw one branch of a snowflake, and store it inside a **function**. Then you can simply repeat it over and over to create a complete snowflake.
+Scriviamo il codice per disegnare un ramo di un fiocco di neve, e memorizzalo all'interno di una **funzione**. A questo punto lo si potrà semplicemente ripetere più e più volte per creare un fiocco di neve completo.
 
 ![branch](images/branch.PNG)
 
-- Define a function called `branch` by typing:
+- Definisci una funzione chiamata `branch` (ramo) digitando:
     
     ```python
     def branch():
     ```
 
-- Remove the code for the parallelogram snowflake loops. Add the following code indented inside the `branch` function:
+- Cancella il codice dei cicli del fiocco di neve a parallelogramma. Aggiungi il seguente codice rientrato all'interno della funzione `branch`:
     
     ```python
     for i in range(3):
@@ -38,9 +38,9 @@ Let's write the code to draw one branch of a snowflake, and store it inside a **
     elsa.forward(90)
     ```
     
-    **Note**: Remember that indentation is important. Make sure to check that all your indentation is correct, otherwise your code won't work!
+    **Nota**: Ricorda che il rientro è importante. Assicurati di controllare che il rientro sia corretto, altrimenti il tuo codice non funzionerà!
 
-- Write a final section of code to **call** the `branch` function (which means to run it) eight times. You can use a loop again as for your last snowflake:
+- Scrivi una sezione finale di codice per **richiamare** la funzione `branch` che verrà eseguita otto volte. Puoi usare di nuovo un ciclo come per il fiocco di neve:
     
     ```python
     for i in range(8):
@@ -48,7 +48,7 @@ Let's write the code to draw one branch of a snowflake, and store it inside a **
       elsa.left(45)
     ```
 
-- Put a `#` at the start of the `elsa.color(random.choice(colours))` instruction to turn it into a **comment**. This means that the computer will skip that line of code. You could delete the line, but you might want to use it to add colour to your snowflake later on.
+- Inserisci un `#` all'inizio dell'istruzione `elsa.color(random.choice (colours)) ` per trasformarlo in un **commento**. Ciò significa che il computer salterà quella riga di codice, non eseguendola. Puoi cancellare la linea ma, più tardi, potresti utilizzarla per aggiungere colore al tuo fiocco di neve.
 
 - Save and run your code, and a snowflake should appear before your eyes!
 
