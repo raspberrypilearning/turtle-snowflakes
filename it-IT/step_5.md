@@ -1,8 +1,8 @@
-## Using loops to create shapes
+## Usare i cicli per creare forme
 
-To create a square, you have repeated some lines of code. This is not the most efficent way of doing it. Instead of typing out many lines of code, it's easier to use a loop.
+Per creare un quadrato, hai ripetuto alcune righe di codice. Questo non è il modo più efficiente di farlo. Invece di digitare molte righe di codice, è più facile usare un ciclo.
 
-Instead of code to create a square like this:
+Invece del codice per creare un quadrato come questo:
 
 ```python
 elsa.forward(100)
@@ -14,7 +14,7 @@ elsa.right(90)
 elsa.forward(100)
 ```
 
-You can type:
+Puoi digitare:
 
 ```python
 for i in range(4):
@@ -22,6 +22,6 @@ for i in range(4):
   elsa.right(90)
 ```
 
-Try it yourself, and see what happens when you save and run your code.
+Provalo tu stesso e vedi cosa succede quando salvi ed esegui il tuo codice.
 
 ![](images/turtle-loop.png)
