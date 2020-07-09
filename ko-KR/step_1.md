@@ -1,23 +1,23 @@
-## Introduction
+## 들어가며
 
-Create a beautiful landscape of snowflakes using Python Turtle. This is great fun and a great way to start learning how to code with Python.
+Python 터틀 그래픽을 이용해 아름다운 눈송이 경관을 만드세요. 이 프로젝트를 시도해 보는 것은 Python으로 코딩하는 방법을 배울 수 있는 아주 재미있고 좋은 방법입니다.
 
-## What you will make
+## 만들 작품
 
-Digital snowflakes out of code, like this one:
+코딩으로 만드는 다음과 같은 디지털 눈송이
 
-![snowflake](images/makeasnowflake.png)
+![눈송이](images/makeasnowflake.png)
 
-## What you will learn
+## 배울 지식
 
-By making snowflakes with code you will learn how to:
+코드로 눈송이를 만들면 다음의 내용을 배울 수 있습니다:
 
-- Draw lines and make turns with Python Turtle
-- Change the pen colour randomly
-- Use loops to repeat some instructions and create shapes
-- Use more loops to create spiral patterns
-- Create a function to draw a snowflake
+- Python 터틀 그래픽으로 선을 그리고 회전시키는 방법
+- 랜덤으로 펜 색상을 바꾸는 방법
+- 반복문을 사용해 몇 가지 명령과 모양 만들기를 반복하는 방법
+- 나선형 패턴을 만들기 위해 반복문을 사용하는 방법
+- 눈송이를 그리기 위해 함수를 만드는 방법
 
-This resource covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/):
+이 자료는 [라즈베리파이 디지털 메이킹 커리큘럼](https://www.raspberrypi.org/curriculum/) 중 아래의 과정에 있는 요소들을 다룹니다.
 
-- [Combine programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder)
+- [문제를 해결하기 위한 프로그래밍 구조의 조합](https://www.raspberrypi.org/curriculum/programming/builder)
