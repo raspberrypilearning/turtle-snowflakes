@@ -1,20 +1,20 @@
-## Introduction
+## ಪರಿಚಯ
 
-Create a beautiful landscape of snowflakes using Python Turtle. This is great fun and a great way to start learning how to code with Python.
+Python Turtle ಬಳಸಿ ಸ್ನೋಫ್ಲೇಕ್ಗಳ ಸುಂದರವಾದ ಭೂದೃಶ್ಯವನ್ನು ರಚಿಸಿ. Python ಬಳಸಿ ಹೇಗೆ code ಮಾಡಬೇಕೆಂದು ಕಲಿಯಲು ಪ್ರಾರಂಭಿಸಲು ಇದು ಉತ್ತಮ ಮೋಜಿನ ಮಾರ್ಗವಾಗಿದೆ.
 
-## What you will make
+## ನೀವು ಏನು ಮಾಡುತ್ತೀರಿ
 
-Digital snowflakes out of code, like this one:
+ಈ ರೀತಿಯ ಡಿಜಿಟಲ್ ಸ್ನೋಫ್ಲೇಕ್ ಅನ್ನು code ಮಾಡಲಾಗುತ್ತಿದೆ:
 
 ![snowflake](images/makeasnowflake.png)
 
-## What you will learn
+## ನೀವು ಏನು ಕಲಿಯುವಿರಿ
 
-By making snowflakes with code you will learn how to:
+ಸ್ನೋಫ್ಲೇಕ್ಗಳನ್ನು code ಮಾಡುವ ಮೂಲಕ ನೀವು ಈ ಎಲ್ಲವನ್ನು ಕಲಿಯುವಿರಿ:
 
-- Draw lines and make turns with Python Turtle
-- Change the pen colour randomly
-- Use loops to repeat some instructions and create shapes
+- Python Turtle ಬಳಸಿ ರೇಖೆಗಳನ್ನು ಚಿತ್ರಿಸುವುದು ಮತ್ತು ತಿರುವುಗಳನ್ನು ಮಾಡಿರಿ
+- ಪೆನಿನಾ ಬಣ್ಣವನ್ನು ಸ್ವೇಚ್ಛೆಯಾಗಿ ಬದಲಾಯಿಸುವುದು
+- ಕೆಲವು ಸೂಚನೆಗಳನ್ನು ಪುನರಾವರ್ತಿಸಲು ಮತ್ತು ಆಕಾರಗಳನ್ನು ರಚಿಸಲು loops ಬಳಸುವುದು
 - Use more loops to create spiral patterns
 - Create a function to draw a snowflake
 
