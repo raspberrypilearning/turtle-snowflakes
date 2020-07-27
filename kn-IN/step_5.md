@@ -1,8 +1,8 @@
-## Using loops to create shapes
+## ಆಕಾರಗಳನ್ನು ರಚಿಸಲು loops ಅನ್ನು ಬಳಸುವುದು
 
-To create a square, you have repeated some lines of code. This is not the most efficent way of doing it. Instead of typing out many lines of code, it's easier to use a loop.
+ಚೌಕವನ್ನು ರಚಿಸಲು, ನೀವು ಕೆಲವು ಕೋಡ್‌ಗಳ ಸಾಲುಗಳನ್ನು ಪುನರಾವರ್ತಿಸಿದ್ದೀರಿ. ಇದನ್ನು ಮಾಡುವ ಅತ್ಯಂತ ಪರಿಣಾಮಕಾರಿ ಮಾರ್ಗವಲ್ಲ. ಕೋಡ್‌ನ ಹಲವು ಸಾಲುಗಳನ್ನು ಟೈಪ್ ಮಾಡುವ ಬದಲು, loop ಅನ್ನು ಬಳಸುವುದು ಸುಲಭ.
 
-Instead of code to create a square like this:
+ಈ ರೀತಿಯ ಚೌಕವನ್ನು ರಚಿಸಲು ಕೋಡ್ ಬದಲಿಗೆ:
 
 ```python
 elsa.forward(100)
@@ -14,7 +14,7 @@ elsa.right(90)
 elsa.forward(100)
 ```
 
-You can type:
+ನೀವು ಇದನ್ನು ಟೈಪ್ ಮಾಡಬಹುದು:
 
 ```python
 for i in range(4):
@@ -22,6 +22,6 @@ for i in range(4):
   elsa.right(90)
 ```
 
-Try it yourself, and see what happens when you save and run your code.
+ನೀವೇ ಪ್ರಯತ್ನಿಸಿ, ಮತ್ತು ನಿಮ್ಮ ಕೋಡ್ ಅನ್ನು save ಮತ್ತು run ಮಾಡಿದಾಗ ಏನಾಗುತ್ತದೆ ಎಂಬುದನ್ನು ನೋಡಿ.
 
 ![](images/turtle-loop.png)
