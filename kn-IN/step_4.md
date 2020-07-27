@@ -1,37 +1,37 @@
-## How to turn with Python Turtle
+## Python Turtle ಬಳಸಿ ಹೇಗೆ ತಿರುಗುವುದು
 
-Your turtle is only moving in one direction so far. This is good news if you want to draw a straight line, but to draw a shape such as a square, your turtle is going to have to turn.
+ನಿಮ್ಮ Turtle ಇಲ್ಲಿಯವರೆಗೆ ಒಂದೇ ದಿಕ್ಕಿನಲ್ಲಿ ಚಲಿಸುತ್ತಿದೆ. ನೀವು ಸರಳ ರೇಖೆಯನ್ನು ಸೆಳೆಯಲು ಬಯಸಿದರೆ ಇದು ಒಳ್ಳೆಯ ಸುದ್ದಿ, ಆದರೆ ಚೌಕದಂತಹ ಆಕಾರವನ್ನು ಬರೆಯಲು, ನಿಮ್ಮ Turtle ತಿರುಗಬೇಕಾಗುತ್ತದೆ.
 
-- Below the line `elsa.forward(100)` in your Python code, add:
+- ನಿಮ್ಮ Python code'‌ನಲ್ಲಿ `elsa.forward(100)` ಸಾಲಿನ ಕೆಳಗೆ, ಸೇರಿಸಿ:
     
     ```python
     elsa.right(90)
     ```
     
-    **Note:** Turtle uses angles in degrees. There are 360 degrees in a circle. How many degrees does the right angle of a square have? That's right: 90. The value `90` inside the brackets in `elsa.right(90)` is in degrees. So this line is telling your turtle to turn right by 90 degrees.
+    ** ಗಮನಿಸಿ: ** Turtle ಡಿಗ್ರಿಗಳಲ್ಲಿ ಕೋನಗಳನ್ನು ಬಳಸುತ್ತದೆ. ವೃತ್ತದಲ್ಲಿ 360 ಡಿಗ್ರಿಗಳಿವೆ. ಚೌಕದ ಲಂಬ ಕೋನವು ಎಷ್ಟು ಡಿಗ್ರಿಗಳನ್ನು ಹೊಂದಿದೆ? ಹೌದು ಅದು ಸರಿ: 90. `elsa.right (90)` ನಲ್ಲಿನ ಬ್ರಾಕೆಟ್‌ಗಳ ಒಳಗೆ `90 ` ಮೌಲ್ಯವು ಡಿಗ್ರಿಗಳಲ್ಲಿದೆ. ಆದ್ದರಿಂದ ಈ ಸಾಲು ನಿಮ್ಮ Turtle'ಗೆ 90 ಡಿಗ್ರಿಗಳಷ್ಟು ಬಲಕ್ಕೆ ತಿರುಗುವಂತೆ ಹೇಳುತ್ತಿದೆ.
 
-- Add another instruction below to move your turtle forward by 100:
+- ನಿಮ್ಮ Turtle 100 ಮುಂದೆ ಸರಿಸಲು ಕೆಳಗಿನ ಮತ್ತೊಂದು ಸೂಚನೆಯನ್ನು ಸೇರಿಸಿ:
     
     ```python
     elsa.forward(100)
     ```
 
-- Save and run your code to see what happens.
+- ಏನಾಗುತ್ತದೆ ಎಂಬುದನ್ನು ನೋಡಲು ನಿಮ್ಮ ಕೋಡ್ ಅನ್ನು ಉಳಿಸಿ ಮತ್ತು ರನ್ ಮಾಡಿರಿ.
 
-You are on your way to creating a square! What do you need to add to your code in order to complete the square?
+ನೀವು ಚೌಕವನ್ನು ರಚಿಸುವ ಹಾದಿಯಲ್ಲಿದ್ದೀರಿ! ಚೌಕವನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು ನಿಮ್ಮ ಕೋಡ್‌ಗೆ ನೀವು ಏನು ಸೇರಿಸಬೇಕು?
 
 \--- hints \---
 
 \--- hint \---
 
-Try adding the following code and running you program:
+ಕೆಳಗಿನ ಕೋಡ್ ಸೇರಿಸಿ ಮತ್ತು ನಿಮ್ಮ ಪ್ರೋಗ್ರಾಂ ಅನ್ನು run ಮಾಡಲು ಪ್ರಯತ್ನಿಸಿ:
 
 ```python
 elsa.right(90)
 elsa.forward(100)
 ```
 
-What was the result? How can you finish the shape to draw a square?
+ಫಲಿತಾಂಶ ಏನು? ಚೌಕವನ್ನು ಸೆಳೆಯಲು ನೀವು ಆಕಾರವನ್ನು ಹೇಗೆ ಮುಗಿಸಬಹುದು?
 
 \--- /hint \---
 
