@@ -1,23 +1,23 @@
-## Changing the pen colour randomly
+## ಪೆನ್ನ ಬಣ್ಣವನ್ನು ಸ್ವೇಚ್ಛೆಯಾಗಿ ಬದಲಾಯಿಸುವುದು
 
-So far the turtle has been drawing black lines on a white background. Now it's time to add colour!
+ಇಲ್ಲಿಯವರೆಗೆ ನಿಮ್ಮ Turtle ಬಿಳಿ ಹಿನ್ನೆಲೆಯಲ್ಲಿ ಕಪ್ಪು ರೇಖೆಗಳನ್ನು ಚಿತ್ರಿಸುತ್ತಿದೆ. ಈಗ ಬಣ್ಣಗಳನ್ನು ಸೇರಿಸುವ ಸಮಯ!
 
-- To set the colour of the turtle, move you're cursor below where you named your turtle and before your loops, and type in the following:
+- Turtle'ನಿನ ಬಣ್ಣವನ್ನು ಹೊಂದಿಸಲು, ನಿಮ್ಮ Turtle ಎಂದು ಹೆಸರಿಸಿದ ಸ್ಥಳಕ್ಕಿಂತ ಕೆಳಗೆ ಮತ್ತು ನಿಮ್ಮ loops ಮೊದಲು ನೀವು ಕರ್ಸರ್ ಅನ್ನು ಸರಿಸಿ, ಮತ್ತು ಈ ಕೆಳಗಿನವುಗಳನ್ನು ಟೈಪ್ ಮಾಡಿ:
 
 ```python
 elsa.color("cyan")
 ```
 
-**Note**: The spelling of 'colour' is different in other countries. In the US, it is spelled 'color', and in Python it has to be spelled the American way to work.
+** ಗಮನಿಸಿ **: 'colour' ಸ್ಪೆಲ್ಲಿಂಗ್ ಇತರ ದೇಶಗಳಲ್ಲಿ ವಿಭಿನ್ನವಾಗಿರುತ್ತದೆ. ಅಮೇರಿಕಾದಲ್ಲಿ ಇದನ್ನು 'color' ಎಂದು ಉಚ್ಚರಿಸಲಾಗುತ್ತದೆ, ಮತ್ತು Python'ನಲ್ಲಿ ಇದು ಕೆಲಸ ಮಾಡಲು ಅಮೆರಿಕಾದ ರೀತಿಯಲ್ಲಿ ಉಚ್ಚರಿಸಬೇಕಾಗಿದೆ.
 
-I have chosen to use the colour **cyan**, but you can use any from this list:
+** cyan ** ಬಣ್ಣವನ್ನು ಬಳಸಲು ನಾನು ಆರಿಸಿದ್ದೇನೆ, ಆದರೆ ನೀವು ಈ ಪಟ್ಟಿಯಿಂದ ಯಾವುದನ್ನಾದರೂ ಬಳಸಬಹುದು:
 
 - "blue"
 - "magenta"
 - "grey"
 - "purple"
 
-You can also change the colour of the background window. To set the colour of the background, use this instruction below the code you've just written:
+ನೀವು ವಿಂಡೋದ ಹಿನ್ನೆಲೆ ಬಣ್ಣವನ್ನು ಸಹ ಬದಲಾಯಿಸಬಹುದು. ಹಿನ್ನೆಲೆಯ ಬಣ್ಣವನ್ನು ಬದಲಿಸಲು, ನೀವು ಈಗ ಬರೆದ ಕೋಡ್‌ನ ಕೆಳಗೆ ಈ ಸೂಚನೆಯನ್ನು ಬಳಸಿ:
 
 ```python
 turtle.Screen().bgcolor("blue")
@@ -25,34 +25,34 @@ turtle.Screen().bgcolor("blue")
 
 ![](images/colour.png)
 
-For fun you can add a random colour for your turtle, so that every time you run your code, you will get a slightly different snowflake.
+ವಿನೋದಕ್ಕಾಗಿ ನಿಮ್ಮ Turtle'ಗಾಗಿ ನೀವು ಸ್ವೇಚ್ಛೆಯಾದ ಬಣ್ಣವನ್ನು ಸೇರಿಸಬಹುದು, ಇದರಿಂದಾಗಿ ನೀವು ಪ್ರತಿ ಬಾರಿ ನಿಮ್ಮ ಕೋಡ್ ಅನ್ನು run ಮಾಡಿದಾಗ, ನೀವು ಸ್ವಲ್ಪ ವಿಭಿನ್ನ ಸ್ನೋಫ್ಲೇಕ್ ಅನ್ನು ಪಡೆಯುತ್ತೀರಿ.
 
-- First you will need to import the `random` library: below `import turtle`, type `import random`.
+- ಮೊದಲು ನೀವು `random` ಲೈಬ್ರರಿಯನ್ನು ಇಂಪೋರ್ಟ್ ಮಾಡಿಕೊಳ್ಳಬೇಕಾಗುತ್ತದೆ: ` import turtle` ಕೆಳಗೆ, `import random` ಎಂದು ಟೈಪ್ ಮಾಡಿ.
 
-- Next, change the background colour from `"blue"` to `"grey"`.
+- ಮುಂದೆ, ಹಿನ್ನೆಲೆ ಬಣ್ಣವನ್ನು ` "blue" ` ನಿಂದ ` "grey" ` ಗೆ ಬದಲಾಯಿಸಿ.
 
-- Below that line, create a variable called `colours` to store a list of the colours to select from, like this:
+- ಆ ಸಾಲಿನ ಕೆಳಗೆ, ಆಯ್ಕೆ ಮಾಡಲು ಬಣ್ಣಗಳ ಪಟ್ಟಿಯನ್ನು ಸಂಗ್ರಹಿಸಲು `colours` ಎಂಬ ವೇರಿಯೇಬಲ್ ಅನ್ನು ರಚಿಸಿ:
     
     ```python
     colours = ["cyan", "purple", "white", "blue"]
     ```
 
-- At the end of the spiral loop, below `elsa.right(36)`, type:
+- ಸುರುಳಿಯಾಕಾರದ ಲೂಪ್ನ ಕೊನೆಯಲ್ಲಿ, `elsa.right(36)` ಕೆಳಗೆ, ಟೈಪ್ ಮಾಡಿ:
     
     ```python
     elsa.color(random.choice(colours))  
     ```
     
-    **Note**: make sure this line is also indented, so that your program knows it's within the loop.
+    **ಗಮನಿಸಿ**: ಈ ಸಾಲನ್ನು ಸಹ ಇಂಡೆಂಟ್ ಮಾಡಲಾಗಿದೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ, ಇದರಿಂದಾಗಿ ನಿಮ್ಮ ಪ್ರೋಗ್ರಾಂ ಅದು ಲೂಪ್‌ನಲ್ಲಿದೆ ಎಂದು ತಿಳಿಯುತ್ತದೆ.
 
-- Save and run your code for a multi-coloured snowflake!
+- ಬಹು-ಬಣ್ಣದ ಸ್ನೋಫ್ಲೇಕ್ಗಾಗಿ ನಿಮ್ಮ ಕೋಡ್ ಅನ್ನು ಸೇವ್ ಮತ್ತು ರನ್ ಮಾಡಿ!
 
 ![](images/colour-list.png)
 
 ## \--- collapse \---
 
-## title: More colours
+## title: ಹೆಚ್ಚು ಬಣ್ಣಗಳು
 
-There are a lot more colours you can choose from! Have a look at [this website](https://wiki.tcl.tk/37701) for a complete list.
+ನೀವು ಆಯ್ಕೆ ಮಾಡಬಹುದಾದ ಇನ್ನೂ ಹೆಚ್ಚಿನ ಬಣ್ಣಗಳಿವೆ! ಸಂಪೂರ್ಣ ಪಟ್ಟಿಗಾಗಿ [ಈ ವೆಬ್‌ಸೈಟ್](https://wiki.tcl.tk/37701) ಅನ್ನು ನೋಡಿ.
 
 \--- /collapse \---
