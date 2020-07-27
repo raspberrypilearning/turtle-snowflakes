@@ -1,8 +1,8 @@
-## Creating spiral patterns
+## ಸುರುಳಿಯಾಕಾರದ ಮಾದರಿಗಳನ್ನು ರಚಿಸುವುದು
 
-Enough squares! Let's create some different shapes and repeat them to make a snowflake-like spiral.
+ಚೌಕಗಳು ಸಾಕು! ಕೆಲವು ವಿಭಿನ್ನ ಆಕಾರಗಳನ್ನು ರಚಿಸೋಣ ಮತ್ತು ಸ್ನೋಫ್ಲೇಕ್ ತರಹದ ಸುರುಳಿಯನ್ನು ಮಾಡಲು ಅವುಗಳನ್ನು ಪುನರಾವರ್ತಿಸೋಣ.
 
-- Replace the code for your square with the following:
+- ನಿಮ್ಮ ಚೌಕದ ಕೋಡ್ ಅನ್ನು ಈ ಕೆಳಗಿನವುಗಳೊಂದಿಗೆ ಬದಲಾಯಿಸಿ:
     
     ```python
     for i in range(2):
@@ -12,26 +12,26 @@ Enough squares! Let's create some different shapes and repeat them to make a sno
       elsa.right(120)
     ```
     
-    This will draw a shape called a parallelogram. You can see what it looks like by saving and running your code.
+    ಇದು ಸಮಾನಾಂತರ ಚತುರ್ಭುಜ ಎಂಬ ಆಕಾರವನ್ನು ಬರೆಯುತ್ತದೆ. ನಿಮ್ಮ ಕೋಡ್ ಅನ್ನು save ಮತ್ತು run ಮಾಡುವ ಮೂಲಕ ಅದು ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದನ್ನು ನೀವು ನೋಡಬಹುದು.
     
     ![](images/parallelogram.png)
 
-You can put loops inside of other loops. This is good news for us, as we can do this to easily make a drawing that looks like a snowflake.
+ನೀವು ಲೂಪ್-ಗಳ ಒಳಗೆ ಇತರ ಲೂಪ್-ಗಳನ್ನು ಹಾಕಬಹುದು. ಇದು ನಮಗೆ ಒಳ್ಳೆಯ ಸುದ್ದಿ, ಏಕೆಂದರೆ ಸ್ನೋಫ್ಲೇಕ್ನಂತೆ ಕಾಣುವ ರೇಖಾಚಿತ್ರವನ್ನು ಸುಲಭವಾಗಿ ಮಾಡಲು ನಾವು ಇದನ್ನು ಮಾಡಬಹುದು.
 
-- Above the line `for i in range(2):` for your parallelogram, type:
+- ನಿಮ್ಮ ಸಮಾನಾಂತರ ಚತುರ್ಭುಜಕ್ಕಾಗಿ `for i in range(2): ` ಸಾಲಿನ ಮೇಲೆ, ಟೈಪ್ ಮಾಡಿ:
     
     ```python
     for i in range(10):
     ```
     
-    How many times will this loop go round?
+    ಈ ಲೂಪ್ ಎಷ್ಟು ಬಾರಿ ಚಲಿಸುತ್ತದೆ?
 
-- Move your cursor to the line below your sequence of code, and press the space bar four times to **indent** the code you're about to write. Indentation in Python is very important to ensure that your code works as you expect! Now type:
+- ನಿಮ್ಮ ಕರ್ಸರ್ ಅನ್ನು ನಿಮ್ಮ ಕೋಡ್ ಅನುಕ್ರಮದ ಕೆಳಗಿನ ಸಾಲಿಗೆ ಸರಿಸಿ, ಮತ್ತು ನೀವು ಬರೆಯಲಿರುವ ಕೋಡ್ ಅನ್ನು ** indent ** ಗೆ ನಾಲ್ಕು ಬಾರಿ ಸ್ಪೇಸ್ ಬಾರ್ ಒತ್ತಿರಿ. ನೀವು ನಿರೀಕ್ಷಿಸಿದಂತೆ ನಿಮ್ಮ ಕೋಡ್ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತಿದೆಯೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಲು Python'ನಲ್ಲಿನ ಇಂಡೆಂಟೇಶನ್ ಬಹಳ ಮುಖ್ಯ! ಈಗ ಟೈಪ್ ಮಾಡಿ:
     
     ```python
     elsa.right(36)
     ```
 
-- Save and run your code to see what happens. You should see a drawing like this:
+- ಏನಾಗುತ್ತದೆ ಎಂಬುದನ್ನು ನೋಡಲು ನಿಮ್ಮ ಕೋಡ್ ಅನ್ನು save ಮತ್ತು run ಮಾಡಿರಿ. ಈ ರೀತಿಯ ರೇಖಾಚಿತ್ರವನ್ನು ನೀವು ನೋಡಬೇಕು:
     
     ![](images/snowflake1.png)
