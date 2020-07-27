@@ -4,7 +4,7 @@
 
 + ಕಾಣಿಸಿಸುವ ವಿಂಡೋದಲ್ಲಿ, ಕೆಳಗಿನವುಗಳನ್ನು ಟೈಪ್ ಮಾಡಿ:
     
-    ![screenshot](images/trinket.PNG)
+    ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/trinket.PNG)
     
     ಈ ಸಾಲು ` #! /bin /python3 ` ನಾವು Python 3 (ಹೊಸ ಆವೃತ್ತಿ) ಬಳಸುತ್ತಿದ್ದೇವೆ ಎಂದು ಟ್ರಿಂಕೆಟ್ ಗೆ(Trinket) ಹೇಳುತ್ತದೆ.
 
@@ -28,8 +28,8 @@
 
 **ನಿಮ್ಮ ಯೋಜನೆಗಳನ್ನು ಉಳಿಸಲು ನಿಮಗೆ Trinket ಖಾತೆ ಅಗತ್ಯವಿಲ್ಲ!**
 
-ನೀವು Trinket ಖಾತೆಯನ್ನು ಹೊಂದಿಲ್ಲದಿದ್ದರೆ, ಕೆಳಗಿನ ಬಾಣದ ಗುರುತನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು ನಂತರ **ಲಿಂಕ್** ಕ್ಲಿಕ್ ಮಾಡಿ. This will give you a link that you can save and come back to later. Just remember that you'll need to do this every time you make changes to your code, as the link will change!
+ನೀವು Trinket ಖಾತೆಯನ್ನು ಹೊಂದಿಲ್ಲದಿದ್ದರೆ, ಕೆಳಗಿನ ಬಾಣದ ಗುರುತನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು ನಂತರ **ಲಿಂಕ್** ಕ್ಲಿಕ್ ಮಾಡಿ. ಇದು ನಿಮಗೆ ಸೆವ್ ಮಾಡಬಹುದಾದ ಲಿಂಕ್ ಅನ್ನು ನೀಡುತ್ತದೆ ಮತ್ತು ನಂತರ ಹಿಂತಿರುಗಬಹುದು. ನಿಮ್ಮ code'‌ನಲ್ಲಿ ನೀವು ಬದಲಾವಣೆಗಳನ್ನು ಮಾಡುವಾಗಲೆಲ್ಲಾ ನೀವು ಇದನ್ನು ಮಾಡಬೇಕಾಗುತ್ತದೆ ಎಂಬುದನ್ನು ನೆನಪಿಡಿ, ಏಕೆಂದರೆ ಲಿಂಕ್ ಬದಲಾಗುತ್ತದೆ!
 
-![screenshot](images/trinket-link.PNG)
+![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/trinket-link.PNG)
 
-If you have a Trinket account, you can click **Remix** to save your own copy of the trinket.
+ನೀವು ಟ್ರಿಂಕೆಟ್(Trinket) ಖಾತೆಯನ್ನು ಹೊಂದಿದ್ದರೆ, ನಿಮ್ಮ ಸ್ವಂತ ಟ್ರಿಂಕೆಟ್‌ನ(trinket) ನಕಲನ್ನು ಉಳಿಸಲು ನೀವು **Remix** ಕ್ಲಿಕ್ ಮಾಡಬಹುದು.
