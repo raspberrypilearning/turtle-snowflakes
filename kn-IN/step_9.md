@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: every snowflake is different
+## ಸವಾಲು: ಪ್ರತಿ ಸ್ನೋಫ್ಲೇಕ್ ವಿಭಿನ್ನವಾಗಿರುತ್ತದೆ
 
-- Can you uncomment the random colour instruction and place it in the function, so that each branch has a different colour?
-- Can you create a snowflake function and then repeat it all over the window to create a snowflake landscape?
-- Can you draw snowflakes of different colours and different sizes, like those in Carrie Anne's video [Make snowflakes with code](https://www.youtube.com/watch?v=DHmeX7YTHBY)?
+- ನೀವು ಸ್ವೇಚ್ಛೆಯಾದ ಬಣ್ಣ ಸೂಚನೆಯನ್ನು ಅನ್ಕಮೆಂಟ್ ಮಾಡಿ function ನಲ್ಲಿ ಇಡಬಹುದೇ? ಇದರಿಂದ ಪ್ರತಿಯೊಂದು ಶಾಖೆಯು ವಿಭಿನ್ನ ಬಣ್ಣವನ್ನು ಹೊಂದಿರುತ್ತದೆ?
+- ಸ್ನೋಫ್ಲೇಕ್ function ರಚಿಸಿ ಮತ್ತು ನಂತರ ಸ್ನೋಫ್ಲೇಕ್ ಭೂದೃಶ್ಯವನ್ನು ರಚಿಸಲು ನೀವು ಅದನ್ನು ಕಿಟಕಿಯಾದ್ಯಂತ ಪುನರಾವರ್ತಿಸಬಹುದೇ?
+- ಕ್ಯಾರಿ ಅನ್ನಿ ಅವರ ವೀಡಿಯೊ [ಸ್ನೋಫ್ಲೇಕ್‌ಗಳನ್ನು ಕೋಡ್‌ನೊಂದಿಗೆ ಮಾಡಿ](https://www.youtube.com/watch?v=DHmeX7YTHBY) ಎಂಬಂತೆ ನೀವು ವಿವಿಧ ಬಣ್ಣಗಳು ಮತ್ತು ವಿಭಿನ್ನ ಗಾತ್ರದ ಸ್ನೋಫ್ಲೇಕ್‌ಗಳನ್ನು ಸೆಳೆಯಬಹುದೇ?
 
 \--- /challenge \---
