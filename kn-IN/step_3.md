@@ -1,34 +1,34 @@
-## How to draw with Python Turtle
+## Python Turtle ಬಳಸಿ ಹೇಗೆ ಬರೆಯುವುದು
 
-+ Open the [blank Python template trinket](http://jumpto.cc/python-new).
++ [ ಖಾಲಿ Python ಟೆಂಪ್ಲೆಟ್ ಟ್ರಿಂಕೆಟ್ ](http://jumpto.cc/python-new) ತೆರೆಯಿರಿ.
 
-+ Type the following into the window that appears:
++ ಕಾಣಿಸಿಸುವ ವಿಂಡೋದಲ್ಲಿ, ಕೆಳಗಿನವುಗಳನ್ನು ಟೈಪ್ ಮಾಡಿ:
     
     ![screenshot](images/trinket.PNG)
     
-    The line `#!/bin/python3` just tells your computer that we're using Python 3 (the latest version of Python).
+    ಈ ಸಾಲು ` #! /bin /python3 ` ನಾವು Python 3 (ಹೊಸ ಆವೃತ್ತಿ) ಬಳಸುತ್ತಿದ್ದೇವೆ ಎಂದು ಟ್ರಿಂಕೆಟ್ ಗೆ(Trinket) ಹೇಳುತ್ತದೆ.
 
-+ To begin using Turtle in Python, you need to import the Turtle library. At the top of the text editor window, type `import turtle`.
++ Python Turtle ಬಳಸಲು ಪ್ರಾರಂಭಿಸಲು, ನೀವು Turtle ಲೈಬ್ರರಿ ಇಂಪೋರ್ಟ್ ಮಾಡಿಕೊಳ್ಳಬೇಕು. ಟೆಕ್ಸ್ಟ್ ಎಡಿಟರ್ ವಿಂಡೋದ ಮೇಲ್ಭಾಗದಲ್ಲಿ, ` import turtle ` ಎಂದು ಟೈಪ್ ಮಾಡಿ.
 
-+ Time to give your turtle a name! You can use a variable to do this. I'm naming my turtle `elsa`, but you can name yours whatever you like.
++ ನಿಮ್ಮ Turtle'ಗೆ ಹೆಸರನ್ನು ನೀಡುವ ಸಮಯ! ಇದನ್ನು ಮಾಡಲು ನೀವು ವೇರಿಯಬಲ್ ಅನ್ನು ಬಳಸಬಹುದು. ನಾನು ನನ್ನ ಆಮೆ ` ಎಲ್ಸಾ ` ಎಂದು ಹೆಸರಿಸುತ್ತಿದ್ದೇನೆ, ಆದರೆ ನೀವು ಇಷ್ಟಪಡುವದನ್ನು ನೀವು ಹೆಸರಿಸಬಹುದು.
     
     ```python
     elsa = turtle.Turtle()
     ```
 
-+ Now you can tell your turtle what to do, for example, to move forward `100`. Give it a go!
++ ಈಗ ನೀವು ಏನು ಮಾಡಬೇಕೆಂದು ನಿಮ್ಮ turtle'ಗೆ ಹೇಳಬಹುದು, ಉದಾಹರಣೆಗೆ, ಮೂವ್ ಫಾರ್ವರ್ಡ್ ` 100 `. ಇದನ್ನೂ ಪ್ರಯತ್ನಿಸಿ!
     
     ```python
     elsa.forward(100)
     ```
 
-+ Click on **Run** to run your first Turtle program. What happens?
++ ನಿಮ್ಮ ಮೊದಲ Turtle ಪ್ರೋಗ್ರಾಂ ಅನ್ನು run ಮಾಡಲು ** Run** ಕ್ಲಿಕ್ ಮಾಡಿ. ಏನಾಗುತ್ತದೆ?
     
     ![](images/import-turtle.png)
 
-**You don't need a Trinket account to save your projects!**
+**ನಿಮ್ಮ ಯೋಜನೆಗಳನ್ನು ಉಳಿಸಲು ನಿಮಗೆ Trinket ಖಾತೆ ಅಗತ್ಯವಿಲ್ಲ!**
 
-If you don't have a Trinket account, click the down arrow and then click **Link**. This will give you a link that you can save and come back to later. Just remember that you'll need to do this every time you make changes to your code, as the link will change!
+ನೀವು Trinket ಖಾತೆಯನ್ನು ಹೊಂದಿಲ್ಲದಿದ್ದರೆ, ಕೆಳಗಿನ ಬಾಣದ ಗುರುತನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು ನಂತರ **ಲಿಂಕ್** ಕ್ಲಿಕ್ ಮಾಡಿ. This will give you a link that you can save and come back to later. Just remember that you'll need to do this every time you make changes to your code, as the link will change!
 
 ![screenshot](images/trinket-link.PNG)
 
