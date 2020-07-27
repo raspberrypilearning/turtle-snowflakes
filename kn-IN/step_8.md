@@ -1,10 +1,10 @@
-## Using a function to draw a snowflake
+## ಸ್ನೋಫ್ಲೇಕ್ ಅನ್ನುfunction ಬಳಸಿ ಸೆಳೆಯುವುದು
 
-Your parallelogram snowflake is cool, but it does not look as snowflake-like as it could. Let's fix that!
+ನಿಮ್ಮ ಸಮಾನಾಂತರ ಚತುರ್ಭುಜ ಸ್ನೋಫ್ಲೇಕ್ ಚೆನ್ನಾಗಿದೆ, ಆದರೆ ಅದು ಸ್ನೋಫ್ಲೇಕ್ನಂತೆ ಕಾಣುತ್ತಿಲ್ಲ. ಅದನ್ನು ಸರಿಪಡಿಸೋಣ!
 
-For this drawing, we need to move the turtle from the centre of the window. The `penup()` and `pendown()` instructions let us do this without drawing a line, just like picking up a real pen from the paper and moving it somewhere else to start writing.
+ಈ ರೇಖಾಚಿತ್ರಕ್ಕಾಗಿ, ನಾವು Turtle'ಅನ್ನು ವಿಂಡೋದ ಮಧ್ಯದಿಂದ ಸರಿಸಬೇಕಾಗಿದೆ. ` penup()` ಮತ್ತು ` pendown()` ಸೂಚನೆಗಳು ರೇಖೆಯನ್ನು ಎಳೆಯದೆ ಇದನ್ನು ಮಾಡಲು ನಮಗೆ ಅವಕಾಶ ಮಾಡಿಕೊಡುತ್ತವೆ, ಅಂದರೆ ಕಾಗದದಿಂದ ನಿಜವಾದ ಪೆನ್ನು ತೆಗೆದುಕೊಂಡು ಅದನ್ನು ಚಲಿಸುವಂತೆ.
 
-- Type the following instructions below the `colours` list:
+- `colours` ಲಿಸ್ಟಿನ ಕೆಳಗೆ ಈ ಕೆಳಗಿನ ಸೂಚನೆಗಳನ್ನು ಟೈಪ್ ಮಾಡಿ:
     
     ```python
     elsa.penup()
@@ -13,17 +13,17 @@ For this drawing, we need to move the turtle from the centre of the window. The 
     elsa.pendown()
     ```
 
-Let's write the code to draw one branch of a snowflake, and store it inside a **function**. Then you can simply repeat it over and over to create a complete snowflake.
+ಸ್ನೋಫ್ಲೇಕ್ನ ಒಂದು ಶಾಖೆಯನ್ನು ಬರೆಯಲು ಕೋಡ್ ಅನ್ನು ಬರೆಯೋಣ ಮತ್ತು ಅದನ್ನು ** function ** ಒಳಗೆ ಸಂಗ್ರಹಿಸೋಣ. ನಂತರ ನೀವು ಸಂಪೂರ್ಣ ಸ್ನೋಫ್ಲೇಕ್ ಅನ್ನು ರಚಿಸಲು ಅದನ್ನು ಪುನರಾವರ್ತಿಸಬಹುದು.
 
 ![branch](images/branch.PNG)
 
-- Define a function called `branch` by typing:
+- `branch` ಎಂಬ function ವಿವರಿಸಲು ಟೈಪ್ ಮಾಡಿ:
     
     ```python
     def branch():
     ```
 
-- Remove the code for the parallelogram snowflake loops. Add the following code indented inside the `branch` function:
+- ಸಮಾನಾಂತರ ಚತುರ್ಭುಜ ಸ್ನೋಫ್ಲೇಕ್ ಲೂಪ್ ನ ಕೋಡ್ ತೆಗೆದುಹಾಕಿ. `branch` function'ದೊಳಗೆ ಇಂಡೆಂಟ್ ಮಾಡಲಾದ ಕೆಳಗಿನ ಕೋಡ್ ಅನ್ನು ಸೇರಿಸಿ:
     
     ```python
     for i in range(3):
@@ -38,9 +38,9 @@ Let's write the code to draw one branch of a snowflake, and store it inside a **
     elsa.forward(90)
     ```
     
-    **Note**: Remember that indentation is important. Make sure to check that all your indentation is correct, otherwise your code won't work!
+    **ಗಮನಿಸಿ**: ಇಂಡೆಂಟೇಶನ್ ಮುಖ್ಯ ಎಂದು ನೆನಪಿಡಿ. ನಿಮ್ಮ ಎಲ್ಲಾ ಇಂಡೆಂಟೇಶನ್ ಸರಿಯಾಗಿದೆಯೇ ಎಂದು ಪರೀಕ್ಷಿಸಲು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ, ಇಲ್ಲದಿದ್ದರೆ ನಿಮ್ಮ ಕೋಡ್ ಕಾರ್ಯನಿರ್ವಹಿಸುವುದಿಲ್ಲ!
 
-- Write a final section of code to **call** the `branch` function (which means to run it) eight times. You can use a loop again as for your last snowflake:
+- `branch` function'ಅನ್ನು ಎಂಟು ಬಾರಿ **call** ಮಾಡಲು (ಇದರರ್ಥ ಅದನ್ನು ಚಲಾಯಿಸಲು) ಕೋಡ್‌ನ ಅಂತಿಮ ವೀಭಾಗದಲ್ಲಿ ಬರೆಯಿರಿ. ನಿಮ್ಮ ಕೊನೆಯ ಸ್ನೋಫ್ಲೇಕ್ನಂತೆ ನೀವು ಮತ್ತೆ ಲೂಪ್ ಅನ್ನು ಬಳಸಬಹುದು:
     
     ```python
     for i in range(8):
@@ -48,7 +48,7 @@ Let's write the code to draw one branch of a snowflake, and store it inside a **
       elsa.left(45)
     ```
 
-- Put a `#` at the start of the `elsa.color(random.choice(colours))` instruction to turn it into a **comment**. This means that the computer will skip that line of code. You could delete the line, but you might want to use it to add colour to your snowflake later on.
+- `elsa.color(random.choice(colours))` ಎಂಬ ಸೂಚನೆಯನ್ನು **ಕಾಮೆಂಟ್** ಮಾಡಲು ಅದರ ಮುಂಧೆ `#` ಹಾಕಿ. ಇದರರ್ಥ ಕಂಪ್ಯೂಟರ್ ಆ ಕೋಡ್ ಅನ್ನು ಬಿಟ್ಟುಬಿಡುತ್ತದೆ. ನೀವು ಆ ಸಾಲನ್ನು ಅಳಿಸಬಹುದು, ಆದರೆ ನಂತರ ನಿಮ್ಮ ಸ್ನೋಫ್ಲೇಕ್‌ಗೆ ಬಣ್ಣವನ್ನು ಸೇರಿಸಲು ನೀವು ಅದನ್ನು ಬಳಸಬಹುದು.
 
 - Save and run your code, and a snowflake should appear before your eyes!
 
