@@ -1,0 +1,28 @@
+---
+title: 烏龜畫雪花
+hero_image: images/banner.png
+description: 使用Python Turtle編寫程式來繪製雪花
+original_url: https://raspberrypi.org/learning/turtle-snowflakes
+theme: navy
+duration: 1
+listed: true
+ingredient: false
+copyedit: true
+curriculum: 2, design-0, programming-2, phys-comp-0, manufacture-0, community-0
+interests: art
+technologies: python
+site_areas: projects
+hardware: ''
+software: python
+version: 4
+last_tested: 2017-01-01
+steps:
+  - title: 介紹
+  - title: 你會需要
+  - title: 如何用Python Turtle繪製
+  - title: 如何使用Python Turtle轉彎
+  - title: 使用迴圈創建形狀
+  - title: 創建螺旋的圖案
+  - title: 隨意地更改筆的顏色
+  - title: 使用函數繪製雪花
+  - title: "挑戰：讓每個雪花都不盡相同"
