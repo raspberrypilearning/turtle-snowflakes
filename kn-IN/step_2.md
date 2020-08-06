@@ -2,7 +2,7 @@
 
 ### ಯಂತ್ರಾಂಶ(ಹಾರ್ಡ್ವೇರ್)
 
-+ [ trinket.io ](https://trinket.io) {: target = "_ blank"}ವೆಬ್‌ಸೈಟ್ ಉಪಯೋಗಿಸುವ ಸಾಮರ್ಥ್ಯವಿರುವ ಕಂಪ್ಯೂಟರ್ 
++ [ trinket.io ](https://trinket.io) {:target = "_blank"}ವೆಬ್‌ಸೈಟ್ ಉಪಯೋಗಿಸುವ ಸಾಮರ್ಥ್ಯವಿರುವ ಕಂಪ್ಯೂಟರ್ 
 
 ಅಥವಾ
 
