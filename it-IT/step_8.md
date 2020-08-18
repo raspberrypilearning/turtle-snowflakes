@@ -17,13 +17,13 @@ Scriviamo il codice per disegnare un ramo di un fiocco di neve, e memorizzalo al
 
 ![branch](images/branch.PNG)
 
-- Definisci una funzione chiamata `branch` (ramo) digitando:
+- Definisci una funzione chiamata `ramo` digitando:
     
     ```python
-    def branch():
+    def ramo():
     ```
 
-- Cancella il codice dei cicli del fiocco di neve a parallelogramma. Aggiungi il seguente codice rientrato all'interno della funzione `branch`:
+- Cancella il codice dei cicli del fiocco di neve a parallelogramma. Aggiungi il seguente codice rientrato all'interno della funzione `ramo`:
     
     ```python
     for i in range(3):
@@ -40,11 +40,11 @@ Scriviamo il codice per disegnare un ramo di un fiocco di neve, e memorizzalo al
     
     **Nota**: Ricorda che il rientro è importante. Assicurati di controllare che il rientro sia corretto, altrimenti il tuo codice non funzionerà!
 
-- Scrivi una sezione finale di codice per **richiamare** la funzione `branch` che verrà eseguita otto volte. Puoi usare di nuovo un ciclo come per il fiocco di neve:
+- Scrivi una sezione finale di codice per **richiamare** la funzione `ramo` che verrà eseguita otto volte. Puoi usare di nuovo un ciclo come per il fiocco di neve:
     
     ```python
     for i in range(8):
-      branch()
+      ramo()
       elsa.left(45)
     ```
 
