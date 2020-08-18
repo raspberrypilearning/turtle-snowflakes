@@ -31,16 +31,16 @@ Per divertimento puoi aggiungere un colore casuale per la tua tartaruga, in modo
 
 - In seguito, cambia il colore di sfondo da `"blue"` a `"grey"`.
 
-- Sotto quella linea, crea una variabile chiamata `colours` (colori) per memorizzare un elenco di colori tra cui selezionare, in questo modo:
+- Sotto quella linea, crea una variabile chiamata `colori` per memorizzare un elenco di colori tra cui selezionare, in questo modo:
     
     ```python
-    colours = ["cyan", "purple", "white", "blue"]
+    colori = ["cyan", "purple", "white", "blue"]
     ```
 
 - Alla fine del ciclo annidato, sotto `elsa.right (36)`, digita:
     
     ```python
-    elsa.color(random.choice(colours))  
+    elsa.color(random.choice(colori))  
     ```
     
     **Nota**: assicurati che anche questa riga sia rientrata, in modo che il tuo programma sappia che è all'interno del ciclo.
