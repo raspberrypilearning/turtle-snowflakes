@@ -4,7 +4,7 @@
 
 + Scrivi il seguente testo nella finestra che compare:
     
-    ![screenshot](images/trinket.PNG)
+    ![schermata](images/trinket.PNG)
     
     La riga `#!/bin/python3` dice al tuo computer che stiamo usando Python 3 (l'ultima versione di Python).
 
@@ -30,6 +30,6 @@
 
 Se non hai un account Trinket, fai click sulla freccia che punta verso il basso e clicca su **Link**. Questo comando ti darà un link che puoi salvare e che potrai aprire nuovamente più tardi. Ricorda solo che dovrai farlo ogni volta che modifichi il tuo codice, poiché il collegamento cambierà!
 
-![screenshot](images/trinket-link.PNG)
+![schermata](images/trinket-link.PNG)
 
 Se hai un account Trinket, puoi cliccare su **Remix** per salvare la tua copia del trinket.
