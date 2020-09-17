@@ -1,23 +1,23 @@
-## Changing the pen colour randomly
+## पेनाचा रंग सहजगत्यापणे बदलणे
 
-So far the turtle has been drawing black lines on a white background. Now it's time to add colour!
+आतापर्यंत turtle पांढर्‍या पार्श्वभूमीवर काळ्या रेषा रेखाटत आहे. आता रंगवण्याची वेळ आली आहे!
 
-- To set the colour of the turtle, move you're cursor below where you named your turtle and before your loops, and type in the following:
+- Turtle चा रंग सेट करण्यासाठी, तुम्ही तुमच्या turtleच्या नावाखाली आणि तुमच्या लूप आधी कर्सर हलवा आणि खालील टाइप करा:
 
 ```python
 elsa.color("cyan")
 ```
 
-**Note**: The spelling of 'colour' is different in other countries. In the US, it is spelled 'color', and in Python it has to be spelled the American way to work.
+**नोंद**: इतर देशांमध्ये 'colour' चे शब्दलेखन वेगळे असते. यूएस मध्ये, हे 'color' असे शब्दलेखन आहे, आणि Python मध्ये ते अमेरिकन पध्दतीने वापरावे लागेल.
 
-I have chosen to use the colour **cyan**, but you can use any from this list:
+मी **cyan** रंग वापरणे निवडले आहे ,परंतु तुम्ही या सूचीमधून काहीही वापरू शकता:
 
 - "blue"
 - "magenta"
 - "grey"
 - "purple"
 
-You can also change the colour of the background window. To set the colour of the background, use this instruction below the code you've just written:
+तुम्ही मागील विंडोचा रंग देखील बदलू शकता. पार्श्वभूमीचा रंग सेट करण्यासाठी, तुम्ही नुकत्याच लिहलेल्या कोडच्या खाली ही सूचना वापरा:
 
 ```python
 turtle.Screen().bgcolor("blue")
@@ -25,34 +25,34 @@ turtle.Screen().bgcolor("blue")
 
 ![](images/colour.png)
 
-For fun you can add a random colour for your turtle, so that every time you run your code, you will get a slightly different snowflake.
+गंमत म्हणून तुम्ही तुमच्या turtle ला यादृच्छिक रंग देऊ शकता, जेणेकरून प्रत्येक वेळी तुम्ही तुमचा कोड रन कराल तेव्हा तुम्हाला थोडा वेगळा स्नोफ्लेक मिळेल.
 
-- First you will need to import the `random` library: below `import turtle`, type `import random`.
+- प्रथम तुम्हाला `random` लायब्ररी आयात करण्याची आवश्यकता असेल: `import turtle` खाली टाईप करा `import random`.
 
-- Next, change the background colour from `"blue"` to `"grey"`.
+- नंतर, पार्श्वभूमीचा रंग `"blue"` ऐवजी `"grey"` करा.
 
-- Below that line, create a variable called `colours` to store a list of the colours to select from, like this:
+- रंगांची यादी संग्रहित करुन निवडण्यासाठी, त्या ओळीच्या खाली `colours` नावाचे व्हेरिएबल बनवा, याप्रमाणे:
     
     ```python
     colours = ["cyan", "purple", "white", "blue"]
     ```
 
-- At the end of the spiral loop, below `elsa.right(36)`, type:
+- स्पायरल लूपच्या शेवटी, खाली `elsa.right(36)`, टाइप करा:
     
     ```python
     elsa.color(random.choice(colours))  
     ```
     
-    **Note**: make sure this line is also indented, so that your program knows it's within the loop.
+    **नोंद **: ही ओळ देखील इंडेंट आहे याची खात्री करा, जेणेकरून तुमच्या प्रोग्रामला माहित होईल की हे लूपमध्ये आहे.
 
-- Save and run your code for a multi-coloured snowflake!
+- विविधरंगी स्नोफ्लॅकसाठी तुमचा कोड सेव्ह करून रन करा!
 
 ![](images/colour-list.png)
 
 ## \--- collapse \---
 
-## title: More colours
+## title: अधिक रंग
 
-There are a lot more colours you can choose from! Have a look at [this website](https://wiki.tcl.tk/37701) for a complete list.
+असे बरेच इतर रंग आहेत ज्यातून तुम्ही निवडू शकता! संपूर्ण यादीसाठी [या वेबसाइटवर पहा](https://wiki.tcl.tk/37701).
 
 \--- /collapse \---
