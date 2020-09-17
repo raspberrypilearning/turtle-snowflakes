@@ -9,7 +9,7 @@ colours = ["cyan", "purple", "white", "blue"]
 
 elsa.penup()
 elsa.forward(90)
-elsa.left(45)
+esa.left (45)
 elsa.pendown()
 
 def branch():
