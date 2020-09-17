@@ -1,37 +1,37 @@
-## How to turn with Python Turtle
+## Python Turtle सह कसे काढायचे
 
-Your turtle is only moving in one direction so far. This is good news if you want to draw a straight line, but to draw a shape such as a square, your turtle is going to have to turn.
+तुमचे Turtle आतापर्यंत केवळ एका दिशेने जात आहे. ही चांगली बातमी आहे जर तुम्हाला एक सरळ रेषा काढायची असेल, परंतु चौकोनासारखे आकार काढण्यासाठी, तुमच्या Turtleला वळावे लागेल.
 
-- Below the line `elsa.forward(100)` in your Python code, add:
+- `elsa.forward(100)` या ओळीच्या खाली तुमच्या Python कोडमध्ये, जोडा:
     
     ```python
     elsa.right(90)
     ```
     
-    **Note:** Turtle uses angles in degrees. There are 360 degrees in a circle. How many degrees does the right angle of a square have? That's right: 90. The value `90` inside the brackets in `elsa.right(90)` is in degrees. So this line is telling your turtle to turn right by 90 degrees.
+    **नोंद:** Turtle अंशांमध्ये कोन वापरतो. एका वर्तुळात 360 अंश असतात. चौरसाचा कोन किती अंशाचा असतो? बरोबर: 90. संख्या `90` जी `elsa.right(90)`या कंसामध्ये आहे ती डिग्री मध्ये आहे. तर ही ओळ तुमच्या Turtle ला 90 अंशांनी उजवीकडे वळायला सांगत आहे.
 
-- Add another instruction below to move your turtle forward by 100:
+- तुमचा Turtle 100 ने पुढे नेण्यासाठी खाली आणखी एक सूचना जोडा:
     
     ```python
     elsa.forward(100)
     ```
 
-- Save and run your code to see what happens.
+- तुमचा कोड सेव्ह करुन रन करा आणि बघा काय होते ते.
 
-You are on your way to creating a square! What do you need to add to your code in order to complete the square?
+तुम्ही चौरस तयार करण्याच्या मार्गावर आहात! चौरस पूर्ण करण्यासाठी तुमच्या कोडमध्ये तुम्हाला काय जोडण्याची आवश्यकता आहे?
 
 \--- hints \---
 
 \--- hint \---
 
-Try adding the following code and running you program:
+खालील कोड जोडून तुमचा प्रोग्राम रन करण्याचा प्रयत्न करा:
 
 ```python
 elsa.right(90)
 elsa.forward(100)
 ```
 
-What was the result? How can you finish the shape to draw a square?
+याचा परिणाम काय झाला? चौरस काढण्यासाठी तुम्ही आकार कसा पूर्ण करू शकता?
 
 \--- /hint \---
 
