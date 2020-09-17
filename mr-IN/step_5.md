@@ -1,20 +1,20 @@
-## Using loops to create shapes
+## आकार तयार करण्यासाठी लूप वापरणे
 
-To create a square, you have repeated some lines of code. This is not the most efficent way of doing it. Instead of typing out many lines of code, it's easier to use a loop.
+चौरस तयार करण्यासाठी, तुम्ही कोडच्या काही ओळीची पुनरावृत्ती केली आहे. हे करण्याचा हा सर्वात प्रभावी मार्ग नाही. कोडच्या अनेक ओळी टाइप करण्याऐवजी लूप वापरणे सोपे आहे.
 
-Instead of code to create a square like this:
+चौरस तयार करण्यासाठी, या कोडऐवजी:
 
 ```python
-elsa.forward(100)
-elsa.right(90)
-elsa.forward(100)
-elsa.right(90)
-elsa.forward(100)
-elsa.right(90)
-elsa.forward(100)
+elsa.forward (100)
+elsa.right (90)
+elsa.forward (100)
+elsa.right (90)
+elsa.forward (100)
+elsa.right (90)
+elsa.forward (100)
 ```
 
-You can type:
+तुम्ही टाइप करू शकता:
 
 ```python
 for i in range(4):
@@ -22,6 +22,6 @@ for i in range(4):
   elsa.right(90)
 ```
 
-Try it yourself, and see what happens when you save and run your code.
+हे स्वत: प्रयत्न करा, आणि तुमचा कोड जतन करा आणि रन करुन पहा काय होते ते.
 
 ![](images/turtle-loop.png)
