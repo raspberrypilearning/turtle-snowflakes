@@ -1,8 +1,8 @@
-## Creating spiral patterns
+## चक्राकार नमुने तयार करणे
 
-Enough squares! Let's create some different shapes and repeat them to make a snowflake-like spiral.
+चौरस पुरे! चला काही भिन्न आकार तयार करू आणि स्नोफ्लेक सर्पिलसारखे बनविण्यासाठी त्याची पुनरावृत्ती करूया.
 
-- Replace the code for your square with the following:
+- तुमच्या स्क्वेअरसाठीच्या कोडमध्ये खालील बदल करा:
     
     ```python
     for i in range(2):
@@ -12,26 +12,26 @@ Enough squares! Let's create some different shapes and repeat them to make a sno
       elsa.right(120)
     ```
     
-    This will draw a shape called a parallelogram. You can see what it looks like by saving and running your code.
+    हा एक समांतरभुज चौकोन नावाचा आकार काढेल. तुमचा कोड जतन करुन आणि रन करुन तुम्ही तो कसा दिसतो हे पाहू शकता.
     
     ![](images/parallelogram.png)
 
-You can put loops inside of other loops. This is good news for us, as we can do this to easily make a drawing that looks like a snowflake.
+तुम्ही इतर लूपच्या आत लूप ठेवू शकता. आमच्यासाठी ही चांगली बातमी आहे, कारण आम्ही स्नोफ्लेकसारखे दिसणारे रेखाचित्र सहजपणे तयार करू शकतो.
 
-- Above the line `for i in range(2):` for your parallelogram, type:
+- तुमच्या समांतरभुज चौकोनाच्या `for i in range(2):` या ओळीवर टाईप करा:
     
     ```python
     for i in range(10):
     ```
     
-    How many times will this loop go round?
+    हा लूप किती वेळा रिपिट होईल?
 
-- Move your cursor to the line below your sequence of code, and press the space bar four times to **indent** the code you're about to write. Indentation in Python is very important to ensure that your code works as you expect! Now type:
+- तुमचा कर्सर तुमच्या कोडच्या क्रमाखाली असलेल्या लाईनवर हलवा आणि आपण लिहू इच्छित असलेला कोड **indent** करण्यासाठी स्पेस बार चार वेळा दाबा. तुमचा कोड तुमच्या अपेक्षेप्रमाणे कार्य करतो हे सुनिश्चित करण्यासाठी Python मधील इंडेंटेशन खूप महत्वाचे आहे! आता टाईप करा:
     
     ```python
     elsa.right(36)
     ```
 
-- Save and run your code to see what happens. You should see a drawing like this:
+- काय होते ते बघण्यासाठी तुमचा कोड सेव्ह करुन रन करा. तुम्हाला यासारखे चित्रं दिसायला हवे:
     
     ![](images/snowflake1.png)
