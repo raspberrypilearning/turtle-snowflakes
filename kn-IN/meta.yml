@@ -1,0 +1,28 @@
+---
+title: Turtle ಸ್ನೋಫ್ಲೇಕ್ಗಳು
+hero_image: images/banner.png
+description: Python Turtle ಬಳಸಿ ಸ್ನೋಫ್ಲೇಕ್ಗಳನ್ನು ಬರೆಯಲು code ಬರೆಯಿರಿ
+original_url: https://raspberrypi.org/learning/turtle-snowflakes
+theme: navy
+duration: 1
+listed: true
+ingredient: false
+copyedit: true
+curriculum: 2, design-0, programming-2, phys-comp-0, manufacture-0, community-0
+interests: art
+technologies: python
+site_areas: projects
+hardware: ''
+software: python
+version: 4
+last_tested: 2017-01-01
+steps:
+  - title: ಪರಿಚಯ
+  - title: ನಿಮಗೆ ಬೇಕಾದುದು
+  - title: Python Turtle ಬಳಸಿ ಹೇಗೆ ಬರೆಯುವುದು
+  - title: Python Turtle ಬಳಸಿ ಹೇಗೆ ತಿರುಗುವುದು
+  - title: ಆಕಾರಗಳನ್ನು ರಚಿಸಲು loops ಅನ್ನು ಬಳಸುವುದು
+  - title: ಸುರುಳಿಯಾಕಾರದ ಮಾದರಿಗಳನ್ನು ರಚಿಸುವುದು
+  - title: ಪೆನ್ನ ಬಣ್ಣವನ್ನು ಸ್ವೇಚ್ಛೆಯಾಗಿ ಬದಲಾಯಿಸುವುದು
+  - title: ಸ್ನೋಫ್ಲೇಕ್ ಅನ್ನುfunction ಬಳಸಿ ಬರೆಯುವುದು
+  - title: "ಸವಾಲು: ಪ್ರತಿ ಸ್ನೋಫ್ಲೇಕ್ ವಿಭಿನ್ನವಾಗಿರುತ್ತದೆ"
