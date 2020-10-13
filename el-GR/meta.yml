@@ -1,0 +1,28 @@
+---
+title: Νιφάδες χιονιού με τη χελώνα
+hero_image: images/banner.png
+description: Γράψε κώδικα για να σχεδιάσεις νιφάδες χιονιού με την Python Turtle
+original_url: https://raspberrypi.org/learning/turtle-snowflakes
+theme: navy
+duration: 1
+listed: true
+ingredient: false
+copyedit: true
+curriculum: 2, design-0, programming-2, phys-comp-0, manufacture-0, community-0
+interests: art
+technologies: python
+site_areas: projects
+hardware: ''
+software: python
+version: 4
+last_tested: 2017-01-01
+steps:
+  - title: Εισαγωγή
+  - title: Τι θα χρειαστείς
+  - title: Πώς να σχεδιάσεις με την Python Turtle
+  - title: Πώς να στρίψεις με την Python Turtle
+  - title: Χρησιμοποιώντας βρόχους για τη δημιουργία σχημάτων
+  - title: Δημιουργία σπειροειδών σχεδίων
+  - title: Αλλαγή του χρώματος της πένας τυχαία
+  - title: Χρησιμοποιώντας συνάρτηση για να σχεδιάσετε μια νιφάδα χιονιού
+  - title: "Πρόκληση: κάθε νιφάδα χιονιού είναι διαφορετική"
