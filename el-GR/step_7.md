@@ -53,6 +53,6 @@ turtle.Screen().bgcolor("blue")
 
 ## τίτλος: Περισσότερα χρώματα
 
-There are a lot more colours you can choose from! Have a look at [this website](https://wiki.tcl.tk/37701) for a complete list.
+Υπάρχουν πολύ περισσότερα χρώματα από τα οποία μπορείς να επιλέξεις! Ρίξε μια ματιά σε αυτόν τον [ιστότοπο](https://wiki.tcl.tk/37701) για μια πλήρη λίστα.
 
 \--- /collapse \---
