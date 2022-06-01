@@ -17,12 +17,16 @@ software: python
 version: 4
 last_tested: 2017-01-01
 steps:
-  - title: Inleiding
-  - title: Wat heb je nodig
-  - title: Hoe te tekenen met Python Turtle
-  - title: Hoe te draaien met Python Turtle
-  - title: Lussen gebruiken om vormen te maken
-  - title: Spiraalpatronen creëren
-  - title: De penkleur willekeurig wijzigen
-  - title: Een functie gebruiken om een sneeuwvlok te tekenen
-  - title: "Uitdaging: elke sneeuwvlok is anders"
+- title: Inleiding
+- title: Wat heb je nodig
+- title: Hoe te tekenen met Python Turtle
+- title: Hoe te draaien met Python Turtle
+  completion:
+  - engaged
+- title: Lussen gebruiken om vormen te maken
+- title: Spiraalpatronen creëren
+- title: De penkleur willekeurig wijzigen
+- title: Een functie gebruiken om een sneeuwvlok te tekenen
+  completion:
+  - internal
+- title: 'Uitdaging: elke sneeuwvlok is anders'

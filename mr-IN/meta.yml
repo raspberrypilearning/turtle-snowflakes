@@ -17,12 +17,16 @@ software: python
 version: 4
 last_tested: 2017-01-01
 steps:
-  - title: परिचय
-  - title: तुम्हाला कशाची आवश्यकता असेल
-  - title: Python Turtle सह कसे काढायचे
-  - title: Python Turtle सह कसे वळणे
-  - title: आकार तयार करण्यासाठी लूप वापरणे
-  - title: चक्राकार नमुने तयार करणे
-  - title: पेन रंग सहजगत्यापणे बादलणे
-  - title: स्नोफ्लेक काढण्यासाठी फंक्शन वापरणे
-  - title: "आव्हानः प्रत्येक स्नोफ्लेक भिन्न असतो"
+- title: परिचय
+- title: तुम्हाला कशाची आवश्यकता असेल
+- title: Python Turtle सह कसे काढायचे
+- title: Python Turtle सह कसे वळणे
+  completion:
+  - engaged
+- title: आकार तयार करण्यासाठी लूप वापरणे
+- title: चक्राकार नमुने तयार करणे
+- title: पेन रंग सहजगत्यापणे बादलणे
+- title: स्नोफ्लेक काढण्यासाठी फंक्शन वापरणे
+  completion:
+  - internal
+- title: आव्हानः प्रत्येक स्नोफ्लेक भिन्न असतो

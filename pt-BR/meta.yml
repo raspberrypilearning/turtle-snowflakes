@@ -17,12 +17,16 @@ software: python
 version: 4
 last_tested: 2017-01-01
 steps:
-  - title: Introdução
-  - title: O que você vai precisar
-  - title: Como desenhar com Python Turtle
-  - title: Como virar com Python Turtle
-  - title: Usando laços para criar formas
-  - title: Criando padrões em espiral
-  - title: Mudando a cor da caneta aleatoriamente
-  - title: Usando uma função para desenhar um floco de neve
-  - title: "Desafio: cada floco de neve é diferente"
+- title: Introdução
+- title: O que você vai precisar
+- title: Como desenhar com Python Turtle
+- title: Como virar com Python Turtle
+  completion:
+  - engaged
+- title: Usando laços para criar formas
+- title: Criando padrões em espiral
+- title: Mudando a cor da caneta aleatoriamente
+- title: Usando uma função para desenhar um floco de neve
+  completion:
+  - internal
+- title: 'Desafio: cada floco de neve é diferente'

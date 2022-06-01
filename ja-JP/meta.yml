@@ -17,12 +17,16 @@ software: python
 version: 4
 last_tested: 2017-01-01
 steps:
-  - title: はじめに
-  - title: 必要なもの
-  - title: Pythonタートルで描く方法
-  - title: Pythonタートルの向きを変える方法
-  - title: ループを使って図形を作成する
-  - title: うずまき模様（もよう）を作成する
-  - title: ペンの色をランダムに変更する
-  - title: 関数を使って雪の結晶を描く
-  - title: "チャレンジ：一つずつ違う雪の結晶"
+- title: はじめに
+- title: 必要なもの
+- title: Pythonタートルで描く方法
+- title: Pythonタートルの向きを変える方法
+  completion:
+  - engaged
+- title: ループを使って図形を作成する
+- title: うずまき模様（もよう）を作成する
+- title: ペンの色をランダムに変更する
+- title: 関数を使って雪の結晶を描く
+  completion:
+  - internal
+- title: チャレンジ：一つずつ違う雪の結晶

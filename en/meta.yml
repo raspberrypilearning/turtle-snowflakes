@@ -1,3 +1,4 @@
+---
 title: Turtle snowflakes
 hero_image: images/banner.png
 description: Write code to draw snowflakes with Python Turtle
@@ -15,13 +16,17 @@ hardware: ''
 software: python
 version: 4
 last_tested: 2017-01-01
-steps: 
+steps:
 - title: Introduction
 - title: What you will need
 - title: How to draw with Python Turtle
 - title: How to turn with Python Turtle
+  completion:
+  - engaged
 - title: Using loops to create shapes
 - title: Creating spiral patterns
 - title: Changing the pen colour randomly
 - title: Using a function to draw a snowflake
-- title: "Challenge: every snowflake is different"
+  completion:
+  - internal
+- title: 'Challenge: every snowflake is different'
