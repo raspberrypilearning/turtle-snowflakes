@@ -17,12 +17,16 @@ software: python
 version: 4
 last_tested: 2017-01-01
 steps:
-  - title: 소개
-  - title: 준비물
-  - title: Python 터틀 그래픽으로 그리는 방법
-  - title: Python 터틀 그래픽으로 회전시키는 방법
-  - title: 반복문을 사용해 모양 만들기
-  - title: 나선형 패턴 만들기
-  - title: 랜덤으로 펜 색상을 바꾸기
-  - title: 눈송이를 그리기 위해 함수 사용하기
-  - title: "도전과제: 모두 다른 눈송이"
+- title: 소개
+- title: 준비물
+- title: Python 터틀 그래픽으로 그리는 방법
+- title: Python 터틀 그래픽으로 회전시키는 방법
+  completion:
+  - engaged
+- title: 반복문을 사용해 모양 만들기
+- title: 나선형 패턴 만들기
+- title: 랜덤으로 펜 색상을 바꾸기
+- title: 눈송이를 그리기 위해 함수 사용하기
+  completion:
+  - internal
+- title: '도전과제: 모두 다른 눈송이'

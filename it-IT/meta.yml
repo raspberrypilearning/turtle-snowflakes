@@ -17,12 +17,16 @@ software: python
 version: 4
 last_tested: 2017-01-01
 steps:
-  - title: Introduzione
-  - title: Di cosa avrai bisogno
-  - title: Come disegnare con Python Turtle
-  - title: Come ruotare con Python Turtle
-  - title: Usare i cicli per creare forme
-  - title: Creazione modelli a spirale
-  - title: Cambiare il colore della penna in modo casuale
-  - title: Usare una funzione per disegnare un fiocco di neve
-  - title: "Sfida: ogni fiocco di neve è diverso"
+- title: Introduzione
+- title: Di cosa avrai bisogno
+- title: Come disegnare con Python Turtle
+- title: Come ruotare con Python Turtle
+  completion:
+  - engaged
+- title: Usare i cicli per creare forme
+- title: Creazione modelli a spirale
+- title: Cambiare il colore della penna in modo casuale
+- title: Usare una funzione per disegnare un fiocco di neve
+  completion:
+  - internal
+- title: 'Sfida: ogni fiocco di neve è diverso'
