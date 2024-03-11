@@ -51,7 +51,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 1
+line_highlights: 4
 ---
 import turtle
 
@@ -71,4 +71,4 @@ Click on **Run** to run your first Turtle program. What happens?
 ![](images/import-turtle.png)
 
 
-If you have a Raspberry Pi Foundation account, you can save your work.
+If you have a [Raspberry Pi Foundation account](https://my.raspberrypi.org/signup){:target="_blank"}, you can save your work.

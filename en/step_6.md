@@ -2,52 +2,172 @@
 
 So far the turtle has been drawing black lines on a white background. Now it's time to add colour!
 
-- To set the colour of the turtle, move your cursor below where you named your turtle and before your loops, and type in the following:
+--- task ---
 
-```python
+Set the colour of the turtle.
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 4
+---
+import turtle
+
+elsa = turtle.Turtle()
 elsa.color("cyan")
-```
 
-  **Note**: The spelling of 'colour' is different in other countries. In the US, it is spelled 'color', and in Python it has to be spelled the American way to work.
+for i in range(10):
+--- /code ---
 
-I have chosen to use the colour **cyan**, but you can use any from this list:
+--- /task ---
+
+--- collapse ---
+
+---
+title: Color and Colour
+---
+The spelling of 'colour' is different in other countries. In the US, it is spelled 'color', and in Python it has to be spelled the American way to work.
+--- /collapse ---
+
+
+`cyan` is used in the example above, but you can use any from this list:
 
 - "blue"
 - "magenta"
 - "grey"
 - "purple"
 
-You can also change the colour of the background window. To set the colour of the background, use this instruction below the code you've just written:
+--- task ---
 
-```python
+Change the colour of the background window. To set the colour of the background.
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 5
+---
+import turtle
+
+elsa = turtle.Turtle()
+elsa.color("cyan")
 turtle.Screen().bgcolor("blue")
-```
+
+for i in range(10):
+--- /code ---
 
 ![](images/colour.png)
 
+--- /task ---
+
+
 For fun you can add a random colour for your turtle, so that every time you run your code, you will get a slightly different snowflake. 
 
-- First you will need to import the `random` library: below `import turtle`, type `import random`.
+--- task ---
 
-- Next, change the background colour from `"blue"` to `"grey"`.
+First you will need to import the `random` library: below `import turtle`, type `import random`.
 
-- Below that line, create a variable called `colours` to store a list of the colours to select from, like this:
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 2
+---
+import turtle
+import random
 
-  ```python
-  colours = ["cyan", "purple", "white", "blue"]
-  ```
-  
-- At the end of the spiral loop, below `elsa.right(36)`, type: 
+elsa = turtle.Turtle()
+elsa.color("cyan")
+turtle.Screen().bgcolor("blue")
 
-  ```python
-  elsa.color(random.choice(colours))  
-  ```
-  
-  **Note**: make sure this line is also indented, so that your program knows it's within the loop.
-  
-- Save and run your code for a multi-coloured snowflake!
+--- /code ---
+
+--- /task ---
+
+
+--- task ---
+
+Next, change the background colour from `"blue"` to `"grey"`.
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 6
+---
+import turtle
+import random
+
+elsa = turtle.Turtle()
+elsa.color("cyan")
+turtle.Screen().bgcolor("grey")
+--- /code ---
+
+--- /task --- 
+
+Create a list called `colours` to store colours to select from.
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 5
+---
+import turtle
+import random
+
+elsa = turtle.Turtle()
+colours = ["cyan", "purple", "white", "blue"]
+
+elsa.color("cyan")
+turtle.Screen().bgcolor("grey")
+--- /code ---
+
+--- task ---
+
+At the end of the loop, below `elsa.right(36)`, choose a random colour
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 10
+line_highlights: 17
+---
+for i in range(10):
+    for i in range(2):
+        elsa.forward(100)
+        elsa.right(60)
+        elsa.forward(100)
+        elsa.right(120)
+    elsa.right(36)
+    elsa.color(random.choice(colours))
+--- /code ---
+
+**Note**: make sure this line is also indented, so that your program knows it's within the loop.
+
+--- /task ---
+
+--- task ---
+
+Save and run your code for a multi-coloured snowflake!
 
 ![](images/colour-list.png)
+
+--- /task ---
+
 
 --- collapse ---
 ---

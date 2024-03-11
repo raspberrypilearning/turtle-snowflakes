@@ -13,16 +13,29 @@ elsa.forward(100)
 elsa.right(90)
 elsa.forward(100)
 ```
-  
-You can type:
-  
-```python
+
+--- task ---
+
+Use a loop to create a square.
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 5-7
+---
+import turtle
+
+elsa = turtle.Turtle()
+
 for i in range(4):
-  elsa.forward(100)
-  elsa.right(90)
-```
+    elsa.forward(100)
+    elsa.right(90)
+--- /code ---  
   
 Try it yourself, and see what happens when you save and run your code.
-  
-![](images/turtle-loop.png)
 
+![square drawn by the turtle in the visual output](images/turtle-loop.png)
+--- /task ---
