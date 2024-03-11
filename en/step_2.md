@@ -6,35 +6,69 @@ Open the [Secret Messages starter project](https://editor.raspberrypi.org/en/pro
 
 --- /task ---
 
+--- task ---
 
-+ Type the following into the window that appears:
+To begin using Turtle in Python, you need to import the Turtle library. At the top of the text editor window, type `import turtle`.
 
-    ![screenshot](images/trinket.PNG)
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 1
+---
+import turtle
+--- /code ---
 
-    The line `#!/bin/python3` just tells your computer that we're using Python 3 (the latest version of Python).
-    
-+ To begin using Turtle in Python, you need to import the Turtle library. At the top of the text editor window, type `import turtle`. 
-  
-+ Time to give your turtle a name! You can use a variable to do this. I'm naming my turtle `elsa`, but you can name yours whatever you like.
+--- /task ---    
 
-  ```python
-  elsa = turtle.Turtle()
-  ```
+--- task ---
 
-+ Now you can tell your turtle what to do, for example, to move forward `100`. Give it a go!
+Time to give your turtle a name! You can use a variable to do this. Here it is called `elsa`, but you can name yours whatever you like.
 
-  ```python
-  elsa.forward(100)
-  ```
-  
-+ Click on **Run** to run your first Turtle program. What happens?
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 3
+---
+import turtle
 
-  ![](images/import-turtle.png)
+elsa = turtle.Turtle()
+--- /code ---
+--- /task ---  
 
-__You don't need a Trinket account to save your projects!__
+--- task ---
 
-If you don't have a Trinket account, click the down arrow and then click **Link**. This will give you a link that you can save and come back to later. Just remember that you'll need to do this every time you make changes to your code, as the link will change!
+Now you can tell your turtle what to do, for example, to move forward `100`. Give it a go!
 
-![screenshot](images/trinket-link.PNG)
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 1
+---
+import turtle
 
-If you have a Trinket account, you can click **Remix** to save your own copy of the trinket.
+elsa = turtle.Turtle()
+elsa.forward(100)
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+Click on **Run** to run your first Turtle program. What happens?
+
+--- /task ---  
+
+
+![](images/import-turtle.png)
+
+
+If you have a Raspberry Pi Foundation account, you can save your work.
