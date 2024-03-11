@@ -1,35 +1,38 @@
-## How to draw with Python Turtle
+## How to turn with Python Turtle
 
-+ Open the [blank Python template trinket](http://jumpto.cc/python-new).
+Your turtle is only moving in one direction so far. This is good news if you want to draw a straight line, but to draw a shape such as a square, your turtle is going to have to turn.
 
-+ Type the following into the window that appears:
-
-    ![screenshot](images/trinket.PNG)
-
-    The line `#!/bin/python3` just tells your computer that we're using Python 3 (the latest version of Python).
-    
-+ To begin using Turtle in Python, you need to import the Turtle library. At the top of the text editor window, type `import turtle`. 
-  
-+ Time to give your turtle a name! You can use a variable to do this. I'm naming my turtle `elsa`, but you can name yours whatever you like.
+- Below the line `elsa.forward(100)` in your Python code, add:
 
   ```python
-  elsa = turtle.Turtle()
+  elsa.right(90)
   ```
-
-+ Now you can tell your turtle what to do, for example, to move forward `100`. Give it a go!
+  
+  **Note:** Turtle uses angles in degrees. There are 360 degrees in a circle. How many degrees does the right angle of a square have? That's right: 90. The value `90` inside the brackets in `elsa.right(90)` is in degrees. So this line is telling your turtle to turn right by 90 degrees.
+  
+- Add another instruction below to move your turtle forward by 100:   
 
   ```python
   elsa.forward(100)
   ```
   
-+ Click on **Run** to run your first Turtle program. What happens?
+- Save and run your code to see what happens.
 
-  ![](images/import-turtle.png)
+You are on your way to creating a square! What do you need to add to your code in order to complete the square?
 
-__You don't need a Trinket account to save your projects!__
+--- hints ---
 
-If you don't have a Trinket account, click the down arrow and then click **Link**. This will give you a link that you can save and come back to later. Just remember that you'll need to do this every time you make changes to your code, as the link will change!
+--- hint ---
 
-![screenshot](images/trinket-link.PNG)
+Try adding the following code and running you program:
 
-If you have a Trinket account, you can click **Remix** to save your own copy of the trinket.
+```python
+elsa.right(90)
+elsa.forward(100)
+```
+
+What was the result? How can you finish the shape to draw a square?
+
+--- /hint ---
+
+--- /hints ---
