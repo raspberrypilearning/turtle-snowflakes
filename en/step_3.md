@@ -5,7 +5,7 @@ Your turtle is only moving in one direction so far. This is good news if you wan
 
 --- task ---
 
-Below the line `elsa.forward(100)` in your Python code, add:
+Below the line `elsa.forward(100)` in your Python code, add a line to turn `elsa`.
 
 --- code ---
 ---
