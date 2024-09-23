@@ -2,7 +2,7 @@
 
 --- task ---
 
-Open the [Secret Messages starter project](https://editor.raspberrypi.org/en/projects/turtle-snowflakes-starter){:target="_blank"}.
+Open the [Turtle Snow Flakes starter project](https://editor.raspberrypi.org/en/projects/turtle-snowflakes-starter){:target="_blank"}.
 
 --- /task ---
 
