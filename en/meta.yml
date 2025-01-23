@@ -29,3 +29,5 @@ steps:
   completion:
   - internal
 - title: 'Challenge: every snowflake is different'
+  completion:
+  - external
