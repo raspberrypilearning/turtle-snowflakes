@@ -57,7 +57,6 @@ Save and run your code to see what happens.
 You are on your way to creating a square! What do you need to add to your code in order to complete the square?
 
 --- hints ---
-
 --- hint ---
 
 Try adding the following code and running you program:
@@ -70,5 +69,5 @@ elsa.forward(100)
 What was the result? How can you finish the shape to draw a square?
 
 --- /hint ---
-
 --- /hints ---
+
