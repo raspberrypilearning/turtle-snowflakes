@@ -4,7 +4,7 @@ hero_image: images/banner.png
 description: Write code to draw snowflakes with Python Turtle
 original_url: https://raspberrypi.org/learning/turtle-snowflakes
 theme: navy
-duration: 1
+duration: 1 
 listed: false
 ingredient: false
 copyedit: true
